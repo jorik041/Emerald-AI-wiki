@@ -23,34 +23,32 @@ Pet AI will follow around a player target. They will not fight, engage in combat
 What an AI does with its Confidence Level varies based on its Behavior Type. So, each Confidence Type has been categorized by Behavior Type. Note: The Pet and Companion Behavior Types do not use the Confidence Level setting.
 
 ### Cautious AI
-Coward
+**Coward**
 Coward Cautious AI will flee when they encounter a target.
 
-Brave
+**Brave**
 Brave Cautious AI will become territorial when a target enters their trigger radius. If the target doesn't leave its radius before its territorial seconds have been reached, the AI will attack the target. They will attempt to flee once its health reaches the percentage you've set.
 
-Foolhardy
+**Foolhardy**
 Foolhardy Cautious AI will become territorial when a target enters their trigger radius. If the target doesn't leave its radius before its territorial seconds have been reached, the AI will attack the target. This AI will never flee and continue to fight until dead or the target has escaped the AI.
 
 ### Passive AI
-Confidence Level
-Description
-Coward
+**Coward**
 Coward Passive AI will wander according to their wander settings, but only flee when attacked.
 
-Brave
+**Brave**
 Brave Passive AI will wander according to their wander settings, but only attack when attacked. They will attempt to flee once its health reaches the percentage you've set.
 
-Foolhardy
+**Foolhardy**
 Foolhardy Passive AI will wander according to their wander settings, but only attack when attacked. They will never flee and continue to fight until dead or the target has escaped the AI.
 
 ### Aggressive AI
-Coward
+**Coward**
 Aggressive AI cannot be set to Coward. AI with this setting will automatically be set to Brave on Start.
 
-Brave
+**Brave**
 Brave Aggressive AI will fight any target on sight or detection, but attempt to flee once its health reaches the percentage you've set.
 
-Foolhardy
+**Foolhardy**
 Foolhardy Aggressive AI will fight any target on sight or detection and will never flee. They will continue to fight until dead or the target has escaped the AI.
 
