@@ -22,6 +22,7 @@ Pet AI will follow around a player target. They will not fight, engage in combat
 
 ## Confidence
 The Confidence option can be found within the Temperament tab. What an AI does with its Confidence Level varies based on its Behavior Type. So, each Confidence Type has been categorized by Behavior Type. Note: The Pet and Companion Behavior Types do not use the Confidence Level setting.
+![](https://i.imgur.com/gtspkmn.png)
 
 ### Cautious AI
 **Coward** Cautious AI will flee when they encounter a target.
@@ -45,3 +46,6 @@ Aggressive AI cannot be set to Coward. AI with this setting will automatically b
 
 **Foolhardy** Aggressive AI will fight any target on sight or detection and will never flee. They will continue to fight until dead or the target has escaped the AI.
 
+## Wander Type
+The Wander Type option can be found within the Temperament tab. The Wander Type determines how your AI will wander when not in combat.
+![](https://i.imgur.com/I9kbWYX.png)
