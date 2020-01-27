@@ -14,6 +14,8 @@ The Behaviors option can be found within the Temperament tab. Each AI can be set
 | Pet  | Pet AI will follow around a player target. They will not fight, engage in combat, or be targeted. They are simply for cosmetic purposes.  |
 
 
+***
+
 
 ## Confidence
 The Confidence option can be found within the Temperament tab. What an AI does with its Confidence Level varies based on its Behavior Type. So, each Confidence Type has been categorized by Behavior Type. Note: The Pet and Companion Behavior Types do not use the Confidence Level setting.
