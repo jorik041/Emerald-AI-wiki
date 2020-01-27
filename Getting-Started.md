@@ -6,13 +6,13 @@ To get started with Emerald AI, it is recommended that you have the most recent 
 # Example Scenes
 One of the best ways to get started with Emerald AI is to test the examples scenes. These scenes have examples of AI that have already been setup with animations, attacks, sounds, and more. It is recommended that you test these scenes prior to creating your own AI so you can get a grasp of the Editor and how it works. While testing the example scenes, feel free to tweak the settings to get a solid understanding on how everything works.
 
-## AI vs AI
+### AI vs AI
 An example of two AI of opposing factions fighting each other. The AI will only attack the player if the player attacks them first.
  
-## Companion Example
+### Companion Example
 An example of a Companion AI that follows the player around. It will attack any opposing AI that tries to attack the player.
  
-## Destination Example
+### Destination Example
 An example of two Destination based AI attempting to reach their destination. If any opposing AI gets in their way, they will fight said AI then resume traveling to their destination once the opponent has been defeated.
  
 ## Move to Mouse Position
