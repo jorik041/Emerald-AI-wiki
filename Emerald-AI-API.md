@@ -7,6 +7,8 @@ using EmeraldAI;
 
 Next, you will want a reference to an AI’s events manager script. There is one that is located on each AI. This can be done using the following and should be called on Start:
 
-`EmeraldAIEventsManager EventsManager = GetComponent<EmeraldAIEventsManager>();`
+```c#
+EmeraldAIEventsManager EventsManager = GetComponent<EmeraldAIEventsManager>();
+```
 
 Now, when using the EventsManager variable, you can access all of an AI’s internal functions that allow you to control a wide variety of functionality. The following API is assumed you used the EventsManager variable name as your reference to the EmeraldAIEventsManager component. 
