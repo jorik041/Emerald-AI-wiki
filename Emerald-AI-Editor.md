@@ -4,19 +4,19 @@ An AI’s Temperament controls various settings of how an AI reacts to targets. 
 ## Behavior
 Each AI can be set to have 1 of 5 different behaviors. The behavior of an AI determines how it will react to other AI and players.
 
-### Passive
+### Passive Behavior
 Passive AI will not attack. They will simply wander around. If they are attacked, they will react according to their Confidence Level which is either to fight back or flee.
 
-### Cautious
+### Cautious Behavior
 Cautious AI will either flee or act territorial depending on their Confidence Level. Territorial AI will warn targets before attacking their target. An AI is set as territorial if their Confidence Level is set to Brave or higher.
 
-### Companion
+### Companion Behavior
 Companion AI will follow around a target and help them fight. Companion AI will wander until their follow target is set. This is best done with a script and calling the public function SetTarget.
 
-### Aggressive
+### Aggressive Behavior
 Aggressive AI will attack any target that comes within their trigger radius.
 
-### Pet
+### Pet Behavior
 Pet AI will follow around a player target. They will not fight, engage in combat, or be targeted. They are simply for cosmetic purposes.
 
 ## Confidence
