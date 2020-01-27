@@ -1,10 +1,10 @@
 # My menu
-* [Home][home]
-  * [Getting Started][Getting Started]
-* [Emerald AI Editor][editor]
+* [Home]
+  * [Getting Started]
+* [Emerald AI Editor]
   * [Temperament]
 
-[home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
+[Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
 [Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
-[editor]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Editor
-[Temperament]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Editor#behavior
+[Emerald AI Editor]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Editor
+[Temperament]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Editor#temperament
