@@ -1,0 +1,1 @@
+All Emerald AI Editor functionality and guides
