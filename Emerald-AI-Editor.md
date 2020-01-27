@@ -14,7 +14,7 @@ Cautious AI will either flee or act territorial depending on their Confidence Le
 Companion AI will follow around a target and help them fight. Companion AI will wander until their follow target is set. This is best done with a script and calling the public function SetTarget.
 
 ### Aggressive Behavior
-Aggressive AI will attack any target that comes within their trigger radius.
+Aggressive AI will attack any target of the opposing faction that comes within their trigger radius. Aggressive AI must have AI Attacks Player checked in order to attack players.
 
 ### Pet Behavior
 Pet AI will follow around a player target. They will not fight, engage in combat, or be targeted. They are simply for cosmetic purposes.
