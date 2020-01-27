@@ -22,6 +22,7 @@ Pet AI will follow around a player target. They will not fight, engage in combat
 
 ## Confidence
 The Confidence option can be found within the Temperament tab. What an AI does with its Confidence Level varies based on its Behavior Type. So, each Confidence Type has been categorized by Behavior Type. Note: The Pet and Companion Behavior Types do not use the Confidence Level setting.
+
 ![](https://i.imgur.com/gtspkmn.png)
 
 ### Cautious AI
