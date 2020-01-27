@@ -36,3 +36,7 @@ An example of an AI using the Waypoint Wander Type. The AI has manually placed w
 
 Setting up an AI
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/E1o5_jVLfLw/0.jpg)](https://www.youtube.com/watch?v=E1o5_jVLfLw)
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=E1o5_jVLfLw
+" target="_blank"><img src="http://img.youtube.com/vi/E1o5_jVLfLw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
