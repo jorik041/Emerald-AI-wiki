@@ -1,6 +1,6 @@
 # My menu
 * [Home][home]
-* [Getting Started][techdocss]
+* * [Getting Started][Getting Started]
 
 [home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
-[techdocs]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
+[Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
