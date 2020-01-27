@@ -5,6 +5,11 @@ An AI’s Temperament controls various settings on how an AI reacts to targets. 
 The Behaviors option can be found within the Temperament tab. Each AI can be set to have 1 of 5 different behaviors. The behavior of an AI determines how it will react to other AI and players.
 ![](https://i.imgur.com/O4unmr4.png)
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 ### Passive Behavior
 Passive AI will not attack. They will simply wander around. If they are attacked, they will react according to their Confidence Level which is either to fight back or flee.
 
