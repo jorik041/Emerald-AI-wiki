@@ -47,8 +47,10 @@ Foolhardy Passive AI will wander according to their wander settings, but only at
 Aggressive AI cannot be set to Coward. AI with this setting will automatically be set to Brave on Start.
 
 **Brave**
+
 Brave Aggressive AI will fight any target on sight or detection, but attempt to flee once its health reaches the percentage you've set.
 
 **Foolhardy**
+
 Foolhardy Aggressive AI will fight any target on sight or detection and will never flee. They will continue to fight until dead or the target has escaped the AI.
 
