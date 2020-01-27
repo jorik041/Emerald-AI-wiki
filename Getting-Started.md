@@ -34,9 +34,8 @@ An example of a territorial AI. When the player approaches the AI, it will look 
 An example of an AI using the Waypoint Wander Type. The AI has manually placed waypoints that it will randomly move between. The AI will idle according to its Idle Seconds each time it reaches a new waypoint.
 
 
-Setting up an AI
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/E1o5_jVLfLw/0.jpg)](https://www.youtube.com/watch?v=E1o5_jVLfLw)
-
+# Setting up an AI
+To setup your own AI, please click on the image below to be directed to YouTube. This will video tutorial will guide you through the process.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=E1o5_jVLfLw
 " target="_blank"><img src="http://img.youtube.com/vi/E1o5_jVLfLw/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
