@@ -1,6 +1,7 @@
 # My menu
 * [Home]
-  * [Getting Started]
+Getting Started
+* [Getting Started]
 * [Emerald AI Editor]
   * [Temperament]
 * [Emerald AI API]
