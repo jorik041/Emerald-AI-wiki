@@ -94,7 +94,7 @@ Example:
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
 ```
 
-&emsp;
+***
 
 ### ChangeConfidenceLevel
 Changes the AI's current Confidence level
@@ -107,7 +107,7 @@ Example:
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
 ```
 
-&emsp;
+***
 
 ### ChangeWanderType
 Changes the AI's current Wander type
@@ -120,7 +120,7 @@ Example:
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
 ```
 
-&emsp;
+***
 
 ### SetCombatTarget
 Assigns a new combat target for your AI to attack. Using this setting will override your AI's chase limit.
@@ -128,11 +128,15 @@ Assigns a new combat target for your AI to attack. Using this setting will overr
 EventsManager.SetCombatTarget(Transform Target)
 ```
 
+***
+
 ### SetFollowerTarget
 Assigns a new follow target for your companion AI to follow.
 ```c#
 EventsManager.SetFollowerTarget(Transform Target)
 ```
+
+***
 
 ### TameAI
 Tames the AI to become the Target object’s companion. Note: The tameable AI must have a Cautious Behavior Type and a Brave or Foolhardy Confidence Type. The AI must be tamed before the AI turns Aggressive to be successful.
@@ -151,11 +155,15 @@ Update the AI's dynamic wandering position to the AI's current position.
 EventsManager.UpdateDynamicWanderPosition();
 ```
 
+***
+
 ### SetDynamicWanderPosition
 Sets the AI's dynamic wandering position to the position of the Destination transform. This is useful for functionality such as custom AI schedules. Note: This will automatically change your AI's Wander Type to Dynamic.
 ```c#
 EventsManager.SetDynamicWanderPosition(Transform Destination)
 ```
+
+***
 
 ### UpdateStartingPosition
 Updates the AI's starting position to the AI's current position.
@@ -163,11 +171,15 @@ Updates the AI's starting position to the AI's current position.
 EventsManager.UpdateStartingPosition()
 ```
 
+***
+
 ### SetDestination
 Sets the AI's destination using a transform's position.
 ```c#
 EventsManager.SetDestination(Transform Destination)
 ```
+
+***
 
 ### SetDestinationPosition
 Sets the AI's destination using a Vector3 position.
@@ -175,11 +187,15 @@ Sets the AI's destination using a Vector3 position.
 EventsManager.SetDestinationPosition(Vector3 DestinationPosition)
 ```
 
+***
+
 ### StopMovement
 Stops an AI from moving. This is useful for functionality like dialogue.
 ```c#
 EventsManager.StopMovement();
 ```
+
+***
 
 ### ResumeMovement
 Resumes an AI's movement after using the StopMovement function.
@@ -187,17 +203,23 @@ Resumes an AI's movement after using the StopMovement function.
 EventsManager.ResumeMovement();
 ```
 
+***
+
 ### StopFollowing
 Stops a Companion AI from moving.
 ```c#
 EventsManager.StopFollowing();
 ```
 
+***
+
 ### ResumeFollowing
 Allows a Companion AI to resume following its follower.
 ```c#
 EventsManager.ResumeFollowing();
 ```
+
+***
 
 ### CompanionGuardPosition
 Allows a Companion AI to guard the assigned position.
@@ -214,11 +236,15 @@ Plays a sound clip according to the Clip parameter.
 EventsManager.PlaySoundClip(AudioClip Clip)
 ```
 
+***
+
 ### PlayIdleSound
 Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
 ```c#
 EventsManager.PlayIdleSound();
 ```
+
+***
 
 ### PlayAttackSound
 Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
@@ -226,11 +252,15 @@ Plays a random attack sound based on your AI's Attack Sounds list. Can also be c
 EventsManager.PlayAttackSound();
 ```
 
+***
+
 ### PlayWarningSound
 Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
 ```c#
 EventsManager.PlayWarningSound();
 ```
+
+***
 
 ### PlayBlockSound
 Plays a random block sound based on your AI's Block Sounds list.
@@ -238,11 +268,15 @@ Plays a random block sound based on your AI's Block Sounds list.
 EventsManager.PlayBlockSound();
 ```
 
+***
+
 ### PlayDeathSound
 Plays a random death sound based on your AI's Death Sounds list. Can also be called through Animation Events.
 ```c#
 EventsManager.PlayDeathSound();
 ```
+
+***
 
 ### WalkFootstepSound
 Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is walking. This should be setup through an Animation Event.
@@ -250,17 +284,23 @@ Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is 
 EventsManager.WalkFootstepSound();
 ```
 
+***
+
 ### RunFootstepSound
 Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is running. This should be setup through an Animation Event.
 ```c#
 EventsManager.RunFootstepSound();
 ```
 
+***
+
 ### PlayRandomSoundEffect
 Plays a random sound effect from the AI's General Sounds list.
 ```c#
 EventsManager.PlayRandomSoundEffect();
 ```
+
+***
 
 ### PlaySoundEffect
 Plays a sound effect from the AI's General Sounds list using the Sound Effect ID as the parameter. This is useful for creating sounds with Animation Events such an interaction sound.
@@ -278,11 +318,15 @@ Enables an item from your AI's Item list using the Item ID.
 EventsManager.EnableItem(int ItemID)
 ```
 
+***
+
 ### DisableItem
 Disables an item from your AI's Item list using the Item ID.
 ```c#
 EventsManager.DisableItem(int ItemID)
 ```
+
+***
 
 ### DisableAllItems
 Disables all items from your AI's Item list.
@@ -290,11 +334,15 @@ Disables all items from your AI's Item list.
 EventsManager.DisableAllItems()
 ```
 
+***
+
 ### EnableWeapon
 Enables the AI's weapon object and plays the AI's equip sound effect, if one is applied.
 ```c#
 EventsManager.EnableWeapon()
 ```
+
+***
 
 ### DisableWeapon
 Disables the AI's weapon object and plays the AI's unequip sound effect, if one is applied.
@@ -302,11 +350,15 @@ Disables the AI's weapon object and plays the AI's unequip sound effect, if one 
 EventsManager.DisableWeapon()
 ```
 
+***
+
 ### SpawnAdditionalEffect
 Spawns an additional effect object at the position of the AI's Blood Spawn Offset position.
 ```c#
 EventsManager.SpawnAdditionalEffect(GameObject EffectObject)
 ```
+
+***
 
 ### SpawnEffectOnTarget
 Spawns an effect object at the position of the AI's target.
@@ -314,11 +366,15 @@ Spawns an effect object at the position of the AI's target.
 EventsManager.SpawnEffectOnTarget(GameObject EffectObject)
 ```
 
+***
+
 ### SpawnBloodSplatEffect
 Spawns a blood splat effect object at the position of the AI's Blood Spawn Offset position. The rotation of this object is then randomized and adjusted based off of your attacker's current location.
 ```c#
 EventsManager.SpawnBloodSplatEffect(GameObject BloodSplatObject)
 ```
+
+***
 
 ### CreateDroppableWeapon
 Instantiates an AI's Droppable Weapon Object on death (This should be a prefab object).
@@ -335,11 +391,15 @@ Plays an emote animation according to the Animation Clip parameter. Note: This f
 EventsManager.PlayEmoteAnimation(int EmoteAnimationID)
 ```
 
+***
+
 ### LoopEmoteAnimation
 Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
 ```c#
 EventsManager.LoopEmoteAnimation(int EmoteAnimationID)
 ```
+
+***
 
 ### StopLoopEmoteAnimation
 Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
@@ -347,11 +407,15 @@ Loops an emote animation according to the Animation Clip parameter until it is c
 EventsManager.StopLoopEmoteAnimation(int EmoteAnimationID)
 ```
 
+***
+
 ### OverrideIdleAnimation
 Manually sets the AI's next Idle animation instead of being generated randomly. This is useful for functionality such as playing a particular idle animation at a certain location such as for an AI's schedule. Note: The animation numbers are from 1 to 3 and must exist in your AI's Idle Animation list. You must call DisableOverrideIdleAnimation() to have idle animations randomly generate again and to disable this feature.
 ```c#
 EventsManager.OverrideIdleAnimation(int IdleIndex)
 ```
+
+***
 
 ### DisableOverrideIdleAnimation
 Disables the OverrideIdleAnimation feature.
@@ -368,17 +432,23 @@ Updates the AI's Health Bar color
 EventsManager.UpdateUIHealthBarColor(Color NewColor)
 ```
 
+***
+
 ### UpdateUIHealthBarBackgroundColor
 Updates the AI's Health Bar Background color
 ```c#
 EventsManager.UpdateUIHealthBarBackgroundColor(Color NewColor)
 ```
 
+***
+
 ### UpdateUINameColor
 Updates the AI's Name color
 ```c#
 EventsManager.UpdateUINameColor(Color NewColor)
 ```
+
+***
 
 ### UpdateUINameText
 Updates the AI's Name text
