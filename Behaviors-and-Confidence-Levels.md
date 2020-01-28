@@ -27,7 +27,7 @@ The Confidence option can be found within the Temperament tab. What an AI does w
 ### Cautious AI
 | Confidence Level  | Description |
 | ------------- | ------------- |
-| Coward  | Content Cell  |
+| Coward  | Coward Cautious AI will flee when they encounter a target.  |
 | Brave  | Cautious AI will become territorial when a target enters their trigger radius. If the target doesn't leave its radius before its territorial seconds have been reached, the AI will attack the target. They will attempt to flee once its health reaches the percentage you've set.  |
 | Foolhardy  | Cautious AI will become territorial when a target enters their trigger radius. If the target doesn't leave its radius before its territorial seconds have been reached, the AI will attack the target. This AI will never flee and continue to fight until dead or the target has escaped the AI.  |
 
