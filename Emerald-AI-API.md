@@ -69,11 +69,13 @@ Resets an AI to its default state. This is useful if an AI is being respawned or
 EventsManager.ResetAI();
 ```
 
+### Instantly Health AI
 Refills the AI's health to full instantly
 ```c#
 EventsManager.InstantlyRefillAIHeath ();
 ```
 
+### Change Behavior
 Changes the AI's Behavior
 ```c#
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior NewBehavior)
@@ -84,7 +86,8 @@ Example:
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
 ```
 
-Changes the AI's Confidence
+### Change Confidence Level
+Changes the AI's current Confidence level
 ```c#
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType NewConfidence)
 ```
@@ -94,7 +97,8 @@ Example:
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
 ```
 
-Changes the AI's Wander type
+### Change Wander Type
+Changes the AI's current Wander type
 ```c#
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType NewWanderType)
 ```
@@ -104,16 +108,19 @@ Example:
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
 ```
 
+### Set Combat Target
 Assigns a new combat target for your AI to attack. Using this setting will override your AI's chase limit.
 ```c#
 EventsManager.SetCombatTarget(Transform Target)
 ```
 
+### SetFollowerTarget
 Assigns a new follow target for your companion AI to follow.
 ```c#
 EventsManager.SetFollowerTarget(Transform Target)
 ```
 
+### Tame AI
 Tames the AI to become the Target object’s companion. Note: The tameable AI must have a Cautious Behavior Type and a Brave or Foolhardy Confidence Type. The AI must be tamed before the AI turns Aggressive to be successful.
 ```c#
 EventsManager.TameAI(Transform Target)
