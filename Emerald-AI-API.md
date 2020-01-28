@@ -72,7 +72,11 @@ EventsManager.ResetAI();
 ```
 
 ### ResetAI
-&emsp;`Resets an AI to its default state. This is useful if an AI is being respawned or reused.`&emsp;
+`
+
+Resets an AI to its default state. This is useful if an AI is being respawned or reused.
+
+`
 ```c#
 EventsManager.ResetAI();
 ```
