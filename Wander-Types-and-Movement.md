@@ -1,5 +1,16 @@
 # Wander Types and Movement
+An AI's Wander Type determines how it moves when not in combat
 
+## Wander Type
+The Wander Type option can be found within the Temperament tab. The Wander Type determines how your AI will wander when not in combat.
+![](https://i.imgur.com/I9kbWYX.png)
+
+| Wander Type  | Description |
+| ------------- | ------------- |
+| Dynamic  | Allows an AI to randomly wander by dynamically generate waypoints around their Wander Radius.  |
+| Waypoints  | Allows you to define waypoints that the AI will move between.  |
+| Stationary  | Allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius.  |
+| Destination  | Allows an AI to travle to a single destination. Once it reaches it destination, it will stay stationary.  |
 
 ## Setting Up Waypoints
 Waypoints are a powerful new addition to Emerald AI. They allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
