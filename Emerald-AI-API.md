@@ -1,5 +1,8 @@
 # Emerald AI API
-Important (Read First): Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. In order for these to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
+Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
+
+## Getting Started
+In order for these to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
 It is recommended that you use the EmeraldAI namespace at the top of your scripts to make accessing the Emerald AI scripts easier using:
 ```c#
 using EmeraldAI;
