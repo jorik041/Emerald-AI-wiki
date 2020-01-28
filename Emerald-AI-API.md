@@ -2,10 +2,11 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 # Table of Contents
-1. [General API](#general-api)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example]()
+1. [Getting Started](#getting-started)
+2. [General API](#general-api)
+3. [Example2](#example2)
+4. [Third Example](#third-example)
+5. [Fourth Example]()
 
 
 ## Getting Started
