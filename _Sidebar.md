@@ -1,6 +1,7 @@
 # My menu
 * [Home]
-   * [Getting Started]
+* [Getting Started]
+   * [Baking NavMesh]
 * [Behaviors and Confidence Levels]
 * [Using Factions and Faction Manager]
 * [Emerald AI API]
