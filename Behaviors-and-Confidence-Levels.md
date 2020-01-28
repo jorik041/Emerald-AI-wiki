@@ -1,12 +1,12 @@
 Table of Content
-* [Behavior](#Behavior)
+* [Behaviors](#Behaviors)
 * [Confidence](#Confidence)
    * [Cautious AI](#Cautious-AI)
    * [Passive AI](#Passive-AI)
    * [Aggressive AI](#Aggressive-AI)
 
 
-# Behavior
+# Behaviors
 The Behaviors option can be found within the Temperament tab. Each AI can be set to have 1 of 5 different behaviors. The behavior of an AI determines how it will react to other AI and players.
 ![](https://i.imgur.com/O4unmr4.png)
 
