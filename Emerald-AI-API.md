@@ -2,8 +2,6 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 ## Table of Contents
-* [Emerald AI API](#Emerald-AI-API)
-* [Emerald AI Events Manager API](#Emerald-AI-Events-Manager-API)
 * [General API](#General-API)
    * [KillAI](#KillAI)
    * [ResetAI](#ResetAI)
@@ -14,7 +12,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [SetCombatTarget](#SetCombatTarget)
    * [SetFollowerTarget](#SetFollowerTarget)
    * [TameAI](#TameAI)
-* [Movement & Destination API](#Movement-&-Destination-API)
+* [Movement  Destination API](#Movement--Destination-API)
    * [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)
    * [SetDynamicWanderPosition](#SetDynamicWanderPosition)
    * [UpdateStartingPosition](#UpdateStartingPosition)
@@ -36,7 +34,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [RunFootstepSound](#RunFootstepSound)
    * [PlayRandomSoundEffect](#PlayRandomSoundEffect)
    * [PlaySoundEffect](#PlaySoundEffect)
-* [Items & Effect API](#Items-&-Effect-API)
+* [Items  Effect API](#Items--Effect-API)
    * [EnableItem](#EnableItem)
    * [DisableItem](#DisableItem)
    * [DisableAllItems](#DisableAllItems)
@@ -57,6 +55,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [UpdateUIHealthBarBackgroundColor](#UpdateUIHealthBarBackgroundColor)
    * [UpdateUINameColor](#UpdateUINameColor)
    * [UpdateUINameText](#UpdateUINameText)
+
 
 
 &emsp;
