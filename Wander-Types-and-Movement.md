@@ -59,4 +59,4 @@ Destinations are different than waypoints. Destinations allow you to set a point
 
 Unlike Waypoints, destinations are set through the Temperament tab. To create a destination for your AI, go to the Temperament tab. Once here, change the Wander Type to Destination. This will automatically create a destination point for your AI.
 
-<img src="https://i.imgur.com/ZrxqLyw.png" width="60%">
+![](https://i.imgur.com/rfH1yLu.png)
