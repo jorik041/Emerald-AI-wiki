@@ -71,14 +71,6 @@ Resets an AI to its default state. This is useful if an AI is being respawned or
 EventsManager.ResetAI();
 ```
 
-### ResetAI
-`
-Resets an AI to its default state. This is useful if an AI is being respawned or reused.
-`
-```c#
-EventsManager.ResetAI();
-```
-
 ### InstantlyRefillAIHeath
 Refills the AI's health to full instantly
 ```c#
@@ -265,34 +257,61 @@ EventsManager.PlaySoundEffect(int SoundEffectID)
 ```
 
 
-Items & Effect API
-//Enables an item from your AI's Item list using the Item ID.
+## Items & Effect API
+
+### EnableItem
+Enables an item from your AI's Item list using the Item ID.
+```c#
 EventsManager.EnableItem(int ItemID)
+```
 
-//Disables an item from your AI's Item list using the Item ID.
+### DisableItem
+Disables an item from your AI's Item list using the Item ID.
+```c#
 EventsManager.DisableItem(int ItemID)
+```
 
-//Disables all items from your AI's Item list.
+### DisableAllItems
+Disables all items from your AI's Item list.
+```c#
 EventsManager.DisableAllItems()
+```
 
-//Enables the AI's weapon object and plays the AI's equip sound effect, if one is applied.
+### EnableWeapon
+Enables the AI's weapon object and plays the AI's equip sound effect, if one is applied.
+```c#
 EventsManager.EnableWeapon()
+```
 
-//Disables the AI's weapon object and plays the AI's unequip sound effect, if one is applied.
+### DisableWeapon
+Disables the AI's weapon object and plays the AI's unequip sound effect, if one is applied.
+```c#
 EventsManager.DisableWeapon()
+```
 
-//Spawns an additional effect object at the position of the AI's Blood Spawn Offset position.
+### SpawnAdditionalEffect
+Spawns an additional effect object at the position of the AI's Blood Spawn Offset position.
+```c#
 EventsManager.SpawnAdditionalEffect(GameObject EffectObject)
+```
 
-//Spawns an effect object at the position of the AI's target.
+### SpawnEffectOnTarget
+Spawns an effect object at the position of the AI's target.
+```c#
 EventsManager.SpawnEffectOnTarget(GameObject EffectObject)
+```
 
-//Spawns a blood splat effect object at the position of the AI's Blood Spawn Offset position. The rotation of this object is then randomized and adjusted based off of your attacker's current location.
+### SpawnBloodSplatEffect
+Spawns a blood splat effect object at the position of the AI's Blood Spawn Offset position. The rotation of this object is then randomized and adjusted based off of your attacker's current location.
+```c#
 EventsManager.SpawnBloodSplatEffect(GameObject BloodSplatObject)
+```
 
-//Instantiates an AI's Droppable Weapon Object on death (This should be a prefab object).
+### CreateDroppableWeapon
+Instantiates an AI's Droppable Weapon Object on death (This should be a prefab object).
+```c#
 EventsManager.CreateDroppableWeapon()
-
+```
 
 Animation API
 //Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode.
