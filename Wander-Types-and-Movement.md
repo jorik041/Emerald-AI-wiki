@@ -3,7 +3,7 @@ This section is somewhat extensive and so it's covered in two sections. The firs
 
 &nbsp;
 
-Table of Content
+## Table of Content
 * [Wander Type](#Wander-Type)
    * [Dynamic - Wander Type](#Dynamic---Wander-Type)
    * [Stationary - Wander Type](#Stationary---Wander-Type)
