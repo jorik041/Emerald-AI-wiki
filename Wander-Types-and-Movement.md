@@ -6,7 +6,6 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 
 ![](https://i.imgur.com/I9kbWYX.png)
 
-
 | Wander Type  | Description |
 | ------------- | ------------- |
 | Dynamic  | Allows an AI to randomly wander by dynamically generate waypoints around their Wander Radius.  |
@@ -18,12 +17,20 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 Waypoints are a powerful new addition to Emerald AI. They allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 If you’d like to create your own waypoint system for your AI, you can do so by going to the Waypoint Editor tab located in the Emerald Editor. By default, the Wander Type is set to Dynamic (which randomly generates waypoints). When you open the Waypoint Editor tab, you will see a button to enable waypoints. Once you’ve done this, you will see the waypoint options appear. You can now create a waypoint by pressing the “Add Waypoint” button.
 
+![](https://i.imgur.com/CrbBAPR.png)
+
 Pressing the Add Waypoint button will create your AI’s first waypoint. You must have at least 2 waypoints for your AI to move between. Waypoints are only visible while the Waypoint Editor tab is active for each AI. Multi-Object Editing is not available for the Waypoints tab.
+
+![](https://i.imgur.com/5TkalOt.png)
 
 Each time that you press the Add Waypoint button, a new waypoint will be created. Each newly waypoint will be positioned 1 unit on the Z axis to avoid being placed in the same position as the previous waypoint. This also makes it easier for customizing your AI’s route. The blue line you see that goes from your AI to your first waypoint indicates the AI’s direction to the first point. You have the option to loop your waypoints, which will allow your AI to continue to loop through the waypoints after it has reached the end, or Reverse, which will have your AI walk the same path but in the opposite direction.   
 There is no cap on waypoints that can be created. When you test your scene, your AI will immediately start following its waypoint, given that it is currently in an active state. 
 
+![](https://i.imgur.com/C9P3igX.gif)
+
 If you happen to make a mistake, and need to remove a waypoint that’s located in the middle of 15 points, you can remove that specific waypoint and Emerald will resize itself so you don’t have to start over. If you’d like to completely start over, you also have the option to clear all your waypoints. This can be done by pressing the “Clear All Waypoints” button. Keep in mind that both of these processes cannot be undone.
+
+![](https://i.imgur.com/SXAnCKJ.gif)
 
 
 ## Setting Up an AI Destination
