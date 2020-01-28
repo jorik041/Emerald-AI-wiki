@@ -2,6 +2,7 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 ## Table of Contents
+> 
 * [Getting Started](#getting-started)
 * [General API](#General-API)
    * [KillAI](#KillAI)
