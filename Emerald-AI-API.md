@@ -127,6 +127,9 @@ EventsManager.TameAI(Transform Target)
 ```
 
 
+***
+
+
 ## Movement & Destination API
 ### UpdateDynamicWanderPosition
 Update the AI's dynamic wandering position to the AI's current position.
@@ -188,7 +191,11 @@ Allows a Companion AI to guard the assigned position.
 EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
 ```
 
-Sound API
+
+***
+
+
+## Sound API
 ### PlaySoundClip
 Plays a sound clip according to the Clip parameter.
 ```c#
