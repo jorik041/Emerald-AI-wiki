@@ -46,14 +46,3 @@ The Confidence option can be found within the Temperament tab. What an AI does w
 | Foolhardy  | Aggressive AI will fight any target on sight or detection and will never flee. They will continue to fight until dead or the target has escaped the AI.  |
 
 ***
-
-## Wander Type
-The Wander Type option can be found within the Temperament tab. The Wander Type determines how your AI will wander when not in combat.
-![](https://i.imgur.com/I9kbWYX.png)
-
-| Wander Type  | Description |
-| ------------- | ------------- |
-| Dynamic  | Allows an AI to randomly wander by dynamically generate waypoints around their Wander Radius.  |
-| Waypoints  | Allows you to define waypoints that the AI will move between.  |
-| Stationary  | Allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius.  |
-| Destination  | Allows an AI to travle to a single destination. Once it reaches it destination, it will stay stationary.  |
