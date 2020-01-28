@@ -2,4 +2,4 @@ With Emerald AI version 2.1, the Faction Manager has been added. This system all
 
 ## Creating a Faction with the Faction Manager
 First, you will need to open the Faction Manager. This can be done by pressing Ctrl+Shift+R or pressing the “Open Faction Manager” button located in under the Tag Options. To create a new faction, simply type out a faction in the Faction Name area and press “Add Faction”. When you do this, you will see the newly created faction added to the Current Factions list. You can add or remove factions at anytime. The default factions that are included do not have to be used.
-![](https://i.imgur.com/9oMd2E1.gifv)
+![](https://i.imgur.com/9oMd2E1.gif)
