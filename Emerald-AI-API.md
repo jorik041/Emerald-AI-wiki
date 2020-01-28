@@ -189,35 +189,65 @@ EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
 ```
 
 Sound API
-//Plays a sound clip according to the Clip parameter.
+### PlaySoundClip
+Plays a sound clip according to the Clip parameter.
+```c#
 EventsManager.PlaySoundClip(AudioClip Clip)
+```
 
-//Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
-EventsManager.PlayIdleSound()
+### PlayIdleSound
+Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
+```c#
+EventsManager.PlayIdleSound();
+```
 
-//Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
-EventsManager.PlayAttackSound()
+### PlayAttackSound
+Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
+```c#
+EventsManager.PlayAttackSound();
+```
 
-//Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
-EventsManager.PlayWarningSound()
+### PlayWarningSound
+Plays a random attack sound based on your AI's Attack Sounds list. Can also be called through Animation Events.
+```c#
+EventsManager.PlayWarningSound();
+```
 
-//Plays a random block sound based on your AI's Block Sounds list.
-EventsManager.PlayBlockSound()
+### PlayBlockSound
+Plays a random block sound based on your AI's Block Sounds list.
+```c#
+EventsManager.PlayBlockSound();
+```
 
-//Plays a random death sound based on your AI's Death Sounds list. Can also be called through Animation Events.
-EventsManager.PlayDeathSound()
+### PlayDeathSound
+Plays a random death sound based on your AI's Death Sounds list. Can also be called through Animation Events.
+```c#
+EventsManager.PlayDeathSound();
+```
 
-//Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is walking. This should be setup through an Animation Event.
-EventsManager.WalkFootstepSound()
+### WalkFootstepSound
+Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is walking. This should be setup through an Animation Event.
+```c#
+EventsManager.WalkFootstepSound();
+```
 
-//Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is running. This should be setup through an Animation Event.
-EventsManager.RunFootstepSound()
+### RunFootstepSound
+Plays a footstep sound from the AI's Footstep Sounds list to use when the AI is running. This should be setup through an Animation Event.
+```c#
+EventsManager.RunFootstepSound();
+```
 
-//Plays a random sound effect from the AI's General Sounds list.
-EventsManager.PlayRandomSoundEffect()
+### PlayRandomSoundEffect
+Plays a random sound effect from the AI's General Sounds list.
+```c#
+EventsManager.PlayRandomSoundEffect();
+```
 
-//Plays a sound effect from the AI's General Sounds list using the Sound Effect ID as the parameter. This is useful for creating sounds with Animation Events such an interaction sound.
+### PlaySoundEffect
+Plays a sound effect from the AI's General Sounds list using the Sound Effect ID as the parameter. This is useful for creating sounds with Animation Events such an interaction sound.
+```c#
 EventsManager.PlaySoundEffect(int SoundEffectID)
+```
 
 
 Items & Effect API
