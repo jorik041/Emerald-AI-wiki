@@ -1,4 +1,3 @@
-# My menu
 * [Home]
 * [Getting Started]
    * [Baking NavMesh]
