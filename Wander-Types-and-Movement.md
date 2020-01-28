@@ -18,7 +18,14 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 | Stationary  | Allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius.  |
 | Destination  | Allows an AI to travle to a single destination. Once it reaches it destination, it will stay stationary.  |
 
-## Setting Up Waypoints
+## Dynamic - Wander Type
+The Dynamic Wander Type does a lot of the work for you. It randomly generates a waypoint anywhere within the green radius. You can adjust the size of this radius and set the slope limitation which stops waypoints from generating on unreachable or too steep locations. Note: The green dynamic wandering radius indicator is only visible within the Temperament tab.
+
+![](https://i.imgur.com/ArREX20.png)
+
+![](https://i.imgur.com/16c8Y2S.png)
+
+## Waypoints - Wander Type
 Waypoints are a powerful new addition to Emerald AI. They allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 If you’d like to create your own waypoint system for your AI, you can do so by going to the Waypoint Editor tab located in the Emerald Editor. By default, the Wander Type is set to Dynamic (which randomly generates waypoints). When you open the Waypoint Editor tab, you will see a button to enable waypoints. Once you’ve done this, you will see the waypoint options appear. You can now create a waypoint by pressing the “Add Waypoint” button.
 
@@ -44,7 +51,7 @@ There are three Waypoint Types which determines how your AI will move through th
 ***
 
 
-## Setting Up an AI Destination
+## Destination - Wander Type
 Destinations are different than waypoints. Destinations allow you to set a point anywhere on the NavMesh and the AI will move to that destination. AI using destinations will not follow any other waypoints and will take the quickest route to get to their set destination. AI that have arrived at their destination will trigger the event ReachEdDestinationEvent(). This can be useful for triggering custom code or quests when an AI arrives at their destination. At anytime, you can change the AI’s destination programmatically by calling the ``C# EmeraldEventsManager.SetDestination(Transform Destination)``` function. This feature can even make it possible for AI to even have schedules through code or a time of day system such as UniStorm. For a working schedule example, see the script here: 
 
 Unlike Waypoints, destinations are set through the Temperament tab. To create a destination for your AI, go to the Temperament tab. Once here, change the Wander Type to Destination. This will automatically create a destination point for your AI.
