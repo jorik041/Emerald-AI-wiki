@@ -398,7 +398,7 @@ EventsManager.CreateDroppableWeapon()
 
 # Animation API
 ### PlayEmoteAnimation
-Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode.
+Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode. Up to 10 emote animations are supported.
 ```c#
 EventsManager.PlayEmoteAnimation(int EmoteAnimationID)
 ```
@@ -406,7 +406,7 @@ EventsManager.PlayEmoteAnimation(int EmoteAnimationID)
 ***
 
 ### LoopEmoteAnimation
-Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
+Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode. Up to 10 emote animations are supported.
 ```c#
 EventsManager.LoopEmoteAnimation(int EmoteAnimationID)
 ```
@@ -422,7 +422,7 @@ EventsManager.StopLoopEmoteAnimation(int EmoteAnimationID)
 ***
 
 ### OverrideIdleAnimation
-Manually sets the AI's next Idle animation instead of being generated randomly. This is useful for functionality such as playing a particular idle animation at a certain location such as for an AI's schedule. Note: The animation numbers are from 1 to 3 and must exist in your AI's Idle Animation list. You must call DisableOverrideIdleAnimation() to have idle animations randomly generate again and to disable this feature.
+Manually sets the AI's next Idle animation instead of being generated randomly. This is useful for functionality such as playing a particular idle animation at a certain location such as for an AI's schedule. Note: The animation numbers are from 1 to 6 and must exist in your AI's Idle Animation list. You must call DisableOverrideIdleAnimation() to have idle animations randomly generate again and to disable this feature.
 ```c#
 EventsManager.OverrideIdleAnimation(int IdleIndex)
 ```
