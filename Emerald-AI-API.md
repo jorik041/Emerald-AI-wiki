@@ -58,7 +58,7 @@ public class AccessEmeraldAIExample : MonoBehaviour
 # Emerald AI Events Manager API
 Here's all of the usable Emerald AI Events Manager API.
 
-## General API
+# General API
 ### KillAI
 Instantly kills this AI
 ```c#
@@ -132,7 +132,7 @@ EventsManager.TameAI(Transform Target)
 &nbsp;
 
 
-## Movement & Destination API
+# Movement & Destination API
 ### UpdateDynamicWanderPosition
 Update the AI's dynamic wandering position to the AI's current position.
 ```c#
@@ -195,7 +195,7 @@ EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
 
 &nbsp;
 
-## Sound API
+# Sound API
 ### PlaySoundClip
 Plays a sound clip according to the Clip parameter.
 ```c#
