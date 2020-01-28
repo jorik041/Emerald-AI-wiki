@@ -19,7 +19,7 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 | Destination  | Allows an AI to travle to a single destination. Once it reaches it destination, it will stay stationary.  |
 
 ## Dynamic - Wander Type
-The Dynamic Wander Type does a lot of the work for you. It randomly generates a waypoint anywhere within the green radius. You can adjust the size of this radius and set the slope limitation which stops waypoints from generating on unreachable or too steep locations. Note: The green dynamic wandering radius indicator is only visible within the Temperament tab.
+The Dynamic Wander Type does a lot of the work for you. It randomly generates a waypoint anywhere within the green radius. You can adjust the size of this radius and set the slope limitation which stops waypoints from generating on unreachable or too steep locations. Note: The green dynamic wandering radius indicator is only visible within the Temperament tab and not during runtime.
 
 ![](https://i.imgur.com/ArREX20.png)
 
