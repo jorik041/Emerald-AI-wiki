@@ -128,7 +128,7 @@ EventsManager.TameAI(Transform Target)
 ```
 
 
-***
+&nbsp;
 
 
 ## Movement & Destination API
@@ -192,8 +192,8 @@ Allows a Companion AI to guard the assigned position.
 EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
 ```
 
-
-***
+&nbsp;
+&nbsp;
 
 
 ## Sound API
