@@ -53,6 +53,7 @@ public class AccessEmeraldAIExample : MonoBehaviour
 }
 ```
 
+&nbsp;
 # Emerald AI Events Manager API
 Here's all of the usable Emerald AI Events Manager API.
 
