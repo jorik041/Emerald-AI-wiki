@@ -57,11 +57,13 @@ public class AccessEmeraldAIExample : MonoBehaviour
 Here's all of the usable Emerald AI Events Manager API.
 
 ## General API
+### Kill AI
 Instantly kills this AI
 ```c#
 EventsManager.KillAI();
 ```
 
+### Reset AI
 Resets an AI to its default state. This is useful if an AI is being respawned or reused.
 ```c#
 EventsManager.ResetAI();
