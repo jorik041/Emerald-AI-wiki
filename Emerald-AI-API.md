@@ -74,6 +74,9 @@ EventsManager.ResetAI();
 | ResetAI |
 | ------------- |
 | Resets an AI to its default state. This is useful if an AI is being respawned or reused.  |
+```c#
+EventsManager.ResetAI();
+```
 
 ### InstantlyRefillAIHeath
 Refills the AI's health to full instantly
