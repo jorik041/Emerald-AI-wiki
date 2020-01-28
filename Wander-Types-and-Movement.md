@@ -18,6 +18,8 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 | Stationary  | Allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius.  |
 | Destination  | Allows an AI to travle to a single destination. Once it reaches it destination, it will stay stationary.  |
 
+&nbsp;
+
 ## Dynamic - Wander Type
 The Dynamic Wander Type does a lot of the work for you. It randomly generates a waypoint anywhere within the green radius. You can adjust the size of this radius and set the slope limitation which stops waypoints from generating on unreachable or too steep locations. Note: The green dynamic wandering radius indicator is only visible within the Temperament tab and not during runtime.
 
@@ -27,6 +29,8 @@ The Dynamic Wander Type does a lot of the work for you. It randomly generates a 
 
 ## Dynamic - Wander Type
 The Dynamic Wander Type allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius. If an AI attacks and kills a target when using this Wander Type, it will return to the starting stationary destination.
+
+&nbsp;
 
 ## Waypoints - Wander Type
 Waypoints allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
@@ -51,7 +55,7 @@ There are three Waypoint Types which determines how your AI will move through th
 | Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set. The idle animation that is played is randomly picked from your AI's Idle Animation List.  |  
 
 
-***
+&nbsp;
 
 
 ## Destination - Wander Type
