@@ -2,61 +2,60 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 ## Table of Contents
-
-> * [Getting Started](#getting-started)
-> * [General API](#General-API)
->    * [KillAI](#KillAI)
->    * [ResetAI](#ResetAI)
->    * [InstantlyRefillAIHeath](#InstantlyRefillAIHeath)
->    * [ChangeBehavior](#ChangeBehavior)
->    * [ChangeConfidenceLevel](#ChangeConfidenceLevel)
->    * [ChangeWanderType](#ChangeWanderType)
->    * [SetCombatTarget](#SetCombatTarget)
->    * [SetFollowerTarget](#SetFollowerTarget)
->    * [TameAI](#TameAI)
-> * [Movement  Destination API](#Movement--Destination-API)
->    * [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)
->    * [SetDynamicWanderPosition](#SetDynamicWanderPosition)
->    * [UpdateStartingPosition](#UpdateStartingPosition)
->    * [SetDestination](#SetDestination)
->    * [SetDestinationPosition](#SetDestinationPosition)
->    * [StopMovement](#StopMovement)
->    * [ResumeMovement](#ResumeMovement)
->    * [StopFollowing](#StopFollowing)
->    * [ResumeFollowing](#ResumeFollowing)
->    * [CompanionGuardPosition](#CompanionGuardPosition)
-> * [Sound API](#Sound-API)
->    * [PlaySoundClip](#PlaySoundClip)
->    * [PlayIdleSound](#PlayIdleSound)
->    * [PlayAttackSound](#PlayAttackSound)
->    * [PlayWarningSound](#PlayWarningSound)
->    * [PlayBlockSound](#PlayBlockSound)
->    * [PlayDeathSound](#PlayDeathSound)
->    * [WalkFootstepSound](#WalkFootstepSound)
->    * [RunFootstepSound](#RunFootstepSound)
->    * [PlayRandomSoundEffect](#PlayRandomSoundEffect)
->    * [PlaySoundEffect](#PlaySoundEffect)
-> * [Items  Effect API](#Items--Effect-API)
->    * [EnableItem](#EnableItem)
->    * [DisableItem](#DisableItem)
->    * [DisableAllItems](#DisableAllItems)
->    * [EnableWeapon](#EnableWeapon)
->    * [DisableWeapon](#DisableWeapon)
->    * [SpawnAdditionalEffect](#SpawnAdditionalEffect)
->    * [SpawnEffectOnTarget](#SpawnEffectOnTarget)
->    * [SpawnBloodSplatEffect](#SpawnBloodSplatEffect)
->    * [CreateDroppableWeapon](#CreateDroppableWeapon)
-> * [Animation API](#Animation-API)
->    * [PlayEmoteAnimation](#PlayEmoteAnimation)
->    * [LoopEmoteAnimation](#LoopEmoteAnimation)
->    * [StopLoopEmoteAnimation](#StopLoopEmoteAnimation)
->    * [OverrideIdleAnimation](#OverrideIdleAnimation)
->    * [DisableOverrideIdleAnimation](#DisableOverrideIdleAnimation)
-> * [Utility API](#Utility-API)
->    * [UpdateUIHealthBarColor](#UpdateUIHealthBarColor)
->    * [UpdateUIHealthBarBackgroundColor](#UpdateUIHealthBarBackgroundColor)
->    * [UpdateUINameColor](#UpdateUINameColor)
->    * [UpdateUINameText](#UpdateUINameText)
+`* [Getting Started](#getting-started)`
+`* [General API](#General-API)`
+   `* [KillAI](#KillAI)`
+   `* [ResetAI](#ResetAI)`
+   `* [InstantlyRefillAIHeath](#InstantlyRefillAIHeath)`
+   `* [ChangeBehavior](#ChangeBehavior)`
+   `* [ChangeConfidenceLevel](#ChangeConfidenceLevel)`
+   `* [ChangeWanderType](#ChangeWanderType)`
+   `* [SetCombatTarget](#SetCombatTarget)`
+   `* [SetFollowerTarget](#SetFollowerTarget)`
+   `* [TameAI](#TameAI)`
+`* [Movement  Destination API](#Movement--Destination-API)`
+   `* [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)`
+   `* [SetDynamicWanderPosition](#SetDynamicWanderPosition)`
+   `* [UpdateStartingPosition](#UpdateStartingPosition)`
+   `* [SetDestination](#SetDestination)`
+   `* [SetDestinationPosition](#SetDestinationPosition)`
+   `* [StopMovement](#StopMovement)`
+   `* [ResumeMovement](#ResumeMovement)`
+   `* [StopFollowing](#StopFollowing)`
+   `* [ResumeFollowing](#ResumeFollowing)`
+   `* [CompanionGuardPosition](#CompanionGuardPosition)`
+`* [Sound API](#Sound-API)`
+   `* [PlaySoundClip](#PlaySoundClip)`
+   `* [PlayIdleSound](#PlayIdleSound)`
+   `* [PlayAttackSound](#PlayAttackSound)`
+   `* [PlayWarningSound](#PlayWarningSound)`
+   `* [PlayBlockSound](#PlayBlockSound)`
+   `* [PlayDeathSound](#PlayDeathSound)`
+   `* [WalkFootstepSound](#WalkFootstepSound)`
+   `* [RunFootstepSound](#RunFootstepSound)`
+   `* [PlayRandomSoundEffect](#PlayRandomSoundEffect)`
+   `* [PlaySoundEffect](#PlaySoundEffect)`
+`* [Items  Effect API](#Items--Effect-API)`
+   `* [EnableItem](#EnableItem)`
+   `* [DisableItem](#DisableItem)`
+   `* [DisableAllItems](#DisableAllItems)`
+   `* [EnableWeapon](#EnableWeapon)`
+   `* [DisableWeapon](#DisableWeapon)`
+   `* [SpawnAdditionalEffect](#SpawnAdditionalEffect)`
+   `* [SpawnEffectOnTarget](#SpawnEffectOnTarget)`
+   `* [SpawnBloodSplatEffect](#SpawnBloodSplatEffect)`
+   `* [CreateDroppableWeapon](#CreateDroppableWeapon)`
+`* [Animation API](#Animation-API)`
+   `* [PlayEmoteAnimation](#PlayEmoteAnimation)`
+   `* [LoopEmoteAnimation](#LoopEmoteAnimation)`
+   `* [StopLoopEmoteAnimation](#StopLoopEmoteAnimation)`
+   `* [OverrideIdleAnimation](#OverrideIdleAnimation)`
+   `* [DisableOverrideIdleAnimation](#DisableOverrideIdleAnimation)`
+`* [Utility API](#Utility-API)`
+   `* [UpdateUIHealthBarColor](#UpdateUIHealthBarColor)`
+   `* [UpdateUIHealthBarBackgroundColor](#UpdateUIHealthBarBackgroundColor)`
+   `* [UpdateUINameColor](#UpdateUINameColor)`
+   `* [UpdateUINameText](#UpdateUINameText)`
 
 
 
