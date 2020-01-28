@@ -2,7 +2,9 @@
 
 ## Wander Type
 An AI's Wander Type determines how it moves when not in combat. The Wander Type option can be found within the Temperament tab.
+
 ![](https://i.imgur.com/I9kbWYX.png)
+
 
 | Wander Type  | Description |
 | ------------- | ------------- |
