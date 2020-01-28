@@ -94,6 +94,8 @@ Example:
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
 ```
 
+&emsp;
+
 ### ChangeConfidenceLevel
 Changes the AI's current Confidence level
 ```c#
@@ -105,6 +107,8 @@ Example:
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
 ```
 
+&emsp;
+
 ### ChangeWanderType
 Changes the AI's current Wander type
 ```c#
@@ -115,6 +119,8 @@ Example:
 //Change the AI's current Wander Type to Stationary
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
 ```
+
+&emsp;
 
 ### SetCombatTarget
 Assigns a new combat target for your AI to attack. Using this setting will override your AI's chase limit.
