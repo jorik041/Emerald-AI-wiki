@@ -347,8 +347,9 @@ Disables the OverrideIdleAnimation feature.
 EventsManager.DisableOverrideIdleAnimation()
 ```
 
-## Utility API
+&emsp;
 
+## Utility API
 ### UpdateUIHealthBarColor
 Updates the AI's Health Bar color
 ```c#
