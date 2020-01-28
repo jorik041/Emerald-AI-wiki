@@ -57,7 +57,7 @@ public class AccessEmeraldAIExample : MonoBehaviour
 Here's all of the usable Emerald AI Events Manager API.
 
 ## General API
-### Kill AI
+### KillAI
 Instantly kills this AI
 ```c#
 EventsManager.KillAI();
@@ -97,7 +97,7 @@ Example:
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
 ```
 
-### Change Wander Type
+### ChangeWanderType
 Changes the AI's current Wander type
 ```c#
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType NewWanderType)
@@ -108,7 +108,7 @@ Example:
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
 ```
 
-### Set Combat Target
+### SetCombatTarget
 Assigns a new combat target for your AI to attack. Using this setting will override your AI's chase limit.
 ```c#
 EventsManager.SetCombatTarget(Transform Target)
@@ -120,7 +120,7 @@ Assigns a new follow target for your companion AI to follow.
 EventsManager.SetFollowerTarget(Transform Target)
 ```
 
-### Tame AI
+### TameAI
 Tames the AI to become the Target object’s companion. Note: The tameable AI must have a Cautious Behavior Type and a Brave or Foolhardy Confidence Type. The AI must be tamed before the AI turns Aggressive to be successful.
 ```c#
 EventsManager.TameAI(Transform Target)
@@ -128,35 +128,64 @@ EventsManager.TameAI(Transform Target)
 
 
 ## Movement & Destination API
-//Update the AI's dynamic wandering position to the AI's current positon.
+### UpdateDynamicWanderPosition
+Update the AI's dynamic wandering position to the AI's current position.
+```c#
 EventsManager.UpdateDynamicWanderPosition()
 
-//Sets the AI's dynamic wandering position to the position of the Destination transform. This is useful for functionality such as custom AI schedules. Note: This will automatically change your AI's Wander Type to Dynamic.
+### SetDynamicWanderPosition
+Sets the AI's dynamic wandering position to the position of the Destination transform. This is useful for functionality such as custom AI schedules. Note: This will automatically change your AI's Wander Type to Dynamic.
+```c#
 EventsManager.SetDynamicWanderPosition(Transform Destination)
+```
 
-//Updates the AI's starting position to the AI's current position.
+### UpdateStartingPosition
+Updates the AI's starting position to the AI's current position.
+```c#
 EventsManager.UpdateStartingPosition()
+```
 
-//Sets the AI's destination using a transform's position.
+### SetDestination
+Sets the AI's destination using a transform's position.
+```c#
 EventsManager.SetDestination(Transform Destination)
+```
 
-//Sets the AI's destination using a Vector3 position.
+### SetDestinationPosition
+Sets the AI's destination using a Vector3 position.
+```c#
 EventsManager.SetDestinationPosition(Vector3 DestinationPosition)
+```
 
-//Stops an AI from moving. This is useful for functionality like dialogue.
-EventsManager.StopMovement()
+### StopMovement
+Stops an AI from moving. This is useful for functionality like dialogue.
+```c#
+EventsManager.StopMovement();
+```
 
-//Resumes an AI's movement after using the StopMovement function.
-EventsManager.ResumeMovement()
+### ResumeMovement
+Resumes an AI's movement after using the StopMovement function.
+```c#
+EventsManager.ResumeMovement();
+```
 
-//Stops a Companion AI from moving.
-EventsManager.StopFollowing()
+### StopFollowing
+Stops a Companion AI from moving.
+```c#
+EventsManager.StopFollowing();
+```
 
-//Allows a Companion AI to resume following its follower.
-EventsManager.ResumeFollowing()
+### ResumeFollowing
+Allows a Companion AI to resume following its follower.
+```c#
+EventsManager.ResumeFollowing();
+```
 
-//Allows a Companion AI to guard the assigned position.
+### CompanionGuardPosition
+Allows a Companion AI to guard the assigned position.
+```c#
 EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
+```
 
 Sound API
 //Plays a sound clip according to the Clip parameter.
