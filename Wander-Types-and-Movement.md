@@ -33,7 +33,7 @@ There are three Waypoint Types which determines how your AI will move through th
 | ------------- | ------------- |
 | Loop  | When an AI reaches its last waypoint, it will set the first waypoint as its next waypoint thus creating a loop. |
 | Reverse  | When an AI reaches its last waypoint, it will reverse the AI's waypoints making the last waypoint its first. This allows AI to patorl back and forth through narrow or one way areas.  |
-| Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set.  |  
+| Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set. The idle animation that is played is randomly picked from your AI's Idle Animation List.  |  
 
 
 ## Setting Up an AI Destination
