@@ -7,6 +7,8 @@ First, you will need to open the Faction Manager. This can be done by pressing C
 
 ## Assigning a Faction to an AI
 Each AI is assigned a Faction
+
 ![](https://i.imgur.com/FVQfOsJ.png)
+
 
 ## Setting up Faction Relations
