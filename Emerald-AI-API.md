@@ -5,13 +5,8 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
 1. [Example](#example)
 2. [Example2](#example2)
 3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+4. [Fourth Example]()
 
-
-## Example
-## Example2
-## Third Example
-## [Fourth Example](http://www.fourthexample.com) 
 
 ## Getting Started
 In order for Emerald AI's API to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
