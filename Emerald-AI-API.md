@@ -144,6 +144,8 @@ Tames the AI to become the Target object’s companion. Note: The tameable AI mu
 EventsManager.TameAI(Transform Target)
 ```
 
+***
+
 
 &nbsp;
 
@@ -227,6 +229,9 @@ Allows a Companion AI to guard the assigned position.
 EventsManager.CompanionGuardPosition(Vector3 PositionToGuard)
 ```
 
+***
+
+
 &nbsp;
 
 # Sound API
@@ -308,6 +313,9 @@ Plays a sound effect from the AI's General Sounds list using the Sound Effect ID
 EventsManager.PlaySoundEffect(int SoundEffectID)
 ```
 
+***
+
+
 &emsp;
 
 # Items & Effect API
@@ -382,6 +390,10 @@ Instantiates an AI's Droppable Weapon Object on death (This should be a prefab o
 EventsManager.CreateDroppableWeapon()
 ```
 
+
+***
+
+
 &emsp;
 
 # Animation API
@@ -423,6 +435,10 @@ Disables the OverrideIdleAnimation feature.
 EventsManager.DisableOverrideIdleAnimation()
 ```
 
+
+***
+
+
 &emsp;
 
 # Utility API
@@ -455,3 +471,5 @@ Updates the AI's Name text
 ```c#
 EventsManager.UpdateUINameText(string NewName)
 ```
+
+***
