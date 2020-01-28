@@ -2,13 +2,13 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 ## Table of Contents
-1. [Getting Started](#getting-started)
-2. [General API](#general-api)
-3. [Movement Destination API](#movement--destination-api)
-4. [Sound API](#sound-api)
-5. [Items and Effects API](#items--effect-api)
-6. [Animation API](#animation-api)
-7. [Utility API](#utility-api)
+* [Getting Started](#getting-started)
+* [General API](#general-api)
+* [Movement Destination API](#movement--destination-api)
+* [Sound API](#sound-api)
+* [Items and Effects API](#items--effect-api)
+* [Animation API](#animation-api)
+* [Utility API](#utility-api)
 
 &emsp;
 
