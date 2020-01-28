@@ -4,12 +4,12 @@ This section is somewhat extensive and so it's covered in two sections. The firs
 &nbsp;
 
 Table of Content
-* [Wander Types and Movement](#Wander-Types-and-Movement)
-   * [Wander Type](#WanderType)
-   * [Dynamic - Wander Type](#Dynamic-WanderType)
-   * [Stationary - Wander Type](#Stationary-WanderType)
-   * [Waypoints - Wander Type](#Waypoints-WanderType)
-   * [Destination - Wander Type](#Destination-WanderType)
+* [Wander Type](#Wander-Type)
+   * [Dynamic - Wander Type](#Dynamic---Wander-Type)
+   * [Stationary - Wander Type](#Stationary---Wander-Type)
+   * [Waypoints - Wander Type](#Waypoints---Wander-Type)
+   * [Destination - Wander Type](#Destination---Wander-Type)
+
 
 
 &nbsp;
