@@ -41,5 +41,14 @@ public class AccessEmeraldAIExample : MonoBehaviour
         EmeraldComponent = GetComponent<EmeraldAISystem>();
         EventsManager = EmeraldComponent.EmeraldEventsManagerComponent;
     }
+    
+    //Changes the AI's current behavior to Aggressive when pressing the H key.
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Aggressive);
+        }
+    }
 }
 ```
