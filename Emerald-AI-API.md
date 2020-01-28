@@ -2,7 +2,7 @@
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
 ## Getting Started
-In order for these to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
+In order for Emerald AI's API to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
 It is recommended that you use the EmeraldAI namespace at the top of your scripts to make accessing the Emerald AI scripts easier using:
 ```c#
 using EmeraldAI;
@@ -15,6 +15,12 @@ EmeraldAIEventsManager EventsManager = GetComponent<EmeraldAIEventsManager>();
 ```
 
 Now, when using the EventsManager variable, you can access all of an AI’s internal functions that allow you to control a wide variety of functionality. The following API is assumed you used the EventsManager variable name as your reference to the EmeraldAIEventsManager component.
+
+Users can also use the EmeraldAISystem for altering an AI's variables directly.
+
+```c#
+EmeraldAISystem EmeraldComponent = GetComponent<EmeraldAISystem>();
+```
 
 For users who need a working example, please use the following script to get you started. (This script needs to be attached to your AI in order to work correctly)
 
