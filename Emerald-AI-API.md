@@ -63,19 +63,19 @@ Instantly kills this AI
 EventsManager.KillAI();
 ```
 
-### Reset AI
+### ResetAI
 Resets an AI to its default state. This is useful if an AI is being respawned or reused.
 ```c#
 EventsManager.ResetAI();
 ```
 
-### Instantly Health AI
+### InstantlyRefillAIHeath
 Refills the AI's health to full instantly
 ```c#
 EventsManager.InstantlyRefillAIHeath ();
 ```
 
-### Change Behavior
+### ChangeBehavior
 Changes the AI's Behavior
 ```c#
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior NewBehavior)
@@ -86,7 +86,7 @@ Example:
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
 ```
 
-### Change Confidence Level
+### ChangeConfidenceLevel
 Changes the AI's current Confidence level
 ```c#
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType NewConfidence)
