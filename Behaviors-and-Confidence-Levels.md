@@ -1,7 +1,3 @@
-# Emerald AI Editor
-Emerald AI's Editor is self-documented so almost everything is explained right within the editor. This wiki section will cover some of the editor functionality that may need further clarification or information.
-
-
 # Temperament
 An AI’s Temperament controls various settings on how an AI reacts to targets. Emerald makes things easy by having 5 preset behaviors that your AI can follow. They also have a Confidence level that gives you further control to make your AI’s Behavior more unique and customizable. What an AI does with its Confidence Level varies based on its Behavior Type. Below, these settings will be further explained.
 
