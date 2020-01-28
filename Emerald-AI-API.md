@@ -76,15 +76,30 @@ Changes the AI's Behavior
 ```c#
 EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior NewBehavior)
 ```
+Example:
+```c#
+//Change the AI's current behavior to Passive
+EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
+```
 
 Changes the AI's Confidence
 ```c#
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType NewConfidence)
 ```
+Example:
+```c#
+//Change the AI's current confidence to Passive
+EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
+```
 
 Changes the AI's Wander type
 ```c#
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType NewWanderType)
+```
+Example:
+```c#
+//Change the AI's current Wander Type to Stationary
+EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
 ```
 
 Assigns a new combat target for your AI to attack. Using this setting will override your AI's chase limit.
