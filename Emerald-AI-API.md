@@ -1,7 +1,7 @@
 # Emerald AI API
 Emerald AI has tons of API that can be accessed to allow for added functionality, custom mechanics, and more. 
 
-# Table of Contents
+## Table of Contents
 1. [Getting Started](#getting-started)
 2. [General API](#general-api)
 3. [Movement Destination API](#movement--destination-api)
