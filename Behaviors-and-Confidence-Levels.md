@@ -1,4 +1,4 @@
-Table of Content
+## Table of Content
 * [Behaviors](#Behaviors)
 * [Confidence](#Confidence)
    * [Cautious AI](#Cautious-AI)
