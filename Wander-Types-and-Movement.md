@@ -29,7 +29,7 @@ The Dynamic Wander Type does a lot of the work for you. It randomly generates a 
 The Dynamic Wander Type allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius. If an AI attacks and kills a target when using this Wander Type, it will return to the starting stationary destination.
 
 ## Waypoints - Wander Type
-Waypoints are a powerful new addition to Emerald AI. They allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
+Waypoints allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 If you’d like to create your own waypoint system for your AI, you can do so by going to the Waypoint Editor tab located in the Emerald Editor. By default, the Wander Type is set to Dynamic (which randomly generates waypoints). When you open the Waypoint Editor tab, you will see a button to enable waypoints. Once you’ve done this, you will see the waypoint options appear. You can now create a waypoint by pressing the “Add Waypoint” button.
 
 <img src="https://i.imgur.com/0F86qQN.png" width="50%">
