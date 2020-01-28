@@ -4,7 +4,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
 ## Table of Contents
 * [Getting Started](#getting-started)
 * [General API](#general-api)
-   * [Kill AI](##killai)
+   * [Kill AI](#killai)
 * [Movement Destination API](#movement--destination-api)
 * [Sound API](#sound-api)
 * [Items and Effects API](#items--effect-api)
