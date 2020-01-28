@@ -1,6 +1,12 @@
 # Getting Started
 To get started with Emerald AI, it is recommended that you have the most recent version installed in your projects. Ensure that you always have a backup of your project before updating to a newer version of Emerald AI. Note: If you are updating from a previous version of Emerald AI, double check the update's Release Notes to ensure there are no special instructions.
 
+# Setting up an AI
+To setup your own AI, please click on the image below to be directed to YouTube. This video tutorial will guide you through the setup process.
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=E1o5_jVLfLw
+" target="_blank"><img src="http://img.youtube.com/vi/E1o5_jVLfLw/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 # Example Scenes
