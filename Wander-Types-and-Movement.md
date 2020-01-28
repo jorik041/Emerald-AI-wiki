@@ -23,7 +23,7 @@ Pressing the Add Waypoint button initially will create your AI’s first waypoin
 
 ![](https://i.imgur.com/C9P3igX.gif)
 
-If you happen to make a mistake, and need to remove a waypoint that’s located in the middle of 15 points, you can remove that specific waypoint and Emerald will resize itself so you don’t have to start over. If you’d like to completely start over, you also have the option to clear all your waypoints. This can be done by pressing the “Clear All Waypoints” button. Keep in mind that both of these processes cannot be undone.
+If you happen to make a mistake, and need to remove a waypoint that’s located in the middle of 15 points, you can remove that specific waypoint and Emerald will resize itself so you don’t have to start over. If you’d like to completely start over, you also have the option to clear all your waypoints. This can be done by pressing the “Clear All Waypoints” button. Keep in mind that both of these processes cannot be undone. When you play the scene, the AI will follow the waypoints you've set, unless they enter Combat Mode.
 
 ![](https://i.imgur.com/SXAnCKJ.gif)
 
