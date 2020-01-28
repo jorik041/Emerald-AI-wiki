@@ -17,7 +17,7 @@ An AI's Wander Type determines how it moves when not in combat. The Wander Type 
 Waypoints are a powerful new addition to Emerald AI. They allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 If you’d like to create your own waypoint system for your AI, you can do so by going to the Waypoint Editor tab located in the Emerald Editor. By default, the Wander Type is set to Dynamic (which randomly generates waypoints). When you open the Waypoint Editor tab, you will see a button to enable waypoints. Once you’ve done this, you will see the waypoint options appear. You can now create a waypoint by pressing the “Add Waypoint” button.
 
-<img src="https://i.imgur.com/CrbBAPR.png" width="40%">
+<img src="https://i.imgur.com/0F86qQN.png" width="80%">
 
 Pressing the Add Waypoint button will create your AI’s first waypoint. You must have at least 2 waypoints for your AI to move between. Waypoints are only visible while the Waypoint Editor tab is active for each AI. Multi-Object Editing is not available for the Waypoints tab.
 
