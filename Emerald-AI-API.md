@@ -10,6 +10,8 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
 6. [Animation API](#animation-api)
 7. [Utility API](#utility-api)
 
+&emsp;
+
 ## Getting Started
 In order for Emerald AI's API to be accessed via code, users must reference their AI’s EmeraldAISystem component. Once this is accessed, users will need to find the EmeraldAIEventsManager that holds all of the AI’s API. 
 It is recommended that you use the EmeraldAI namespace at the top of your scripts to make accessing the Emerald AI scripts easier using:
