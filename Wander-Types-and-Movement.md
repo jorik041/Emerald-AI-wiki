@@ -41,6 +41,9 @@ There are three Waypoint Types which determines how your AI will move through th
 | Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set. The idle animation that is played is randomly picked from your AI's Idle Animation List.  |  
 
 
+***
+
+
 ## Setting Up an AI Destination
 Destinations are different than waypoints. Destinations allow you to set a point anywhere on the NavMesh and the AI will move to that destination. AI using destinations will not follow any other waypoints and will take the quickest route to get to their set destination. AI that have arrived at their destination will have a public variable called “AI Reached Destination” set to true. This can be useful for triggering other events. At anytime, you can change the AI’s destination programmatically by calling the SetDestination(Transform Destination) function. This feature can even make it possible for AI to even have schedules through code or a time of day system such as UniStorm (Emerald AI schedule integration with UniStorm is coming soon. This will allow users to set schedules via the Emerald Editor and not just through code).
 
