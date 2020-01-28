@@ -1,3 +1,4 @@
+# Factions and Faction Manager
 The Faction Manager allows users to create and remove factions that are globally available for AI to use. Factions will be available through the Emerald AI Editor to assign to your AI agents. You can also assign the relation of each faction to determine who is an enemy, an ally, or neutral.
 
 ## Creating a Faction with the Faction Manager
