@@ -30,7 +30,7 @@ If you happen to make a mistake, and need to remove a waypoint that’s located 
 There are three Waypoint Types which determines how your AI will move through the waypoints.
 | Waypoint Type  | Description |
 | ------------- | ------------- |
-| Loop  | When an AI reaches its last waypoint, it will set the first waypoint as its next waypoint thus creating a loop.  |
+| Loop  | When an AI reaches its last waypoint, it will set the first waypoint as its next waypoint thus creating a loop.|
 | Reverse  | When an AI reaches its last waypoint, it will reverse the AI's waypoints making the last waypoint its first. This allows AI to patorl back and forth through narrow or one way areas.  |
 | Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set.  |  
 
