@@ -5,6 +5,7 @@
    * [Creating a New AI]
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
+* [Using Factions and Faction Manager]
 * [Emerald AI API]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
