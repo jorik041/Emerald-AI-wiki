@@ -11,4 +11,26 @@ Next, you will want a reference to an AI’s events manager script. There is one
 EmeraldAIEventsManager EventsManager = GetComponent<EmeraldAIEventsManager>();
 ```
 
-Now, when using the EventsManager variable, you can access all of an AI’s internal functions that allow you to control a wide variety of functionality. The following API is assumed you used the EventsManager variable name as your reference to the EmeraldAIEventsManager component. 
+Now, when using the EventsManager variable, you can access all of an AI’s internal functions that allow you to control a wide variety of functionality. The following API is assumed you used the EventsManager variable name as your reference to the EmeraldAIEventsManager component.
+
+For users who are new to coding, here's a completed example (This script needs to be attached to your AI in order to work correctly)
+
+```c#
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using EmeraldAI;
+
+public class AccessEmeraldAIExample : MonoBehaviour
+{
+    EmeraldAISystem EmeraldComponent;
+    EmeraldAIEventsManager EventsManager;
+
+    //Get the EmeraldAISystem component and EmeraldAIEventsManager and store them as variables.
+    void Start ()
+    {
+        EmeraldComponent = GetComponent<EmeraldAISystem>();
+        EventsManager = EmeraldComponent.EmeraldEventsManagerComponent;
+    }
+}
+```
