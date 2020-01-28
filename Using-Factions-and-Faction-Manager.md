@@ -6,9 +6,17 @@ First, you will need to open the Faction Manager. This can be done by pressing C
 ![](https://i.imgur.com/UGpZk0C.gif)
 
 ## Assigning a Faction to an AI
-Each AI is assigned a Faction
+Each AI can be assigned a Faction based off of the list of available factions created with the Faction Manager. The Faction Manager can be opened by pressing the Open Faction Manager button below the Faction setting. Each time you add or remove a faction through the Faction Manager, an AI's Faction dropdown list of available faction will be updated. An AI's Faction is the name used to control combat reaction with other AI. This is the name other AI will use when looking for opposing targets.
 
 ![](https://i.imgur.com/FVQfOsJ.png)
 
-
 ## Setting up Faction Relations
+An AI's Faction Relations determines an AI's relation to each faction you assign within this list. Not all faction have to be assigned. AI who do not have an assigned faction will simply ignored as if they were natural, even if the target is aggressive.
+
+![](https://i.imgur.com/QzKefU3.png)
+
+| Relation  | Description |
+| ------------- | ------------- |
+| Enemy  | Any AI this a relation of Enemy will be considered a threat and the AI will react according to its Behavior Type.  |
+| Neutral  | Any AI this a relation of Neutral will be simply be ignored. This relation can be helpful to for quests or custom mechanics.  |
+| Friendly  | Any AI this a relation of Friendly will be ignored, but can have special conditions such as leading to new information or quests.  |
