@@ -131,7 +131,8 @@ EventsManager.TameAI(Transform Target)
 ### UpdateDynamicWanderPosition
 Update the AI's dynamic wandering position to the AI's current position.
 ```c#
-EventsManager.UpdateDynamicWanderPosition()
+EventsManager.UpdateDynamicWanderPosition();
+```
 
 ### SetDynamicWanderPosition
 Sets the AI's dynamic wandering position to the position of the Destination transform. This is useful for functionality such as custom AI schedules. Note: This will automatically change your AI's Wander Type to Dynamic.
