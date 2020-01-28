@@ -45,14 +45,8 @@ There are three Waypoint Types which determines how your AI will move through th
 
 
 ## Setting Up an AI Destination
-Destinations are different than waypoints. Destinations allow you to set a point anywhere on the NavMesh and the AI will move to that destination. AI using destinations will not follow any other waypoints and will take the quickest route to get to their set destination. AI that have arrived at their destination will have a public variable called “AI Reached Destination” set to true. This can be useful for triggering other events. At anytime, you can change the AI’s destination programmatically by calling the SetDestination(Transform Destination) function. This feature can even make it possible for AI to even have schedules through code or a time of day system such as UniStorm (Emerald AI schedule integration with UniStorm is coming soon. This will allow users to set schedules via the Emerald Editor and not just through code).
+Destinations are different than waypoints. Destinations allow you to set a point anywhere on the NavMesh and the AI will move to that destination. AI using destinations will not follow any other waypoints and will take the quickest route to get to their set destination. AI that have arrived at their destination will trigger the event ReachEdDestinationEvent(). This can be useful for triggering custom code or quests when an AI arrives at their destination. At anytime, you can change the AI’s destination programmatically by calling the ``C# EmeraldEventsManager.SetDestination(Transform Destination)``` function. This feature can even make it possible for AI to even have schedules through code or a time of day system such as UniStorm. For a working schedule example, see the script here: 
 
 Unlike Waypoints, destinations are set through the Temperament tab. To create a destination for your AI, go to the Temperament tab. Once here, change the Wander Type to Destination. This will automatically create a destination point for your AI.
 
-
-
-This will also open up an additional option called Destination Animation. This gives you control over which animation is used for moving to the AI’s destination point. Walk setting will use the walk animation and walk speed you’ve set via the AI’s Setting options and the Run setting will use the run animation and the run speed you’ve set via the AI’s Setting options. AI will still react to targets according to their Behavior Type. Once they have successfully fled or killed their target, the AI will resume moving to their destination point.
-
-Walk Destination Animation Setting
-
-Run Destination Animation Setting
+<img src="https://i.imgur.com/ZrxqLyw.png" width="60%">
