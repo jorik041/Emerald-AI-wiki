@@ -17,7 +17,7 @@ The Behaviors option can be found within the Temperament tab. Each AI can be set
 | Aggressive  | Aggressive AI will attack any target of the opposing faction that comes within their trigger radius. Aggressive AI must have AI Attacks Player checked in order to attack players.  |
 | Pet  | Pet AI will follow around a player target. They will not fight, engage in combat, or be targeted. They are simply for cosmetic purposes.  |
 
-***
+&nbsp;
 
 ## Confidence
 The Confidence option can be found within the Temperament tab. What an AI does with its Confidence Level varies based on its Behavior Type. So, each Confidence Type has been categorized by Behavior Type. Note: The Pet and Companion Behavior Types do not use the Confidence Level setting.
@@ -44,5 +44,3 @@ The Confidence option can be found within the Temperament tab. What an AI does w
 | Coward  | Aggressive AI cannot be set to Coward. AI with this setting will automatically be set to Brave on Start.  |
 | Brave  | Aggressive AI will fight any target on sight or detection, but attempt to flee once its health reaches the percentage you've set.  |
 | Foolhardy  | Aggressive AI will fight any target on sight or detection and will never flee. They will continue to fight until dead or the target has escaped the AI.  |
-
-***
