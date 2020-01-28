@@ -1,3 +1,4 @@
+# Emerald AI Wiki
 * [Home]
 * [Getting Started]
    * [Baking NavMesh]
