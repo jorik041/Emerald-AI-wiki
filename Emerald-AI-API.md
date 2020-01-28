@@ -256,6 +256,7 @@ Plays a sound effect from the AI's General Sounds list using the Sound Effect ID
 EventsManager.PlaySoundEffect(int SoundEffectID)
 ```
 
+&emsp;
 
 ## Items & Effect API
 
@@ -313,31 +314,61 @@ Instantiates an AI's Droppable Weapon Object on death (This should be a prefab o
 EventsManager.CreateDroppableWeapon()
 ```
 
-Animation API
-//Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode.
+&emsp;
+
+## Animation API
+### PlayEmoteAnimation
+Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode.
+```c#
 EventsManager.PlayEmoteAnimation(int EmoteAnimationID)
+```
 
-//Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
+### LoopEmoteAnimation
+Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
+```c#
 EventsManager.LoopEmoteAnimation(int EmoteAnimationID)
-//Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
+```
+
+### StopLoopEmoteAnimation
+Loops an emote animation according to the Animation Clip parameter until it is called to stop. Note: This function will only work if an AI is not in active combat mode.
+```c#
 EventsManager.StopLoopEmoteAnimation(int EmoteAnimationID)
+```
 
-//Manually sets the AI's next Idle animation instead of being generated randomly. This is useful for functionality such as playing a particular idle animation at a certain location such as for an AI's schedule. Note: The animation numbers are from 1 to 3 and must exist in your AI's Idle Animation list. You must call DisableOverrideIdleAnimation() to have idle animations randomly generate again and to disable this feature.
+### OverrideIdleAnimation
+Manually sets the AI's next Idle animation instead of being generated randomly. This is useful for functionality such as playing a particular idle animation at a certain location such as for an AI's schedule. Note: The animation numbers are from 1 to 3 and must exist in your AI's Idle Animation list. You must call DisableOverrideIdleAnimation() to have idle animations randomly generate again and to disable this feature.
+```c#
 EventsManager.OverrideIdleAnimation(int IdleIndex)
+```
 
-//Disables the OverrideIdleAnimation feature.
+### DisableOverrideIdleAnimation
+Disables the OverrideIdleAnimation feature.
+```c#
 EventsManager.DisableOverrideIdleAnimation()
+```
 
+## Utility API
 
-Utility API
-//Updates the AI's Health Bar color
+### UpdateUIHealthBarColor
+Updates the AI's Health Bar color
+```c#
 EventsManager.UpdateUIHealthBarColor(Color NewColor)
+```
 
-//Updates the AI's Health Bar Background color
+### UpdateUIHealthBarBackgroundColor
+Updates the AI's Health Bar Background color
+```c#
 EventsManager.UpdateUIHealthBarBackgroundColor(Color NewColor)
+```
 
-//Updates the AI's Name color
+### UpdateUINameColor
+Updates the AI's Name color
+```c#
 EventsManager.UpdateUINameColor(Color NewColor)
+```
 
-//Updates the AI's Name text
+### UpdateUINameText
+Updates the AI's Name text
+```c#
 EventsManager.UpdateUINameText(string NewName)
+```
