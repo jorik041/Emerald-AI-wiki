@@ -56,7 +56,7 @@ public class AccessEmeraldAIExample : MonoBehaviour
 &emsp;
 
 # Emerald AI Events Manager API
-Here's all of the usable Emerald AI Events Manager API.
+Here's all of the usable Emerald AI Events Manager API. Some of these can be used as Animation Events, such as playing an attack sound or playing footstep sounds.
 
 # General API
 ### KillAI
@@ -258,7 +258,7 @@ EventsManager.PlaySoundEffect(int SoundEffectID)
 
 &emsp;
 
-## Items & Effect API
+# Items & Effect API
 
 ### EnableItem
 Enables an item from your AI's Item list using the Item ID.
@@ -316,7 +316,7 @@ EventsManager.CreateDroppableWeapon()
 
 &emsp;
 
-## Animation API
+# Animation API
 ### PlayEmoteAnimation
 Plays an emote animation according to the Animation Clip parameter. Note: This function will only work if an AI is not in active combat mode.
 ```c#
@@ -349,7 +349,7 @@ EventsManager.DisableOverrideIdleAnimation()
 
 &emsp;
 
-## Utility API
+# Utility API
 ### UpdateUIHealthBarColor
 Updates the AI's Health Bar color
 ```c#
