@@ -19,18 +19,20 @@ If you’d like to create your own waypoint system for your AI, you can do so by
 
 <img src="https://i.imgur.com/0F86qQN.png" width="50%">
 
-Pressing the Add Waypoint button will create your AI’s first waypoint. You must have at least 2 waypoints for your AI to move between. Waypoints are only visible while the Waypoint Editor tab is active for each AI. Multi-Object Editing is not available for the Waypoints tab.
-
-![](https://i.imgur.com/5TkalOt.png)
-
-Each time that you press the Add Waypoint button, a new waypoint will be created. Each newly waypoint will be positioned 1 unit on the Z axis to avoid being placed in the same position as the previous waypoint. This also makes it easier for customizing your AI’s route. The blue line you see that goes from your AI to your first waypoint indicates the AI’s direction to the first point. You have the option to loop your waypoints, which will allow your AI to continue to loop through the waypoints after it has reached the end, or Reverse, which will have your AI walk the same path but in the opposite direction.   
-There is no cap on waypoints that can be created. When you test your scene, your AI will immediately start following its waypoint, given that it is currently in an active state. 
+Pressing the Add Waypoint button initially will create your AI’s first waypoint. After this, each time you press the Add Waypoint button, an additional waypoint will be created. Each newly waypoint will be positioned 1 unit on the Z axis to avoid being placed in the same position as the previous waypoint. This also makes it easier for customizing your AI’s route. The blue line you see that goes from your AI to your first waypoint indicates the AI’s direction to the first point. You must have at least 2 waypoints for your AI to move between. Waypoints are only visible while the Waypoint Editor tab is active for each AI. Multi-Object Editing is not available for the Waypoints tab. There is no cap on waypoints that can be created. When you test your scene, your AI will immediately start following its waypoint, given that it is currently in an active state. 
 
 ![](https://i.imgur.com/C9P3igX.gif)
 
 If you happen to make a mistake, and need to remove a waypoint that’s located in the middle of 15 points, you can remove that specific waypoint and Emerald will resize itself so you don’t have to start over. If you’d like to completely start over, you also have the option to clear all your waypoints. This can be done by pressing the “Clear All Waypoints” button. Keep in mind that both of these processes cannot be undone.
 
 ![](https://i.imgur.com/SXAnCKJ.gif)
+
+There are three Waypoint Types which determines how your AI will move through the waypoints.
+| Waypoint Type  | Description |
+| ------------- | ------------- |
+| Loop  | When an AI reaches its last waypoint, it will set the first waypoint as its next waypoint thus creating a loop.  |
+| Reverse  | When an AI reaches its last waypoint, it will reverse the AI's waypoints making the last waypoint its first. This allows AI to patorl back and forth through narrow or one way areas.  |
+| Random  | This allows an AI to patrol randomly through all waypoints. An AI will idle each time it reaches a waypoint for as long as its wait time seconds are set.  |  
 
 
 ## Setting Up an AI Destination
