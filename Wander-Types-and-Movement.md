@@ -1,5 +1,5 @@
 # Wander Types and Movement
-This section is somewhat extensive and so it's covered in two sections. The first section gives a basic explanation of what each wander type does. The second section will explain in detail how to implement each Wander Type.
+This section is somewhat extensive and so it's covered in two sections. The first section gives a basic explanation of what each wander type does. The second section will explain in detail how to implement each Wander Type. An AI's Wander Type can be found within the Temperament tab.
 
 Table of Content
 * 1
