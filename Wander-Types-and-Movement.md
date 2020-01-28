@@ -23,7 +23,7 @@ The Dynamic Wander Type does a lot of the work for you. It randomly generates a 
 
 ![](https://i.imgur.com/ArREX20.png)
 
-<img src="https://i.imgur.com/16c8Y2S.png" width="58%">
+<img src="https://i.imgur.com/16c8Y2S.png" width="59%">
 
 ## Dynamic - Wander Type
 The Dynamic Wander Type allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius. If an AI attacks and kills a target when using this Wander Type, it will return to the starting stationary destination.
