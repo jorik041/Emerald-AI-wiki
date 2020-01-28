@@ -4,7 +4,6 @@
    * [Baking NavMesh]
    * [Creating a New AI]
 * [Behaviors and Confidence Levels]
-* [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Emerald AI API]
 
