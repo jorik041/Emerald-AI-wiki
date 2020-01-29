@@ -21,7 +21,7 @@ The Player Relation determines how an AI reacts to players. This relations uses 
 | Relation  | Description |
 | ------------- | ------------- |
 | Enemy  | An AI with an Enemy relation to the player will be considered a threat and the AI will react according to its Behavior Type.  |
-| Neutral  | An AI with a Neutral relation to the player will not be attacked by the AI and will be considered passive.  |
+| Neutral  | An AI with a Neutral relation to the player will not be attacked by the AI and will be considered passive. However, if the AI is attacked by the player, it will attack or flee from the player depending on its Behavior Type.  |
 | Friendly  | An AI with a Friendly relation to the player will be considered friendly. This relation can be used for custom mechanics such as quest offers, special dialogue, or items. See the Emerald API section for code examples.  |
 
 ![](https://i.imgur.com/r02SypV.png)
