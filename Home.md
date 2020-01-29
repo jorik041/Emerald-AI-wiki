@@ -6,16 +6,6 @@ Emerald AI allows developers to quickly create engaging dynamic AI with 100's of
 
 Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.unity.com/linkmaker/embed/package/40199/widget?aid=1101l3nnr)
 
-## Table of Content
-* [Home]
-* [Getting Started]
-   * [Baking NavMesh]
-   * [Creating a New AI]
-* [Behaviors and Confidence Levels]
-* [Wander Types and Movement]
-* [Using Factions and Faction Manager]
-* [Emerald AI API]
-
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
 [Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
 [Creating a New AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-New-AI
@@ -94,3 +84,13 @@ Well documented code with tons of API for advanced users. Emerald includes 12 ex
 
 ## Animations
 Emerald supports 98 animations an AI can use, allows users to change an AI's animations right from within the editor, and will automatically create and update an AI's Animator Controller. Each animation has its own animation speed control. Emerald's Animation Events allow for perfectly timed attacks and added functionality.
+
+## Table of Content
+* [Home]
+* [Getting Started]
+   * [Baking NavMesh]
+   * [Creating a New AI]
+* [Behaviors and Confidence Levels]
+* [Wander Types and Movement]
+* [Using Factions and Faction Manager]
+* [Emerald AI API]
