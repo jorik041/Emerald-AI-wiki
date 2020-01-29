@@ -7,12 +7,16 @@ Emerald AI allows developers to quickly create engaging dynamic AI with 100's of
 Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.unity.com/linkmaker/embed/package/40199/widget?aid=1101l3nnr)
 
 ## Table of Content
+* [Home]
 * [Getting Started]
    * [Baking NavMesh]
    * [Creating a New AI]
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
+* [Creating an AI Ability Object]
+* [Detection Settings]
+* [Emerald AI Animation Events]
 * [Emerald AI API]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
@@ -23,6 +27,9 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Wander Types and Movement]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Wander-Types-and-Movement
 [Emerald AI API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
+[Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
+[Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
+[Detection Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Settings
 
 # Emerald AI Features
 Create Any AI
