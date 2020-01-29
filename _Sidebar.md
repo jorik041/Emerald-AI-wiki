@@ -7,7 +7,7 @@
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Creating an AI Ability Object]
-* [Emerald Animation Events]
+* [Emerald AI Animation Events]
 * [Emerald AI API]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
