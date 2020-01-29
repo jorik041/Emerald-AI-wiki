@@ -21,8 +21,8 @@ An AI's Faction Relations determines an AI's relation to each faction you assign
 | Relation  | Description |
 | ------------- | ------------- |
 | Enemy  | An AI with an Enemy relation to the player will be considered a threat and the AI will react according to its Behavior Type.  |
-| Neutral  | An AI with an Neutral relation to the player will not be attacked by the AI and will be considered passive.  |
-| Friendly  | An AI with an Friendly relation to the player will be considered friendly. This relation can be used for custom mechanics such as quest offers, special dialogue, or items. See the Emerald API section for code examples.  |
+| Neutral  | An AI with a Neutral relation to the player will not be attacked by the AI and will be considered passive.  |
+| Friendly  | An AI with a Friendly relation to the player will be considered friendly. This relation can be used for custom mechanics such as quest offers, special dialogue, or items. See the Emerald API section for code examples.  |
 
 ![](https://i.imgur.com/r02SypV.png)
 
