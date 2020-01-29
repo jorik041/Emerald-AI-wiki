@@ -16,7 +16,7 @@ Each AI can be assigned a Faction based off of the list of available factions cr
 
 ## Setting up Faction Relations
 ### Player Relation
-An AI's Faction Relations determines an AI's relation to each faction you assign within this list. Not all faction have to be assigned. AI who do not have an assigned faction will simply ignored as if they were natural, even if the target is aggressive.
+The Player Relation determines how an AI reacts to players. This relations uses a Unity Tag and not the Faction Manager names.
 
 | Relation  | Description |
 | ------------- | ------------- |
