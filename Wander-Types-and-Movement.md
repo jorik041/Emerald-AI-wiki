@@ -44,9 +44,11 @@ The Stationary Wander Type allows an AI to stay stationary in the same position 
 
 &nbsp;
 
-## Waypoints - Wander Type and Creating Waypoints
+## Waypoints - Wander Type
 Waypoints allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 
+### Creating Waypoints
+Please refer to the guide below for creating a series of waypoints for your AI to follow. This guide assumes that you have already gone through the setup process of creating an AI and applying the needed animations.
 ### Part 1
 If you’d like to create your own waypoint system for your AI, you can do so by going to the Waypoint Editor tab located in the Emerald Editor. By default, the Wander Type is set to Dynamic (which randomly generates waypoints). When you open the Waypoint Editor tab, you will see a button to enable waypoints. Once you’ve done this, you will see the waypoint options appear. You can now create a waypoint by pressing the “Add Waypoint” button.
 
