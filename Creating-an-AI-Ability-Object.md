@@ -44,7 +44,7 @@ Abilities are automatically calculated to maximize an AI’s chance at survival.
 &nbsp;
 
 ## Support Abilities
-![](https://i.imgur.com/jjWSlNA.gif)
+![](https://i.imgur.com/xG4XZl4.gif)
 
 Support Abilities are abilities that allow the AI to heal them self if their healing threshold is met. Healing can happen instantly or over time. Support abilities outside of healing will come with future updates.
 
