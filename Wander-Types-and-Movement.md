@@ -42,7 +42,7 @@ The Stationary Wander Type allows an AI to stay stationary in the same position 
 
 &nbsp;
 
-## Waypoints - Wander Type
+## Waypoints - Wander Type and Creating Waypoints
 Waypoints allow you to create a series of destinations for your AI to move between. AI that are using waypoints will still react to targets according to their Behavior Type. Once a target has been killed, or successfully fled, the AI will resume moving between its waypoints.
 
 ### Part 1
