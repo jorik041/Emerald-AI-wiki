@@ -1,11 +1,13 @@
-.markdown-preview.markdown-preview {
- &, h4, h5, h6 {
-   font-size: font-size;
-  }
+h4 {
+  font-size: 2px;
+}
 
-  h1 { font-size: font-size; }
-  h2 { font-size: font-size; }
-  h3 { font-size: font-size; }
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 14px;
 }
 
 ![](https://i.imgur.com/c3Snnsb.png)
