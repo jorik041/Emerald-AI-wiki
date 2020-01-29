@@ -52,8 +52,6 @@ Each AI has its own Interact Sounds list located in the General Sounds tab. Thes
 
 ![](https://i.imgur.com/nmNktJO.png)
 
-&nbsp;
-
 These sounds can be useful for playing sounds on certain animation. Because they use Animation Events, you can pick the exact frame that they happen and it doesn’t require any additional coding.
 To play a sound using an Animation Event, find the frame you would like a sound to play and create an Animation Event then use the Function PlaySoundEfffect. In the Int portion of this, use the Sound ID to specify which sound will be played. In this example, we’re using 7, which is the Drink sound from the image above. This helps with the believability of animations.
 
