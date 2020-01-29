@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/c3Snnsb.png)
 # Creating an AI Ability Object
-Ability Objects are customizable objects that can be used to create anything from spells, arrows for bows, bullets for guns, evening healing and summoning other AI. This guide will cover each category of Ability Objects; Offensive Abilities, Support Abilities, and Summoning Abilities. 
+##### Ability Objects are customizable objects that can be used to create anything from spells, arrows for bows, bullets for guns, evening healing and summoning other AI. This guide will cover each category of Ability Objects; Offensive Abilities, Support Abilities, and Summoning Abilities. 
 Note: If you have not already done so, it is recommended that you setup your Ranged Combat first with the guide. Attack animations need an Animation Event in order for abilities and attacks to be triggered: Setting up Ranged Combat 
 To create an Ability Object, right click in the desired folder within the Project tab. Go to Emerald AI>Create>Ability Object. This will create a brand new ability for you to customize. Be sure to give it a name other than New Ability Object.
 ![](https://i.imgur.com/LPFq3TZ.gif)
