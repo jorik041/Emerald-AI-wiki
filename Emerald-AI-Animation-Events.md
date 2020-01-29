@@ -12,6 +12,9 @@ This section will be broken down into multiple sections.
 ## Melee Damage Animation Events
 A video tutorial for creating Attack Animation Events can be below. When creating an Animation Event, you will need to use the SendEmeraldDamage function name. If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=s_lLt0xUrF8
+" target="_blank"><img src="http://img.youtube.com/vi/s_lLt0xUrF8/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 
 
