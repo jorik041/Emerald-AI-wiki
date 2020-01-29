@@ -9,22 +9,14 @@ Animation Events allow for tons of added functionality to Emerald AI. This allow
 This section will be broken down into multiple sections.
 
 
-## Melee Damage Animation Events
-A video tutorial for creating Attack Animation Events can be below. When creating an Animation Event, you will need to use the SendEmeraldDamage function name. If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
+## Melee and Range Damage Animation Events
+A video tutorial for creating Melee Attack and Ranged Attack Animation Events can be below. When creating an Animation Event, you will need to use the EmeraldAttackEvent function name (Note: The tutorial video uses an outdated function name so use EmeraldAttackEvent instead). If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=s_lLt0xUrF8
 " target="_blank"><img src="http://img.youtube.com/vi/s_lLt0xUrF8/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
-
-
-
-
-
-## Ranged Damage Animation Events
-A video tutorial for creating Attack Animation Events can be below. When creating an Animation Event, you will need to use the CreateEmeraldProjectile function name. If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
-
-
+ 
 
 ## Walk and Run Sound Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
