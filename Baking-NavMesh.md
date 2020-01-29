@@ -4,7 +4,7 @@ In order for your AI to be able to navigate through a scene, they need to have U
 ## Part 1
 Every object you want to be included within the NavMesh baking must be marked as static, this includes your terrain. Marking an object as static can be found by going to the object within the inspector and checking the Static checkbox.
 
-![](https://i.imgur.com/2s50Cpb.png)
+![](https://i.imgur.com/z9Yy8zv.png)
 
 ## Part 2
 When you have marked all desired all objects as static, you can open up the Navigation tab. This should be to the right of the Inspector tab. However, if it's missing, you can find it at Window > AI > Navigation.
