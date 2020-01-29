@@ -27,7 +27,7 @@ An AI's Faction Relations determines an AI's relation to each faction you assign
 ![](https://i.imgur.com/r02SypV.png)
 
 
-### AI Relations
+### AI Faction Relations
 An AI's Faction Relations determines an AI's relation to each faction you assign within this list. Not all faction have to be assigned. AI who do not have an assigned faction will simply ignored as if they were natural, even if the target is aggressive.
 
 | Relation  | Description |
