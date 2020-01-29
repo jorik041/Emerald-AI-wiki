@@ -44,16 +44,23 @@ Abilities are automatically calculated to maximize an AI’s chance at survival.
 &nbsp;
 
 ## Support Abilities
+![](https://i.imgur.com/LGcaFAr.gif)
 Support Abilities are abilities that allow the AI to heal them self if their healing threshold is met. Healing can happen instantly or over time. Support abilities outside of healing will come with future updates.
 ### Part 1 
 After you have created an Ability Object, ensure that the Ability Type is set to Support. Customize the Ability Name, Description, and Icon as needed.
 
+![](https://i.imgur.com/LGcaFAr.gif)
+
 ### Part 2
 Now go to the Ability Settings tab. Here, you will be able to customize all of the Ability’s settings such as healing amount and if the cooldown length. Support Abilities also have an option to allow the ability to heal over time, if desired.
+
+![](https://i.imgur.com/LGcaFAr.gif)
 
 ### Part 3
 The Ability Effects & Sounds tab covers all effects and sounds that the ability will use. The only required effect is the Ability Effect as this will be the visual effect that is played when the AI heals. 
 Note: You will need to ensure that your Ability Effect doesn’t have any other components on it that can interfere with the AI’s detection process. This includes colliders and Rigidbody components.
+
+![](https://i.imgur.com/LGcaFAr.gif)
 
 ### Part 4
 Once you are finished customizing your ability, you will need to add it to your AI. Remember that abilities can be shared between AI. To get to the AI’s Ability Lists section, go to AI’s Settings>Combat tab. 
@@ -62,22 +69,35 @@ Once you’ve navigated to the Abilities section, add your Support Ability Objec
 
 The Support Animation is based off of your AI’s Ranged Attack Animation list. This allows you to choose which animation is used for each category of abilities. If you get an error stating there are no ranged attack animations, you will need to create an Animator Controller for your AI and/or apply the AI’s Ranged Attack Animations. If your AI only has one ranged attack animation, that’s okay. You can just use the same animation for each of the 3 categories. Lastly, only one category is required so all 3 do not have to be used.
 
+(Image Needed)
+
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
+
+(Image Needed)
 
 &nbsp;
 
 ## Summoning Abilities
+![](https://i.imgur.com/LGcaFAr.gif)
 Summoning Abilities are abilities that allow the AI to heal them self if their healing threshold is met. Healing can happen instantly or over time. Support abilities outside of healing will come with future updates.
+
 ### Part 1 
 After you have created an Ability Object, ensure that the Ability Type is set to Summoning. Customize the Ability Name, Description, and Icon as needed.
+
+![](https://i.imgur.com/LGcaFAr.gif)
 
 ### Part 2
 Now go to the Ability Settings tab. Here, you will be able to customize all of the Ability’s settings such as the Summon Radius and Summon Length. If you do not want a summon length, you can set the value to an unreachable value.
 
+![](https://i.imgur.com/LGcaFAr.gif)
+
 ### Part 3
 The Ability Effects & Sounds tab covers all effects and sounds that the ability will use. The only required effects are the Ability Effect and the Summon Object. The Summon Object must be a properly setup Emerald AI agent. Be sure to test the summoning object prior to applying it as a Summonable Object. 
-Note: You will need to ensure that your Ability Effect doesn’t have any other components on it that can interfere with the AI’s detection process. This includes colliders and Rigidbody components.
+
+**Note:** You will need to ensure that your Ability Effect doesn’t have any other components on it that can interfere with the AI’s detection process. This includes colliders and Rigidbody components.
+
+![](https://i.imgur.com/LGcaFAr.gif)
 
 ### Part 4
 Once you are finished customizing your ability, you will need to add it to your AI. Remember that abilities can be shared between AI. To get to the AI’s Ability Lists section, go to AI’s Settings>Combat tab. 
@@ -85,5 +105,10 @@ Once you are finished customizing your ability, you will need to add it to your 
 Once you’ve navigated to the Abilities section, add your Summon Ability Object to the Summon Ability list. Be sure to properly organize your abilities so you don’t mistakenly add them to the wrong categories. 
 
 The Summon Animation is based off of your AI’s Ranged Attack Animation list. This allows you to choose which animation is used for each category of abilities. If you get an error stating there are no ranged attack animations, you will need to create an Animator Controller for your AI and/or apply the AI’s Ranged Attack Animations. If your AI only has one ranged attack animation, that’s okay. You can just use the same animation for each of the 3 categories. Lastly, only one category is required so all 3 do not have to be used.
+
+(Image Needed)
+
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
+
+(Image Needed)
