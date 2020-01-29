@@ -9,7 +9,7 @@ Animation Events allow for tons of added functionality to Emerald AI. This allow
 This section will be broken down into multiple sections.
 
 
-Melee Damage Animation Events
+## Melee Damage Animation Events
 A video tutorial for creating Attack Animation Events can be below. When creating an Animation Event, you will need to use the SendEmeraldDamage function name. If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
 
 
@@ -18,37 +18,37 @@ A video tutorial for creating Attack Animation Events can be below. When creatin
 
 
 
-Ranged Damage Animation Events
+## Ranged Damage Animation Events
 A video tutorial for creating Attack Animation Events can be below. When creating an Animation Event, you will need to use the CreateEmeraldProjectile function name. If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
 
 
 
-Walk and Run Sound Animation Events
+## Walk and Run Sound Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Footstep sound Animation Events are covered here: Footstep Sounds Tutorial
 
 
-Warning Sound Animation Events
+## Warning Sound Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Warning Sounds can be played by finding the moment you want a warning sound to play on a taunt/warning animation and creating an PlayWarningSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. A Warning Sound is picked randomly based off of your AI’s Warning Sounds list.
 
 
 
 
-Attack Sound Animation Events
+## Attack Sound Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Attack Sounds can be played by finding the moment you want an attack sound to play and creating an PlayAttackSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. An Attack Sound is picked randomly based off of your AI’s Attack Sounds list.
  
 
 
-Death Sound Animation Events (Animation Death Only)
+## Death Sound Animation Events (Animation Death Only)
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Death Sounds can be played by finding the moment you want a death sound to play on a death animation and creating an PlayDeathSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. A Death Sound is picked randomly based off of your AI’s Death Sounds list. If you are using Ragdoll deaths, these are played automatically when the AI dies.
 
 
 
 
-Play Sound ID Animation Events
+## Play Sound ID Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Each AI has its own Interact Sounds list located in the General Sounds tab. These allow users to have a list of sounds each with an ID that can be played programmatically or through Animation Events using said ID. These are especially useful for Emote animations.
 
@@ -57,7 +57,7 @@ To play a sound using an Animation Event, find the frame you would like a sound 
 
 
 
-Enable and Disable Interactive Items with Animation Events
+## Enable and Disable Interactive Items with Animation Events
 Please familiarize yourself with how Animation Events with this Unity Guide before creating Animation Events, if you are unfamiliar with the process. https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html
 Each AI has its own Items list that can be customized to be used for things such as quests and interactive animations. The Items List can be found under AI’s Settings>Items tab. These allow users to have a list of items each with an ID that can be played programmatically or through Animation Events using said ID. These are especially useful for Emote animations to allow items to be enabled and disabled for an animation such as a cup for drinking water or an item for an AI’s work animation. Note: Typically, you will want the item attached to your AI. In this example, the bucket is attached to the AI’s left hand.
 
