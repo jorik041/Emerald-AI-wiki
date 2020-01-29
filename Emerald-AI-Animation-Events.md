@@ -6,6 +6,7 @@ Animation Events allow for tons of added functionality to Emerald AI. This allow
 1) https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html 
 2) https://docs.unity3d.com/540/Documentation/Manual/animeditor-AnimationEvents.html
 
+&nbsp;
 
 ## Melee and Range Damage Animation Events
 A video tutorial for creating Melee Attack and Ranged Attack Animation Events can be below. When creating an Animation Event, you will need to use the EmeraldAttackEvent function name (Note: The tutorial video uses an outdated function name so use EmeraldAttackEvent instead). If you do not create said Animation Event, you will receive an error telling you which Animation Event is needed.
@@ -14,6 +15,8 @@ A video tutorial for creating Melee Attack and Ranged Attack Animation Events ca
 " target="_blank"><img src="http://img.youtube.com/vi/s_lLt0xUrF8/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+&nbsp;
+
 ## Walk and Run Sound Animation Events
 Footstep sound Animation Events are covered with the YouTube tutorial below.
 
@@ -21,32 +24,42 @@ Footstep sound Animation Events are covered with the YouTube tutorial below.
 " target="_blank"><img src="http://img.youtube.com/vi/pL5Z-f8COcY/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
+&nbsp;
 
 ## Warning Sound Animation Events
 Warning Sounds can be played by finding the moment you want a warning sound to play on a taunt/warning animation and creating an PlayWarningSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. A Warning Sound is picked randomly based off of your AI’s Warning Sounds list.
 
 ![](https://i.imgur.com/x5ttknT.png)
 
+&nbsp;
 
 ## Attack Sound Animation Events
 Attack Sounds can be played by finding the moment you want an attack sound to play and creating an PlayAttackSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. An Attack Sound is picked randomly based off of your AI’s Attack Sounds list.
  
 ![](https://i.imgur.com/VxaINQo.png)
 
+&nbsp;
+
 ## Death Sound Animation Events (Animation Death Only)
 Death Sounds can be played by finding the moment you want a death sound to play on a death animation and creating an PlayDeathSound Animation Event. Animation Events allow the sound to play consistently and exactly when needed. A Death Sound is picked randomly based off of your AI’s Death Sounds list. If you are using Ragdoll deaths, these are played automatically when the AI dies.
 
 ![](https://i.imgur.com/nNDw9Sx.png)
+
+&nbsp;
 
 ## Play Sound ID Animation Events
 Each AI has its own Interact Sounds list located in the General Sounds tab. These allow users to have a list of sounds each with an ID that can be played programmatically or through Animation Events using said ID. These are especially useful for Emote animations.
 
 ![](https://i.imgur.com/nmNktJO.png)
 
+&nbsp;
+
 These sounds can be useful for playing sounds on certain animation. Because they use Animation Events, you can pick the exact frame that they happen and it doesn’t require any additional coding.
 To play a sound using an Animation Event, find the frame you would like a sound to play and create an Animation Event then use the Function PlaySoundEfffect. In the Int portion of this, use the Sound ID to specify which sound will be played. In this example, we’re using 7, which is the Drink sound from the image above. This helps with the believability of animations.
 
 ![](https://i.imgur.com/g21doIq.png)
+
+&nbsp;
 
 ## Enable and Disable Interactive Items with Animation Events
 Each AI has its own Items list that can be customized to be used for things such as quests and interactive animations. The Items List can be found under AI’s Settings>Items tab. These allow users to have a list of items each with an ID that can be played programmatically or through Animation Events using said ID. These are especially useful for Emote animations to allow items to be enabled and disabled for an animation such as a cup for drinking water or an item for an AI’s work animation. Note: Typically, you will want the item attached to your AI. In this example, the bucket is attached to the AI’s left hand.
