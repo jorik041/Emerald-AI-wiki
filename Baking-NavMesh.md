@@ -2,9 +2,7 @@
 In order for your AI to be able to navigate through a scene, they need to have Unity’s Nav Mesh system baked to it. Without this, you will receive an error in the Unity Console. If you need a detailed guide on how to do this, one can be found here: [Baking your Scene with Unity's NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html). If you just need a basic rundown, and you're relatively familiar with Unity, you can refer to the following guide below. 
 
 ## Part 1
-Every object you want to be included within the NavMesh baking must be marked as static, this includes your terrain. Marking an object as static can be found by going to the object within the inspector and checking the Static checkbox.
-
-* If your object has children, you will be asked if you would like to mark all children as Static.  
+Every object you want to be included within the NavMesh baking must be marked as static, this includes your terrain. Marking an object as static can be found by going to the object within the inspector and checking the Static checkbox. If your object has children, you will be asked if you would like to mark all children as Static.
 
 ![](https://i.imgur.com/z9Yy8zv.png)
 
