@@ -1,4 +1,12 @@
-.markdown-preview.markdown-preview { p, ul, ol {font-size: 1.2em;} }
+.markdown-preview.markdown-preview {
+ &, h4, h5, h6 {
+   font-size: font-size;
+  }
+
+  h1 { font-size: font-size; }
+  h2 { font-size: font-size; }
+  h3 { font-size: font-size; }
+}
 
 ![](https://i.imgur.com/c3Snnsb.png)
 # Creating an AI Ability Object
