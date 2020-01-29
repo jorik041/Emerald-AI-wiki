@@ -19,4 +19,4 @@
 [Emerald AI API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
-[Emerald Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
+[Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
