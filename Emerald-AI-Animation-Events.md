@@ -2,7 +2,9 @@
 Animation Events allow you to call script functions at a particular frame within an Animation. Emerald AI has tons of API that can be called for added functionality.
 
 ## Creating Emerald AI Animation Events 
-Animation Events allow for tons of added functionality to Emerald AI. This allows certain events or actions to be played at the exact frame they're needed, such as an attack animation hitting its target. Please familiarize yourself with how Animation Events with these Unity Guides before creating Animation Events, if you are unfamiliar with the process: 1) https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html 2) https://docs.unity3d.com/540/Documentation/Manual/animeditor-AnimationEvents.html
+Animation Events allow for tons of added functionality to Emerald AI. This allows certain events or actions to be played at the exact frame they're needed, such as an attack animation hitting its target. Please familiarize yourself with how Animation Events with these Unity Guides before creating Animation Events, if you are unfamiliar with the process: 
+1) https://docs.unity3d.com/Manual/AnimationEventsOnImportedClips.html 
+2) https://docs.unity3d.com/540/Documentation/Manual/animeditor-AnimationEvents.html
 
 This section will be broken down into multiple sections.
 
