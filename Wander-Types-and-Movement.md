@@ -38,7 +38,9 @@ The Dynamic Wander Type does a lot of the work for you. It randomly generates a 
 &nbsp;
 
 ## Stationary - Wander Type
-The Stationary Wander Type allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius. If an AI attacks and kills a target when using this Wander Type, it will return to the starting stationary destination.
+The Stationary Wander Type allows an AI to stay stationary in the same position and will not move unless a target enters their trigger radius. If an AI attacks and kills a target when using this Wander Type, it will return to the starting stationary destination. Stationary AI will randomly pick an idle animation every Idle Second. An Idle Second is based off of the Min and Max Animation Idle second within the Wander Type tab. An idle animation is randomly picked from an AI's Idle Animation List, which is located within the Animation > Idle tab.
+
+![](https://i.imgur.com/2s0yBGP.png)
 
 &nbsp;
 
