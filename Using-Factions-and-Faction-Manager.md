@@ -20,9 +20,9 @@ An AI's Faction Relations determines an AI's relation to each faction you assign
 
 | Relation  | Description |
 | ------------- | ------------- |
-| Enemy  | Any AI this a relation of Enemy will be considered a threat and the AI will react according to its Behavior Type.  |
-| Neutral  | Any AI this a relation of Neutral will be simply be ignored. This relation can be helpful to for quests or custom mechanics.  |
-| Friendly  | Any AI this a relation of Friendly will be ignored, but can have special conditions such as leading to new information or quests.  |
+| Enemy  | A player with an Enemy relation will be considered a threat and the AI will react according to its Behavior Type.  |
+| Neutral  | A player with an Neutral relation will not be attacked by the AI and will be considered passive.  |
+| Friendly  | A player with an Friendly relation will not be attacked by the AI and will be considered friendly. This relation can be used for custom mechanics such as quest offers, special dialogue, or items. See the Emerald API section for code examples.  |
 
 ![](https://i.imgur.com/QzKefU3.png)
 
@@ -32,8 +32,8 @@ An AI's Faction Relations determines an AI's relation to each faction you assign
 
 | Relation  | Description |
 | ------------- | ------------- |
-| Enemy  | Any AI this a relation of Enemy will be considered a threat and the AI will react according to its Behavior Type.  |
-| Neutral  | Any AI this a relation of Neutral will be simply be ignored. This relation can be helpful to for quests or custom mechanics.  |
-| Friendly  | Any AI this a relation of Friendly will be ignored, but can have special conditions such as leading to new information or quests.  |
+| Enemy  | Any AI with a relation of Enemy will be considered a threat and the AI will react according to its Behavior Type.  |
+| Neutral  | Any AI with a relation of Neutral will be simply be ignored. This relation can be helpful to for quests or custom mechanics.  |
+| Friendly  | Any AI with a relation of Friendly will be ignored, but can have special conditions such as leading to new information or quests.  |
 
 ![](https://i.imgur.com/QzKefU3.png)
