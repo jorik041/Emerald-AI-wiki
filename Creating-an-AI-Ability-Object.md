@@ -1,3 +1,5 @@
+.markdown-preview.markdown-preview { p, ul, ol {font-size: 1.2em;} }
+
 ![](https://i.imgur.com/c3Snnsb.png)
 # Creating an AI Ability Object
 Ability Objects are customizable objects that can be used to create anything from spells, arrows for bows, bullets for guns, evening healing and summoning other AI. This guide will cover each category of Ability Objects; Offensive Abilities, Support Abilities, and Summoning Abilities. 
