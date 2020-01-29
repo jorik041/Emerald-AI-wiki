@@ -15,6 +15,19 @@ Each AI can be assigned a Faction based off of the list of available factions cr
 &nbsp;
 
 ## Setting up Faction Relations
+### Player Relation
+An AI's Faction Relations determines an AI's relation to each faction you assign within this list. Not all faction have to be assigned. AI who do not have an assigned faction will simply ignored as if they were natural, even if the target is aggressive.
+
+| Relation  | Description |
+| ------------- | ------------- |
+| Enemy  | Any AI this a relation of Enemy will be considered a threat and the AI will react according to its Behavior Type.  |
+| Neutral  | Any AI this a relation of Neutral will be simply be ignored. This relation can be helpful to for quests or custom mechanics.  |
+| Friendly  | Any AI this a relation of Friendly will be ignored, but can have special conditions such as leading to new information or quests.  |
+
+![](https://i.imgur.com/QzKefU3.png)
+
+
+### AI Relations
 An AI's Faction Relations determines an AI's relation to each faction you assign within this list. Not all faction have to be assigned. AI who do not have an assigned faction will simply ignored as if they were natural, even if the target is aggressive.
 
 | Relation  | Description |
