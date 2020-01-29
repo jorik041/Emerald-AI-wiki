@@ -6,6 +6,7 @@
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
+* [Creating an AI Ability Object]
 * [Emerald AI API]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
@@ -16,3 +17,4 @@
 [Wander Types and Movement]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Wander-Types-and-Movement
 [Emerald AI API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
+[Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
