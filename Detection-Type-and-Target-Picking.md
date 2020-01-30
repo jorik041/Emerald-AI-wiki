@@ -1,10 +1,19 @@
 # Detection Type
 An AI’s Detection Type determines how it detects its targets when an AI is within their Detection Radius. Emerald AI features two Detection Type; Trigger and Line of Sight.
+![](https://i.imgur.com/pT1YBmh.png)
 
 ## Trigger
-
+The Trigger Detection Type allows an AI to detect any target within an AI's Detection Radius, even if the target is obstructed by another object.
+![](https://i.imgur.com/fnHdHjB.png)
 
 ## Line of Sight
+The Line of Sight Detection Type makes it possible for AI to “see” allowing them to only target objects that they can detect within their Field of View. This works by casting a raycast according to an AI’s Field of View angle. Any object that’s greater than an AI’s Line of Sight will not be visible and anything that’s within it is visible to the AI. This method also allows targets to hide behind objects which obstructs an AI's line of sight.
+
+### A Target within an AI's Line of Sight
+![](https://i.imgur.com/UQgLnnu.png)
+
+### A Target outside of an AI's Line of Sight
+![](https://i.imgur.com/5tPvJa2.png)
 
 
 # Target Picking Method
