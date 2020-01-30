@@ -5,7 +5,7 @@ In order for Emerald AI to work correctly, your scenes must be baked with Unityâ
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=v_IYrqBLkAE
 " target="_blank"><img src="http://img.youtube.com/vi/v_IYrqBLkAE/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="420" height="280" border="10" /></a>
+alt="IMAGE ALT TEXT HERE" width="400" height="280" border="10" /></a>
 
 ## WeaponBehavior Code Snippet
 This code should be added within case 13 of the WeaponBehavior script above the break; line. This allows your RFPS player to deal damage with all guns and melee weapons.
