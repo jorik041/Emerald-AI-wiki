@@ -1,9 +1,10 @@
 # Emerald AI Wiki
 * [Home]
+
+### The Basics
 * [Getting Started]
    * [Baking NavMesh]
    * [Creating a New AI]
-### The Basics
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
