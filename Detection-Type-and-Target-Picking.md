@@ -1,6 +1,13 @@
-# Target Picking Method
+# Detection Type
+An AI’s Detection Type determines how it detects its targets when an AI is within their Detection Radius. Emerald AI features two Detection Type; Trigger and Line of Sight.
 
-Setting up an AI’s Target Picking Method
+## Trigger
+
+
+## Line of Sight
+
+
+# Target Picking Method
 An AI’s Target Picking Method is important to get the results you are looking for. Both options have their strengths, but it depends on the situation and playing style. The Target Picking Method can be found under the Detection Options and has two options, First Detected and Closest.
 
 <img src="https://i.imgur.com/VdGd2NQ.png" width="50%">
