@@ -10,6 +10,7 @@
 * [Detection Settings]
 * [Emerald AI Animation Events]
 * [Emerald AI API]
+## Integration Tutorials
 * [Integration Tutorials]
    * [Invector Integration]
    * [Game Kit Controller Integration]
