@@ -12,6 +12,7 @@
 * [Emerald AI API]
 * [Integration Tutorials]
    * [Invector Integration]
+   * [Game Kit Controller Integration]
    * [UFPS Integration Tutorial]
    * [RFPS Integration]
 
@@ -30,3 +31,4 @@
 [Integration Tutorials]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
 [RFPS Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/RFPS-Integration-Tutorial
 [UFPS Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/UFPS-Integration-Tutorial
+[Game Kit Controller Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Game-Kit-Controller-Integration
