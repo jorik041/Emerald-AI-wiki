@@ -11,7 +11,7 @@ This code should be added right below the line onDamageHit.Invoke(hitInfo);
 //Emerald AI Damage
 if (hitInfo.targetCollider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>())
 {                 
-hitInfo.targetCollider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(hitInfo.attackObject.damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player, transform, 400);
+   hitInfo.targetCollider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(hitInfo.attackObject.damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player, transform, 400);
 }
 ```
 
@@ -21,7 +21,7 @@ This code should be added right below the first instance of onCastCollider.Invok
 //Emerald AI Damage
 if (hitInfo.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
 {                       
-hitInfo.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
+   hitInfo.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
 }
 ```
 
@@ -31,7 +31,7 @@ This code should be added right below the line colliders[i].gameObject.ApplyDama
 //Emerald AI Damage
 if (colliders[i].gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
 {                      
-colliders[i].gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
+   colliders[i].gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(damage.damageValue, EmeraldAI.EmeraldAISystem.TargetType.Player);
 }
 ```
 
