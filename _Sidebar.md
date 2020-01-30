@@ -5,11 +5,15 @@
 * [Getting Started]
    * [Baking NavMesh]
    * [Creating a New AI]
+
+### The Emerald AI Editor
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Creating an AI Ability Object]
 * [Detection Settings]
+
+### Advanced Functionality
 * [Emerald AI Animation Events]
 
 ### Emerald AI API
