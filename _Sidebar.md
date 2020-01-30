@@ -22,8 +22,7 @@
 
 ### Emerald AI API
 * [Emerald AI API]
-
-Emerald Event Manager API
+* [Emerald AI Events Manager API]
    * [General API]
    * [Sound API]
    * [Items and Effect API]
@@ -57,6 +56,7 @@ Emerald Event Manager API
 [Offensive Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#offensive-abilities
 [Support Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#support-abilities
 [Summoning Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#summoning-abilities
+[Emerald AI Events Manager API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#emerald-ai-events-manager-api
 [General API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#General-API
 [Destination API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#Movement--Destination-API
 [Sound API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#Sound-API
