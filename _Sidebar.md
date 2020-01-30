@@ -12,6 +12,7 @@
 * [Emerald AI API]
 * [Integration Tutorials]
    * [Invector Integration]
+   * [RFPS Integration]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
 [Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
@@ -26,3 +27,4 @@
 [Detection Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Settings
 [Invector Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Invector-Integration-Tutorial
 [Integration Tutorials]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
+[RFPS Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/RFPS-Integration-Tutorial
