@@ -47,7 +47,7 @@
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
 [Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
-[Detection Type and Target Picking]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Settings
+[Detection Type and Target Picking]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Type-and-Target-Picking
 [Invector Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Invector-Integration-Tutorial
 [Integration Tutorials]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
 [RFPS Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/RFPS-Integration-Tutorial
