@@ -1,7 +1,3 @@
-# Getting Started
-To get started with Emerald AI, it is recommended that you have the most recent version installed in your projects. Ensure that you always have a backup of your project before updating to a newer version of Emerald AI. Note: If you are updating from a previous version of Emerald AI, double check the update's Release Notes to ensure there are no special instructions. Before setting up your own AI, it is recommended that you test the example scenes as explained below.
-
-
 # Example Scenes
 One of the best ways to get started with Emerald AI is to test the examples scenes. These scenes have examples of AI that have already been setup with animations, attacks, sounds, and more. It is recommended that you test these scenes prior to creating your own AI so you can get a grasp of the Editor and how it works. While testing the example scenes, feel free to tweak the settings to get a solid understanding on how everything works.
 
