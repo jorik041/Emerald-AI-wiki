@@ -11,8 +11,10 @@
 * [Creating an AI Ability Object]
 * [Detection Settings]
 * [Emerald AI Animation Events]
+
 ### Emerald AI API
 * [Emerald AI API]
+
 ### Integration Tutorials
 * [Integration Tutorials]
    * [Invector Integration]
