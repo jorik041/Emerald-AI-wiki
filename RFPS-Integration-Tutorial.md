@@ -8,7 +8,8 @@ This code should be added within case 13 of the WeaponBehavior script above the 
 ```c#
 //Emerald AI Damage
 if(hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
-{			hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damageAmt, EmeraldAI.EmeraldAISystem.TargetType.Player);
+{			
+hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damageAmt, EmeraldAI.EmeraldAISystem.TargetType.Player);
 				FPSPlayerComponent.UpdateHitTime();//used for hitmarker
 			}
 ```
@@ -18,7 +19,8 @@ This code should be added within case 13 of the ArrowObject script above the bre
 ```c#
 //Emerald AI Damage
 if (hitCol.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
-                {                  hitCol.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)(damage + damageAddAmt), EmeraldAI.EmeraldAISystem.TargetType.Player);
+                {                  
+hitCol.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)(damage + damageAddAmt), EmeraldAI.EmeraldAISystem.TargetType.Player);
                     FPSPlayerComponent.UpdateHitTime();//used for hitmarker
                 }
 ```
@@ -28,7 +30,8 @@ This code should be added within case 13 of the ExplosiveObject script above the
 ```c#
 //Emerald AI Damage
 if (hitCollider.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
-                            {                           hitCollider.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)explosionDamageAmt, EmeraldAI.EmeraldAISystem.TargetType.Player);
+                            {                           
+hitCollider.gameObject.GetComponent<Collider>().gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)explosionDamageAmt, EmeraldAI.EmeraldAISystem.TargetType.Player);
                             }
 ```
 
