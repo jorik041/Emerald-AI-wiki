@@ -3,12 +3,14 @@
 * [Getting Started]
    * [Baking NavMesh]
    * [Creating a New AI]
+### The Basics
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Creating an AI Ability Object]
 * [Detection Settings]
 * [Emerald AI Animation Events]
+### Emerald AI API
 * [Emerald AI API]
 ### Integration Tutorials
 * [Integration Tutorials]
