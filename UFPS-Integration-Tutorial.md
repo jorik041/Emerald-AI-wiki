@@ -12,26 +12,26 @@ alt="IMAGE ALT TEXT HERE" width="400" height="280" border="10" /></a>
 This code should be placed right under the line m_Transform.position = m_Hit.point; within the vp_FXBullet script. Save the script when you’re done.
 ```c#
 //Damage Emerald AI object
-        if (m_Hit.collider.gameObject.tag == "Emerald AI")
-        {
-            if (m_Hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
-            {
-                EmeraldAI.EmeraldAISystem EmeraldComponent = m_Hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>();
-                EmeraldComponent.Damage((int)Damage, EmeraldAI.EmeraldAISystem.TargetType.Player, m_Source.transform, 400);
-            }
-        }
+if (m_Hit.collider.gameObject.tag == "Emerald AI")
+{
+   if (m_Hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
+   {
+      EmeraldAI.EmeraldAISystem EmeraldComponent = m_Hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>();
+      EmeraldComponent.Damage((int)Damage, EmeraldAI.EmeraldAISystem.TargetType.Player, m_Source.transform, 400);
+   }
+}
 ```
 
 ## EmeraldAIPlayerDamage Code Snippet
 This code should be placed right under the last commented section within the EmeraldAIPlayerDamage script. Ensure that you have also added the line DamageUFPSPlayer(DamageAmount); within the SendPlayerDamage function. Save the script when you’re done.
 ```c#
 void DamageUFPSPlayer(int DamageAmount)
-        {
-            if (GetComponent<vp_FPPlayerDamageHandler>())
-            {
-                GetComponent<vp_FPPlayerDamageHandler>().Damage((float)DamageAmount);
-            }
-        }
+{
+   if (GetComponent<vp_FPPlayerDamageHandler>())
+   {
+      GetComponent<vp_FPPlayerDamageHandler>().Damage((float)DamageAmount);
+   }
+}
 ```
 
 This concludes the UFPS integration tutorial, if something isn’t working correctly, re-watch the video to ensure nothing was missed. If you’re having issues with implementing UFPS, and you’ve gone through the video tutorial, support can be provided at: Support@BlackHorizonStudios.com
