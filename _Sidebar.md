@@ -1,7 +1,7 @@
 # Emerald AI Wiki
-* [Home]
 
 ### The Basics
+* [Home]
 * [Getting Started]
    * [Baking NavMesh]
    * [Creating a New AI]
