@@ -82,6 +82,7 @@ Abilities are automatically calculated to maximize an AI’s chance at survival.
 
 ## Summoning Abilities
 ![](https://i.imgur.com/UDQokWI.gif)
+
 Summoning Abilities are abilities that allow the AI to heal them self if their healing threshold is met. Healing can happen instantly or over time. Support abilities outside of healing will come with future updates.
 
 ### Part 1 
