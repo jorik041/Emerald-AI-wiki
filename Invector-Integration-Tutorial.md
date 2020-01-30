@@ -5,7 +5,7 @@ For a quick guide on how to do so, see Unity’s guide here: Setting up and Baki
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=he-oUJVES0k
 " target="_blank"><img src="http://img.youtube.com/vi/he-oUJVES0k/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="340" height="280" border="25" /></a>
+alt="IMAGE ALT TEXT HERE" width="340" height="280" border="0" /></a>
 
 ## vMeleeManager Code Snippet
 This code should be added right below the line onDamageHit.Invoke(hitInfo); 
