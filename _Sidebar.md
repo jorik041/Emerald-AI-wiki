@@ -10,7 +10,7 @@
 * [Detection Settings]
 * [Emerald AI Animation Events]
 * [Emerald AI API]
-* [Integration Tutorial]
+* [Integration Tutorials]
    * [Invector Integration]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
@@ -25,4 +25,4 @@
 [Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
 [Detection Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Settings
 [Invector Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Invector-Integration-Tutorial
-[Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
+[Integration Tutorials]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
