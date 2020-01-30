@@ -1,14 +1,3 @@
-## Table of Content
-* [Wander Type](#Wander-Type)
-   * [Dynamic - Wander Type](#Dynamic---Wander-Type)
-   * [Stationary - Wander Type](#Stationary---Wander-Type)
-   * [Waypoints - Wander Type](#Waypoints---Wander-Type)
-   * [Destination - Wander Type](#Destination---Wander-Type)
-
-
-
-&nbsp;
-
 ## Wander Type
 An AI's Wander Type determines how it moves when not in combat. The Wander Type option can be found within the Temperament tab.
 
