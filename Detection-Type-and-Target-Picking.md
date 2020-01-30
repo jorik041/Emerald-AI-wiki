@@ -4,6 +4,7 @@ An AI’s Detection Type determines how it detects its targets when an AI is wit
 
 ## Trigger
 The Trigger Detection Type allows an AI to detect any target within an AI's Detection Radius, even if the target is obstructed by another object.
+
 <img src="https://i.imgur.com/fnHdHjB.png" width="50%">
 
 ## Line of Sight
