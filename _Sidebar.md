@@ -22,6 +22,7 @@
 
 ### Emerald AI API
 * [Emerald AI API]
+
 Emerald Event Manager API
    * [General API]
    * [Sound API]
