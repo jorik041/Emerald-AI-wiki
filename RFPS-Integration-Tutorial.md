@@ -3,6 +3,10 @@ This tutorial will get Emerald AI working with RFPS. This will allow users to us
 
 In order for Emerald AI to work correctly, your scenes must be baked with Unity’s NavMesh. For a quick guide on how to do so, see Unity’s guide here: [Baking your Scene with Unity's NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html). Your AI’s attack animations will also need to have Attack Animation Events for ranged/melee attacks. See the tutorial on doing this here: [Attack Animation Event Tutorial](https://www.youtube.com/watch?v=s_lLt0xUrF8)
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=v_IYrqBLkAE&t
+" target="_blank"><img src="http://img.youtube.com/vi/v_IYrqBLkAE&t/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="440" height="280" border="10" /></a>
+
 ## WeaponBehavior Code Snippet
 This code should be added within case 13 of the WeaponBehavior script above the break; line. This allows your RFPS player to deal damage with all guns and melee weapons.
 ```c#
