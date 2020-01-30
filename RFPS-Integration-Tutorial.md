@@ -10,7 +10,7 @@ This code should be added within case 13 of the WeaponBehavior script above the 
 if(hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
 {			
    hit.collider.gameObject.GetComponent<EmeraldAI.EmeraldAISystem>().Damage((int)damageAmt, EmeraldAI.EmeraldAISystem.TargetType.Player);
-FPSPlayerComponent.UpdateHitTime();//used for hitmarker
+   FPSPlayerComponent.UpdateHitTime();//used for hitmarker
 }
 ```
 
