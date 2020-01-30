@@ -1,10 +1,10 @@
 # Emerald AI Wiki
-
-### The Basics
 * [Home]
-* [Getting Started]
-   * [Baking NavMesh]
-   * [Creating a New AI]
+
+### Getting Started
+* [Example Scenes]
+* [Baking NavMesh]
+* [Creating a New AI]
 
 ### The Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -29,7 +29,7 @@
    * [RFPS Integration]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
-[Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
+[Example Scenes]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Example-Scenes
 [Creating a New AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-New-AI
 [Baking NavMesh]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Baking-NavMesh
 [Behaviors and Confidence Levels]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Behaviors-and-Confidence-Levels
