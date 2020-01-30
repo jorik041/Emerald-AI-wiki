@@ -1,4 +1,4 @@
-# Detection Settings
+# Target Picking Method
 
 Setting up an AI’s Target Picking Method
 An AI’s Target Picking Method is important to get the results you are looking for. Both options have their strengths, but it depends on the situation and playing style. The Target Picking Method can be found under the Detection Options and has two options, First Detected and Closest.
