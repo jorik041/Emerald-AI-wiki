@@ -1,7 +1,7 @@
 # RFPS Integration Tutorial
 This tutorial will get Emerald AI working with RFPS. This will allow users to use RFPS to damage, both ranged and melee, Emerald AI agents as well as have Emerald AI damage the RFPS player. This functionality will also allow users to block incoming attacks from Emerald AI agents. Note: This tutorial requires adding a few lines to a couple RFPS scripts and some basic understanding of minor editing of scripts. 
 
-In order for Emerald AI to work correctly, your scenes must be baked with Unity’s NavMesh. For a quick guide on how to do so, see Unity’s guide here: Setting up and Baking Unity’s Nav Mesh. Your AI’s attack animations will also need to have Attack Animation Events for ranged/melee attacks. See the tutorial on doing this here: Attack Animation Event Tutorial
+In order for Emerald AI to work correctly, your scenes must be baked with Unity’s NavMesh. For a quick guide on how to do so, see Unity’s guide here: [Baking your Scene with Unity's NavMesh](https://docs.unity3d.com/Manual/nav-BuildingNavMesh.html). Your AI’s attack animations will also need to have Attack Animation Events for ranged/melee attacks. See the tutorial on doing this here: [Attack Animation Event Tutorial](https://www.youtube.com/watch?v=s_lLt0xUrF8)
 
 ## WeaponBehavior Code Snippet
 This code should be added within case 13 of the WeaponBehavior script above the break; line. This allows your RFPS player to deal damage with all guns and melee weapons.
