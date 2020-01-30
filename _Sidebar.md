@@ -10,6 +10,8 @@
 * [Detection Settings]
 * [Emerald AI Animation Events]
 * [Emerald AI API]
+* [Integration Tutorial]
+   * [Invector Integration Tutorial]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
 [Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Getting-Started
@@ -22,3 +24,5 @@
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
 [Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
 [Detection Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Detection-Settings
+[Invector Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Invector-Integration-Tutorial
+[Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
