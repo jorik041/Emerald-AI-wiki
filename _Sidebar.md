@@ -1,5 +1,4 @@
 # Emerald AI Wiki
-* [Home]
 
 ### Getting Started
 * [Example Scenes]
@@ -23,6 +22,7 @@
 
 ### Emerald AI API
 * [Emerald AI API]
+Emerald Event Manager API
    * [General API]
    * [Sound API]
    * [Items and Effect API]
