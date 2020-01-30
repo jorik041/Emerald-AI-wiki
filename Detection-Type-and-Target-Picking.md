@@ -1,5 +1,5 @@
 # Detection Type
-An AI’s Detection Type determines how it detects its targets when an AI is within their Detection Radius. Emerald AI features two Detection Type; Trigger and Line of Sight.
+An AI’s Detection Type determines how it detects its targets when an AI is within their Detection Radius. Emerald AI features two Detection Types; Trigger and Line of Sight.
 ![](https://i.imgur.com/pT1YBmh.png)
 
 ## Trigger
