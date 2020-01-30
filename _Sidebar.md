@@ -10,8 +10,10 @@
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
-* [Creating an AI Ability Object]
 * [Detection Settings]
+
+### The Ability System
+* [Creating an AI Ability Object] 
 
 ### Advanced Functionality
 * [Emerald AI Animation Events]
