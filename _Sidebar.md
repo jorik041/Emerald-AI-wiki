@@ -15,6 +15,8 @@
 ### The Ability System
 * [Creating an AI Ability Object] 
    * [Offensive Abilities]
+   * [Support Abilities]
+   * [Summoning Abilities]
 
 ### Advanced Functionality
 * [Emerald AI Animation Events]
@@ -46,3 +48,5 @@
 [UFPS Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/UFPS-Integration-Tutorial
 [Game Kit Controller Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Game-Kit-Controller-Integration
 [Offensive Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#offensive-abilities
+[Support Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#support-abilities
+[Summoning Abilities]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object#summoning-abilities
