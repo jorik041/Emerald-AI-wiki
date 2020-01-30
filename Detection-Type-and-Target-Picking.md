@@ -11,10 +11,10 @@ The Trigger Detection Type allows an AI to detect any target within an AI's Dete
 The Line of Sight Detection Type makes it possible for AI to “see” allowing them to only target objects that they can detect within their Field of View. This works by casting a raycast according to an AI’s Field of View angle. Any object that’s greater than an AI’s Line of Sight will not be visible and anything that’s within it is visible to the AI. This method also allows targets to hide behind objects which obstructs an AI's line of sight.
 
 ### A Target within an AI's Line of Sight
-![](https://i.imgur.com/UQgLnnu.png)
+<img src="https://i.imgur.com/UQgLnnu.png" width="50%">
 
 ### A Target outside of an AI's Line of Sight
-![](https://i.imgur.com/5tPvJa2.png)
+<img src="https://i.imgur.com/5tPvJa2.png" width="50%">
 
 
 # Target Picking Method
