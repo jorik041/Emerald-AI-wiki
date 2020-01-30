@@ -5,13 +5,13 @@
 * [Baking NavMesh]
 * [Creating a New AI]
 
-### The Emerald AI Editor
+### Emerald AI Editor
 * [Behaviors and Confidence Levels]
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Detection Settings]
 
-### The Ability System
+### Ability System
 * [Creating an AI Ability Object] 
    * [Offensive Abilities]
    * [Support Abilities]
