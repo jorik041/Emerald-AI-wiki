@@ -7,11 +7,14 @@ Emerald AI allows developers to quickly create engaging dynamic AI with 100's of
 Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.unity.com/linkmaker/embed/package/40199/widget?aid=1101l3nnr)
 
 ## Table of Content
-
 ### Getting Started
 * [Example Scenes]
 * [Baking NavMesh]
 * [Creating a New AI]
+   * [Creating an AI through the Setup Manager]
+   * [Setting up an AI's Animations]
+   * [Creating Attack Animation Events]
+   * [Creating an AI Ability Object] 
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -28,7 +31,11 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 ### Advanced Functionality
 * [Emerald AI Animation Events]
 
+### Tutorials
+ * Test
+
 ### Emerald AI API
+* [API Table of Contents]
 * [Getting Started]
 * [Events Manager API]
    * [General API]
@@ -51,7 +58,8 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Baking NavMesh]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Baking-NavMesh
 [Behaviors and Confidence Levels]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Behaviors-and-Confidence-Levels
 [Wander Types and Movement]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Wander-Types-and-Movement
-[Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
+[API Table of Contents]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
+[Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#getting-started
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
 [Emerald AI Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-Animation-Events
@@ -71,3 +79,6 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Items and Effect API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#items--effect-api
 [Animation API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#animation-api
 [Utility API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#utility-api
+[Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
+[Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
+[Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
