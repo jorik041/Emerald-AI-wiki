@@ -117,6 +117,25 @@ public class AccessEmeraldAIExample : MonoBehaviour
 
 &emsp;
 
+## Damaging an AI
+If you’d like to apply damage to an AI directly, for something like a custom character controller, you can do so with the code below. It is assumed you have a reference to the hit target when doing so.
+
+### Damage
+Damages an AI with a customizable damage amount, Target Type, Transform to assign as target, and the amount of ragdoll force applied on death.
+```c#
+Damage (int DamageAmount, TargetType AttackersTargetType, Transform YourTargetsTransform, int RagdollForce)
+
+Example:
+```c#
+//Damages an AI to the YourTargetReference object
+if (YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
+{
+YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(YourDamageAmount, EmeraldAI.EmeraldAISystem.TargetType.Player, YourPlayerTransform, 400);
+}
+```
+
+***
+
 # Emerald AI Events Manager API
 Here's all of the usable Emerald AI Events Manager API. Some of these can be used as Animation Events, such as playing an attack sound or playing footstep sounds.
 
