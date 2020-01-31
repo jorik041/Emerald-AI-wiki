@@ -3,6 +3,7 @@ The Setup Manager allows users to quickly create AI by automating the process of
 
 ## Part 1
 To open the Setup Manager, press Ctrl+Shift+E or go to Window>Emerald AI>Setup Manager within Unity.
+
 <img src="https://i.imgur.com/Ht94ZmR.png" width="59%">
 
 ## Part 2
@@ -13,10 +14,12 @@ Apply the animated model you would like to create an AI with to the AI Object sl
 
 ## Part 3
 Next, assign the Unity Tags and Layers this AI's game object will use for detection and being detected. You can change these after an AI has been created, but it is important that they are setup correctly initially. The Tag cannot use Untagged and Layer cannot use Default.
+
 ![](https://i.imgur.com/mklSVUI.png)
 
 ## Part 4
 The rest of the settings up until the Weapon Type can setup as needed. The Weapon Type, Death Type, and Movement Type are important because they control that kind of animations your AI will use.
+
 ![](https://i.imgur.com/RILBPKN.png)
 
 | Setting  | Description |
