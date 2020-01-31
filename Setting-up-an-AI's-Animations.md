@@ -1,1 +1,2 @@
-Setting up an AI's Animations
+# Setting up an AI's Animations
+Emerald AI features nearly 100 usable animations. However, not all of these have to be used. It is important that all needed animations are setup before testing to avoid errors. 
