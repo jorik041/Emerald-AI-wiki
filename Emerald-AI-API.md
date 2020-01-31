@@ -137,6 +137,8 @@ YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(YourDamageA
 
 ***
 
+&emsp;
+
 # Emerald AI Events Manager API
 Here's all of the usable Emerald AI Events Manager API. Some of these can be used as Animation Events, such as playing an attack sound or playing footstep sounds.
 
