@@ -3,6 +3,7 @@ An AI's needs to be assigned Unity Tags and Layers as well as which Unity Tags a
 
 ## Step 1
 You can assign the Unity Tags and Layers the AI uses at the top of the game object within the Inspector for each AI.
+
 ![](https://i.imgur.com/a6IoPfP.png)
 
 ## Step 2
