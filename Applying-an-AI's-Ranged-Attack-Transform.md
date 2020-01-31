@@ -1,4 +1,4 @@
-# Setting up an AI's Ranged Attack Transform
+# Applying an AI's Ranged Attack Transform
 Emerald’s ranged combat system allows any AI the ability to use ranged combat all without having to program anything. Everything is handled within the editor and with Ability Objects. All users have to do is customize the Ability Object and its settings.
 
 ## Step 1
