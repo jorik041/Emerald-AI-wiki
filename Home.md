@@ -6,7 +6,7 @@ Emerald AI allows developers to quickly create engaging dynamic AI with 100's of
 
 Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.unity.com/linkmaker/embed/package/40199/widget?aid=1101l3nnr)
 
-## Table of Contents
+# Table of Contents
 ### Getting Started
 * [Example Scenes]
 * [Baking NavMesh]
