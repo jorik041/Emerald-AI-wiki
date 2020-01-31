@@ -3,6 +3,7 @@ Applying an AI's head transform is simple and is used for proper target detectio
 
 ## Step 1
 Find the AI that needs its head transform assigned. Your AI should indicate this within the Emerald AI editor at the top.
+
 ![](https://i.imgur.com/QWfAicZ.png)
 
 ## Step 2
