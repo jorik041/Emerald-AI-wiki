@@ -7,6 +7,7 @@ When you first create an AI, you will notice this message at the top of the Emer
 
 ## Step 2
 Go to the Animation tab within the Emerald AI editor. Here, you will notice 4 different tabs each with lots of blank slots for animations.
+
 ![](https://i.imgur.com/q4xBbM1.png)
 
 | Animation Tab  | Description |
