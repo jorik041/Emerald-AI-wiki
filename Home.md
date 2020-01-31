@@ -7,6 +7,8 @@ Emerald AI allows developers to quickly create engaging dynamic AI with 100's of
 Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.unity.com/linkmaker/embed/package/40199/widget?aid=1101l3nnr)
 
 ## Table of Content
+# Emerald AI Wiki
+
 ### Getting Started
 * [Example Scenes]
 * [Baking NavMesh]
@@ -15,6 +17,9 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
    * [Setting up an AI's Animations]
    * [Creating Attack Animation Events]
    * [Creating an AI Ability Object] 
+   * [Applying an AI's Head Transform]
+   * [Setting up an AI's Factions]
+   * [Setting up an AI's Layers and Tags]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -32,7 +37,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 * [Emerald AI Animation Events]
 
 ### Tutorials
- * Test
+ * Coming Soon
 
 ### Emerald AI API
 * [API Table of Contents]
@@ -82,3 +87,6 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
 [Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
 [Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
+[Applying an AI's Head Transform]:https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Head-Transform
+[Setting up an AI's Factions]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
+[Setting up an AI's Layers and Tags]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Layers-and-Tags
