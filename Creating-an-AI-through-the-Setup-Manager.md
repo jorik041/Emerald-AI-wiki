@@ -3,7 +3,7 @@ The Setup Manager allows users to quickly create AI by automating the process of
 
 ## Part 1
 To open the Setup Manager, press Ctrl+Shift+E or go to Window>Emerald AI>Setup Manager within Unity.
-![](https://i.imgur.com/Ht94ZmR.png)
+<img src="https://i.imgur.com/Ht94ZmR.png" width="59%">
 
 ## Part 2
 Apply the animated model you would like to create an AI with to the AI Object slot. Ensure that this object has an Animator with an Avatar on it and that it has no collider components.
