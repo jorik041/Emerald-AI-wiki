@@ -3,6 +3,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
 
 ## Table of Contents
 * [Getting Started](#getting-started)
+* [Damaging an AI](#damaging-an-ai)
 * [General API](#General-API)
    * [KillAI](#KillAI)
    * [ResetAI](#ResetAI)
