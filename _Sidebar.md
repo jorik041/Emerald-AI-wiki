@@ -4,13 +4,6 @@
 * [Example Scenes]
 * [Baking NavMesh]
 * [Creating a New AI]
-   * [Creating an AI through the Setup Manager]
-   * [Setting up an AI's Animations]
-   * [Creating Attack Animation Events]
-   * [Creating an AI Ability Object] 
-   * [Applying an AI's Head Transform]
-   * [Setting up an AI's Factions]
-   * [Setting up an AI's Layers and Tags]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
