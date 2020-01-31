@@ -17,7 +17,7 @@ When scrolling down within this tab, you will see the Events tab. Click it to ex
 ![](https://i.imgur.com/QiX0Iue.gif)
 
 ## Part 4
-Find the exact frame you want the AI to cause damage with its attack animation, or use an Ability, and press the Create Event button. When you've done this, assign EmeraldAttackEvent as the function name. When you've finished this, press Apply. You will need to do this for each attack animation that's in your AI's Attack Animation List. This allows damage and ability events to trigger that looks and functions best for the AI's animation.
+Find the exact frame you want the AI to cause damage with its attack animation, or use an Ability, and press the Add Event button. When you've done this, assign EmeraldAttackEvent as the function name. When you've finished this, press Apply. You will need to do this for each attack animation that's in your AI's Attack Animation List. This allows damage and ability events to trigger that looks and functions best for the AI's animation.
 
 ![](https://i.imgur.com/JfjwzXR.gif)
 
