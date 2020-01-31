@@ -12,7 +12,7 @@ Go to the Animation tab within the Emerald AI editor. Here, you will notice 4 di
 
 | Animation Tab  | Description |
 | ------------- | ------------- |
-| Idle  | The Idle Animations tab allows you to set all idle animations that this AI will use when wandering and the idle animations that will be used in combat.  |
-| Movement  | The Movement Animations tab allows you to set all movement animations for both non-combat and combat such as walk, run, movement turning, and stationary turning. |
-| Combat  | The Combat Animations tab allows you to set all combat animations such as attack, block, hit, death, equip, and unequip animations. Some of these are used depending on if they are enabled, such as the equip and unequip animations. |
+| Idle  | The Idle Animations tab allows you to set all idle animations that this AI will use when wandering and the idle animations that will be used in combat.   |
+| Movement  | The Movement Animations tab allows you to set all movement animations for both non-combat and combat such as walk, run, movement turning, and stationary turning. If your AI is using both weapon types, you will need to apply animations for both Ranged and Melee. |
+| Combat  | The Combat Animations tab allows you to set all combat animations such as attack, block, hit, death, equip, and unequip animations. Some of these are used depending on if they are enabled, such as the equip and unequip animations. If your AI is using both weapon types, you will need to apply animations for both Ranged and Melee. |
 | Emote  | The Emote Animations tab allows you to set the emote animations that will play when an AI's PlayEmoteAnimation function is called and passing the emote ID as the parameter. The speed of each animation can be adjusted by changing the speed parameter.  |
