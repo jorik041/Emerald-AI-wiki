@@ -9,7 +9,7 @@
    * [Creating Attack Animation Events]
    * [Creating an AI Ability Object] 
    * [Applying an AI's Head Transform]
-   * [Using Factions and Faction Manager]
+   * [Setting up an AI's Factions]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -78,3 +78,4 @@
 [Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
 [Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
 [Applying an AI's Head Transform]:https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Head-Transform
+[Setting up an AI's Factions]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
