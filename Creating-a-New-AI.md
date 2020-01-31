@@ -7,6 +7,7 @@ Creating an AI requires a few process before the setup process is complete. This
 * [Creating Attack Animation Events]
 * [Creating an AI Ability Object] 
 * [Applying an AI's Head Transform]
+* [Applying an AI's Ranged Attack Transform]
 * [Setting up an AI's Factions]
 * [Setting up an AI's Layers and Tags]
 
@@ -21,3 +22,4 @@ Creating an AI requires a few process before the setup process is complete. This
 [Applying an AI's Head Transform]:https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Head-Transform
 [Setting up an AI's Factions]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Setting up an AI's Layers and Tags]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Layers-and-Tags
+[Applying an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Ranged-Attack-Transform
