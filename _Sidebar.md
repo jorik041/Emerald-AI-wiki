@@ -25,7 +25,7 @@
 * [Emerald AI Animation Events]
 
 ### Tutorials
- * Test
+ * Coming Soon
 
 ### Emerald AI API
 * [API Table of Contents]
