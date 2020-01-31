@@ -12,4 +12,5 @@ Within your AI's bone transforms, find the AI's head transform.
 
 ## Step 3
 Go to the AI's Emerald AI editor and open the Detection & Tags>Detection Options tab. Assign the AI's head transform to the Head transform slot. This should remove the Head Transform warning at the top of the Emerald AI editor.
+
 ![](https://i.imgur.com/f583n3s.png)
