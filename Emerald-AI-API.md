@@ -132,7 +132,7 @@ Example:
 //Damages an AI to the YourTargetReference object
 if (YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>() != null)
 {
-YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(YourDamageAmount, EmeraldAI.EmeraldAISystem.TargetType.Player, YourPlayerTransform, 400);
+   YourTargetReference.GetComponent<EmeraldAI.EmeraldAISystem>().Damage(YourDamageAmount, EmeraldAI.EmeraldAISystem.TargetType.Player, YourPlayerTransform, 400);
 }
 ```
 
