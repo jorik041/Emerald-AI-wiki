@@ -8,7 +8,7 @@
    * [Setting up an AI's Animations]
    * [Creating Attack Animation Events]
    * [Creating an AI Ability Object] 
-   * []
+   * [Applying an AI's Head Transform]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
