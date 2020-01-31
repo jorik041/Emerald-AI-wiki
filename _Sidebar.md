@@ -21,7 +21,7 @@
 * [Emerald AI Animation Events]
 
 ### Emerald AI API
-* [Emerald AI API]
+* [API Table of Contents]
 * [Getting Started]
 * [Events Manager API]
    * [General API]
