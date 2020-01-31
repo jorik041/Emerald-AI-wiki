@@ -124,6 +124,7 @@ If you’d like to apply damage to an AI directly, for something like a custom c
 Damages an AI with a customizable damage amount, Target Type, Transform to assign as target, and the amount of ragdoll force applied on death.
 ```c#
 Damage (int DamageAmount, TargetType AttackersTargetType, Transform YourTargetsTransform, int RagdollForce)
+```
 
 Example:
 ```c#
