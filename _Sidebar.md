@@ -4,6 +4,7 @@
 * [Example Scenes]
 * [Baking NavMesh]
 * [Creating a New AI]
+   * [Creating an AI through the Setup Manager]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -68,3 +69,4 @@
 [Items and Effect API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#items--effect-api
 [Animation API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#animation-api
 [Utility API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#utility-api
+[Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
