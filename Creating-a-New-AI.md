@@ -15,3 +15,9 @@ Creating an AI requires a few process before the setup process is complete. This
 [Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
 [Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
 [Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
+[Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
+[Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
+[Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
+[Applying an AI's Head Transform]:https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Head-Transform
+[Setting up an AI's Factions]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
+[Setting up an AI's Layers and Tags]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Layers-and-Tags
