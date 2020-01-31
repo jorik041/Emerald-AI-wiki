@@ -140,7 +140,7 @@ EventsManager.ResetAI();
 ### InstantlyRefillAIHeath
 Refills the AI's health to full instantly
 ```c#
-EventsManager.InstantlyRefillAIHeath ();
+EventsManager.InstantlyRefillAIHeath();
 ```
 
 ***
@@ -153,7 +153,7 @@ EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior NewBehavior)
 Example:
 ```c#
 //Change the AI's current behavior to Passive
-EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive)
+EventsManager.ChangeBehavior(EmeraldAISystem.CurrentBehavior.Passive);
 ```
 
 ***
@@ -166,7 +166,7 @@ EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType NewConfidence)
 Example:
 ```c#
 //Change the AI's current confidence to Passive
-EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave)
+EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave);
 ```
 
 ***
@@ -179,7 +179,7 @@ EventsManager.ChangeWanderType(EmeraldAISystem.WanderType NewWanderType)
 Example:
 ```c#
 //Change the AI's current Wander Type to Stationary
-EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary)
+EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary);
 ```
 
 ***
