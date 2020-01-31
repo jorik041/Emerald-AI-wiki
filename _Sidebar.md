@@ -14,6 +14,7 @@
    * [Applying an AI's Ranged Attack Transform]
    * [Setting up an AI's Factions]
    * [Setting up an AI's Layers and Tags]
+   * [Setting up an AI's Optimization Settings]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -82,3 +83,4 @@
 [Setting up an AI's Factions]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Setting up an AI's Layers and Tags]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Layers-and-Tags
 [Applying an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Ranged-Attack-Transform
+[Setting up an AI's Optimization Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Optimization-Settings
