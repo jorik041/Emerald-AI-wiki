@@ -8,6 +8,7 @@
    * [Setting up an AI's Animations]
    * [Creating Attack Animation Events]
    * [Creating an AI Ability Object] 
+   * []
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -75,3 +76,4 @@
 [Creating an AI through the Setup Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-through-the-Setup-Manager
 [Setting up an AI's Animations]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations
 [Creating Attack Animation Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events
+[Applying an AI's Head Transform]:https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Head-Transform
