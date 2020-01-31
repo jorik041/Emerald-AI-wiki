@@ -6,6 +6,7 @@
 * [Creating a New AI]
    * [Creating an AI through the Setup Manager]
    * [Setting up an AI's Animations]
+   * [Creating an AI Ability Object] 
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
