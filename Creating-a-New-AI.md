@@ -1,5 +1,7 @@
 # Setting up an AI
-Creating an AI requires a few process before the setup process is complete. This includes creating an AI through the Emerald AI Setup Manager, generating an Animator Controller, applying all of the needed animations to the newly created AI, creating attack animation events, applying abilities to an AI's abilities lists (if Ranged), assigning an AI's Head Transform, and setting up an AI's factions, tags, and layer.
+Creating an AI requires a few steps before the setup process is complete. This includes creating an AI through the Emerald AI Setup Manager, generating an Animator Controller, applying all of the needed animations to the newly created AI, creating attack animation events, applying abilities to an AI's abilities lists (if Ranged), assigning an AI's Head Transform, and setting up an AI's factions, tags, and layer. 
+
+In order for the setting up process to go as smoothly as possible, it is recommended to follow these steps in order. It may seem a little daunting at first, but the process soon becomes routine and you can have working AI setup in 5 minutes or less.
 
 ## Table of Contents
 * [Creating an AI through the Setup Manager]
