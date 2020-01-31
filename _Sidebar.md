@@ -44,7 +44,7 @@
 [Baking NavMesh]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Baking-NavMesh
 [Behaviors and Confidence Levels]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Behaviors-and-Confidence-Levels
 [Wander Types and Movement]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Wander-Types-and-Movement
-[Emerald AI API]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
+[API Table of Contents]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API
 [Getting Started]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#getting-started
 [Using Factions and Faction Manager]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
