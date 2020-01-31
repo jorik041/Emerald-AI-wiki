@@ -7,7 +7,7 @@ To apply an attack animation event to an AI's attack animation, go to the AI's A
 ![](https://i.imgur.com/oQC3QOf.png)
 
 ## Part 2
-This will bring you to the Project tab where the animation's location is. Select the object that hold the animation and view it within the Inspector.
+This will bring you to the Project tab where the animation's location is. Select the object that holds the attack animation and view it within the Inspector.
 ![](https://i.imgur.com/GRf1XY1.png)
 
 ![](https://i.imgur.com/TKGbN48.png)
