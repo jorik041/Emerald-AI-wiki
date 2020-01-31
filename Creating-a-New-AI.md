@@ -5,7 +5,10 @@ Creating an AI requires a few process before the setup process is complete. This
 * [Creating an AI through the Setup Manager]
 * [Setting up an AI's Animations]
 * [Creating Attack Animation Events]
-* [Creating an AI Ability Object]
+* [Creating an AI Ability Object] 
+* [Applying an AI's Head Transform]
+* [Setting up an AI's Factions]
+* [Setting up an AI's Layers and Tags]
 
 [Creating a New AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-New-AI
 [Creating an AI Ability Object]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-an-AI-Ability-Object
