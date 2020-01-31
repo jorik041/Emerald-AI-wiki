@@ -9,6 +9,7 @@
    * [Creating Attack Animation Events]
    * [Creating an AI Ability Object] 
    * [Applying an AI's Head Transform]
+   * [Using Factions and Faction Manager]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
