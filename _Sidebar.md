@@ -30,6 +30,7 @@
 
 ### Advanced Functionality
 * [Emerald AI Animation Events]
+* [Using Emerald AI **Unity** Events]
 
 ### Emerald AI API
 * [API Table of Contents]
@@ -85,3 +86,4 @@
 [Applying an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Applying-an-AI's-Ranged-Attack-Transform
 [Setting up an AI's Optimization Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Optimization-Settings
 [Damaging an AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#damaging-an-ai
+[Using Emerald AI Unity Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI-Unity-Events
