@@ -43,12 +43,11 @@
    * [Utility API]
 
 
-### Integration Tutorials
-* [Integration Tutorials]
-   * [Invector Integration]
-   * [Game Kit Controller Integration]
-   * [UFPS Integration Tutorial]
-   * [RFPS Integration]
+### Asset Integration Tutorials
+* [Invector Integration]
+* [Game Kit Controller Integration]
+* [UFPS Integration Tutorial]
+* [RFPS Integration]
 
 [Home]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki
 [Example Scenes]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Example-Scenes
