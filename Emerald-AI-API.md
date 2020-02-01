@@ -599,7 +599,9 @@ void CountDeath ()
    KillCounterSystem.AmountOfKills++;
 }
 ...
-``` 
+```
+
+***
 
 ### DeathEvent
 The DeathEvent is invoked when an AI is killed.
@@ -609,6 +611,8 @@ Example:
 EmeraldComponent.DeathEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
+***
+
 ### DamageEvent
 The DamageEvent is invoked each time an AI is damaged.
 
@@ -616,6 +620,8 @@ Example:
 ```c#
 EmeraldComponent.DeathEvent.AddListener(() => { YourCustomFunction(); });
 ```
+
+***
 
 ### ReachedDestinationEvent
 The ReachedDestinationEvent is invoked when an AI reaches their destination location (must be using the Destination Wander Type).
@@ -625,6 +631,8 @@ Example:
 EmeraldComponent.ReachedDestinationEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
+***
+
 ### OnStartEvent
 The OnStartEvent is invoked once within the AI's Start function.
 
@@ -632,6 +640,8 @@ Example:
 ```c#
 EmeraldComponent.OnStartEvent.AddListener(() => { YourCustomFunction(); });
 ```
+
+***
 
 ### OnEnabledEvent
 The OnEnabledEvent is invoked when an AI is enabled after it has been deactivated.
@@ -641,6 +651,8 @@ Example:
 EmeraldComponent.OnEnabledEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
+***
+
 ### OnPlayerDetectionEvent
 The OnPlayerDetectionEvent is invoked when an AI detects a player object. Users can adjust the cooldown for how often this event is invoked within the Emerald AI editor.
 
@@ -648,6 +660,8 @@ Example:
 ```c#
 EmeraldComponent.OnPlayerDetectionEvent.AddListener(() => { YourCustomFunction(); });
 ```
+
+***
 
 ### OnAttackEvent
 The OnAttackEvent is invoked when an AI triggers their attack animation.
@@ -657,6 +671,8 @@ Example:
 EmeraldComponent.OnAttackEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
+***
+
 ### OnFleeEvent
 The OnFleeEvent is invoked when an AI begins to flee (This only happens with AI that have a Brave or Coward Confidence Level). 
 
@@ -664,6 +680,8 @@ Example:
 ```c#
 EmeraldComponent.OnFleeEvent.AddListener(() => { YourCustomFunction(); });
 ```
+
+***
 
 ### OnStartCombatEvent
 The OnStartCombatEvent is invoked when an AI first enters combat and is reset when the battle is over.
@@ -673,6 +691,8 @@ Example:
 EmeraldComponent.OnStartCombatEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
+***
+
 ### OnKillTargetEvent
 The OnKillTargetEvent is invoked when an AI has killed their target. This event is called before an AI's target has been cleared so it can still be accessed if needed.
 
@@ -680,4 +700,6 @@ Example:
 ```c#
 EmeraldComponent.OnKillTargetEvent.AddListener(() => { YourCustomFunction(); });
 ```
+
+***
 
