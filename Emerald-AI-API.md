@@ -118,7 +118,7 @@ public class AccessEmeraldAIExample : MonoBehaviour
 
 &emsp;
 
-## Damaging an AI
+# Damaging an AI
 If you’d like to apply damage to an AI directly, for something like a custom character controller, you can do so with the code below. It is assumed you have a reference to the hit target when doing so.
 
 ### Damage
@@ -558,3 +558,76 @@ EventsManager.UpdateUINameText(string NewName)
 ```
 
 ***
+
+&emsp;
+
+# Emerald AI **Unity** Events
+Emerald AI has 10 built-in Unity Events that called during various Emerald AI actions. You can use these events to trigger custom function calls and other mechanics to expand functionality with AI.
+
+## Creating Emerald AI Unity Event through the Editor
+The Emerald AI Unity Events can be found on the AI's Settings>Events tab. Here. you will see 2 tabs; one for General Events and one for Combat Events. Each Event has + and - button that allows you to add or remove an event. When the + button is pressed, it will create a new blank element event for that Event List. This will allow you to apply a script, that's attached to your AI, to call custom functions or Emerald AI's API functions. 
+
+![](https://i.imgur.com/mZu6IOY.png)
+
+
+## Creating Emerald AI Unity Event through Code
+Emerald AI's Unity Events are located on the EmeraldAISystem script. To access these, you will need a reference to the EmeraldAISystem script. This can be done using the code below. It is best to have a class level variable for EmeraldComponent so it can be accessed anywhere within your script.
+
+```c#
+EmeraldComponent = GetComponent<EmeraldAISystem>();
+```
+
+You can add Emerald AI Unity Events programmatically using the following code format. These should be applied on Start.
+
+```c#
+EmeraldComponent.TheEmeraldAIUnityEvent.AddListener(() => { YourFunctionToCall(); });
+```
+
+For example, lets say you want to track each AI death and add it to a static variable so the player can track their kills. For this example, lets say the kill count script name is KillCounterSystem and the static variable is an int called AmountOfKills.
+```c#
+...
+void Start ()
+{
+   //Create a DeathEvent by adding a listener and applying the CountDeath function.
+   //Even though this is assigned on start, the CountDeath function will be called when the AI dies.
+   EmeraldComponent.DeathEvent.AddListener(() => { CountDeath(); });
+}
+
+//The CountDeath function adds the AI's death to a static variable for tracking
+void CountDeath ()
+{
+   KillCounterSystem.AmountOfKills++;
+}
+...
+``` 
+
+### DeathEvent
+The DeathEvent is invoked when an AI is killed.
+
+### DamageEvent
+The DamageEvent is invoked each time an AI is damaged.
+
+### ReachedDestinationEvent
+The ReachedDestinationEvent is invoked when an AI reaches their destination location (must be using the Destination Wander Type).
+
+### OnStartEvent
+The OnStartEvent is invoked once within the AI's Start function.
+
+### OnEnabledEvent
+The OnEnabledEvent is invoked when an AI is enabled after it has been deactivated.
+
+### OnPlayerDetectionEvent
+The OnPlayerDetectionEvent is invoked when an AI detects a player object. Users can adjust the cooldown for how often this event is invoked within the Emerald AI editor.
+
+### OnAttackEvent
+The OnAttackEvent is invoked when an AI triggers their attack animation.
+
+### OnFleeEvent
+The OnFleeEvent is invoked when an AI begins to flee (This only happens with AI that have a Brave or Coward Confidence Level). 
+
+### OnStartCombatEvent
+The OnStartCombatEvent is invoked when an AI first enters combat and is reset when the battle is over.
+
+### OnKillTargetEvent
+The OnKillTargetEvent is invoked when an AI has killed their target. This event is called before an AI's target has been cleared so it can still be accessed if needed.
+
