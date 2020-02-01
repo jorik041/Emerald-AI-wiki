@@ -30,7 +30,7 @@
 
 ### Advanced Functionality
 * [Emerald AI Animation Events]
-* [Using Emerald AI **Unity** Events]
+* [Using Emerald AI Unity Events]
 
 ### Emerald AI API
 * [API Table of Contents]
