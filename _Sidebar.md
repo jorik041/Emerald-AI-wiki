@@ -14,6 +14,7 @@
    * [Applying an AI's Ranged Attack Transform]
    * [Setting up an AI's Factions]
    * [Setting up an AI's Layers and Tags]
+   * [Using the Combat Text System]
    * [Setting up an AI's Optimization Settings]
 
 ### Emerald AI Editor
@@ -89,3 +90,4 @@
 [Damaging an AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#damaging-an-ai
 [Using Emerald AI Unity Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI-Unity-Events
 [Adjusting an AI Hit's Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Adjusting-an-AI-Hit's-Transform
+[Using the Combat Text System]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-the-Combat-Text-System
