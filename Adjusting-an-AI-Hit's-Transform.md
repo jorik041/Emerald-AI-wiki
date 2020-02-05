@@ -1,4 +1,4 @@
-# Adjusting an AI Hit Transform
+# Adjusting an AI's Hit Transform
 An AI's Hit transform controls the transform point that other AI will use when using the head look feature allowing them to look at this transform. This transform is also used for ranged combat allowing other AI's projectiles to hit this spot. This is to ensure an AI is always seen, regardless of how large or small they are.
 
 ## Step 1
