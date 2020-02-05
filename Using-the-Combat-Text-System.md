@@ -29,17 +29,14 @@ The Combat Text Color Settings allow you to control all color related settings f
 ## Accessing the Combat Text System
 The Combat Text System is created on Start during runtime. It can be accessed to allow custom character controllers to display their damage dealt to Emerald AI agents.
 
-The Combat Text System function that allows users to display custom combat text with their players is CreateCombatText.
-```c#
-CreateCombatText(int DamageAmount, Vector3 TextPosition, bool CriticalHit, bool HealingText, bool PlayerTakingDamage)
-```
-
-To use this, users must include the Emerald AI namespace at the top of their script.
+Users must include the Emerald AI namespace at the top of their script in order for the CombatTextSystem class to be visible.
 ```C
 using EmeraldAI;
 ```
 
-Emerald AI creates an instance of the Combat Text System at runtime which can be accessed using:
+You can then call the CreateCombatText function which allows custom player damage with the following code:
 ```c#
-CombatTextSystem.Instance
+CombatTextSystem.Instance.CreateCombatText(int DamageAmount, Vector3 TextPosition, bool CriticalHit, bool HealingText, bool PlayerTakingDamage)
 ```
+
+This should go in the portion of your character controller that damages Emerald AI. It includes special parameters for added functionality. 
