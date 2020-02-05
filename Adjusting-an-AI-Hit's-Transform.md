@@ -14,4 +14,5 @@ Adjusting the Hit Transform slider will adjust the position of the red gizmo on 
 ![](https://i.imgur.com/2FgrIdz.gif)
 
 This is used for a variety of functionality so it is important that this stays within your AI's area and its Box Collider.
+
 ![](https://i.imgur.com/QKqIcXY.gif)
