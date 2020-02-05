@@ -6,13 +6,13 @@ Emerald AI has a built-in combat text system. This works globally for all AI and
 ### Animation Type
 The Animation Type allows users to control the type of animation the combat text uses. There are a total of 5 preset options.
 
-| Animation Type  | Description |
+| Animation Type  | Example |
 | ------------- | ------------- |
-| Bounce  | ![](https://i.imgur.com/mOz140R.gif) |
-| Upwards  | ![](https://i.imgur.com/mOz140R.gif)  |
-| Outwards v1  | ![](https://i.imgur.com/mOz140R.gif)  |
-| Outwards v2  | ![](https://i.imgur.com/mOz140R.gif)  |
-| Stationary  | ![](https://i.imgur.com/mOz140R.gif)  |
+| Bounce  | ![](https://i.imgur.com/nBeuNbe.gif) |
+| Upwards  | ![](https://i.imgur.com/nBeuNbe.gif)  |
+| Outwards v1  | ![](https://i.imgur.com/nBeuNbe.gif)  |
+| Outwards v2  | ![](https://i.imgur.com/nBeuNbe.gif)  |
+| Stationary  | ![](https://i.imgur.com/nBeuNbe.gif)  |
 
 ## Combat Text Color Settings
 
