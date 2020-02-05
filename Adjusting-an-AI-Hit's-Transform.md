@@ -10,8 +10,6 @@ An AI's Hit Transform used for controlling 3 important functionalities.
 The Hit Transform setting is located in the AI's Settings>Combat>Combat Actions tab near the bottom. This tab must be open in order to see the Hit Transform gizmo.
 
 
-***
-
 &emsp;
 
 
