@@ -4,7 +4,7 @@ Emerald AI has a built-in combat text system. This works globally for all AI and
 ## Combat Text Settings
 The Combat Text Settings allow you to control all of the combat text's settings such as whether the combat text system is enabled, text sizes, text animations, and more.
 
-<img src="https://i.imgur.com/fIIJ2u9.png" width="40%">
+<img src="https://i.imgur.com/fIIJ2u9.png" width="60%">
 
 ### Animation Type
 The Animation Type allows users to control the type of animation the combat text uses. There are a total of 5 preset options.
