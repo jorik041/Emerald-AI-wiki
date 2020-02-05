@@ -5,7 +5,9 @@ Emerald AI has a built-in combat text system. This works globally for all AI and
 
 | Animation Type  | Description |
 | ------------- | ------------- |
-| Bounce  | Displays the combat text in a bouncing motion with motion to both the left and right.   |
+| Bounce  | Displays the combat text in a bouncing motion with motion to both the left and right. 
+![](https://i.imgur.com/waytpOY.gif)
+   |
 | Upwards  | Displays the combat text in an upwards motion with no animation to the left or right.  |
 | Outwards v1  | Displays the combat text in a outwards motion with no animation to the left or right.  |
 | Outwards v2  | Displays the combat text in an upwards motion with no animation to the left or right.  |
