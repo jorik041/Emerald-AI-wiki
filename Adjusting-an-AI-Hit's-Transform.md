@@ -10,7 +10,7 @@ The Hit Transform setting is located in the AI's Settings>Combat>Combat Actions 
 &emsp;
 
 
-Adjusting the Hit Transform slider will adjust the red gizmo on your AI.
+Adjusting the Hit Transform slider will adjust the position of the red gizmo on your AI. This is the point that is used in the above explanations.
 ![](https://i.imgur.com/2FgrIdz.gif)
 
 This is used to determine where other AI will look when using the Head Look feature and where projectiles will aim for when other AI are using projectiles. It is important that this stays within your AI's area and its Box Collider to ensure projectiles don't miss the AI.
