@@ -1,7 +1,6 @@
 # Adjusting an AI's Hit Transform
 An AI's Hit Transform used for controlling 3 important functionalities.
 
-### Info
 | Usage  | Description |
 | ------------- | ------------- |
 | Target Obstruction  | The most important usage for the Hit Transform is used to determine if an AI's target is obstructed when using Ranged Combat. If the Hit Transform is too high or too low, the opposing AI may have problems detecting the AI. |
@@ -10,7 +9,9 @@ An AI's Hit Transform used for controlling 3 important functionalities.
 
 The Hit Transform setting is located in the AI's Settings>Combat>Combat Actions tab near the bottom. This tab must be open in order to see the Hit Transform gizmo.
 
-### How to use
+
+&emsp;
+
 
 Adjusting the Hit Transform slider will adjust the red gizmo on your AI.
 ![](https://i.imgur.com/2FgrIdz.gif)
