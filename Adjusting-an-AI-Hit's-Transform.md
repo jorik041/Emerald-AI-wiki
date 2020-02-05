@@ -1,5 +1,11 @@
 # Adjusting an AI's Hit Transform
-An AI's Hit transform controls the transform point that other AI will use when using the head look feature allowing them to look at this transform. This transform is also used for ranged combat allowing other AI's projectiles to hit this spot. This is to ensure an AI is always seen, regardless of how large or small they are.
+An AI's Hit Transform used for controlling 3 important functionalities.
+
+| Usage  | Description |
+| ------------- | ------------- |
+| Target Obstruction  | The most important usage for the Hit Transform is used to determine if an AI's target is obstructed when using Ranged Combat. If the Hit Transform is too high or too low, the opposing AI may have problems detecting the AI. |
+| Projectile Abilities  | The Hit Transform controls where an opposing AI's projectiles will hit an AI. This is helpful to ensure projectiles don't fire too low or too high and to give users more control for customization.
+| Head Look Feature  | The Hit transform is also used to control the point that other AI will use when using the head look feature. This is helpful to ensure other AI are looking at the appropriate point of an AI.   |
 
 The Hit Transform setting is located in the AI's Settings>Combat>Combat Actions tab near the bottom. This tab must be open in order to see the Hit Transform gizmo.
 
