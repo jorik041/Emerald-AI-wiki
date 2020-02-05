@@ -21,6 +21,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
    * [Applying an AI's Ranged Attack Transform]
    * [Setting up an AI's Factions]
    * [Setting up an AI's Layers and Tags]
+   * [Using the Combat Text System]
    * [Setting up an AI's Optimization Settings]
 
 ### Emerald AI Editor
@@ -28,6 +29,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Detection Type and Target Picking]
+* [Adjusting an AI Hit's Transform]
 
 ### Ability System
 * [Creating an AI Ability Object] 
@@ -94,3 +96,5 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Setting up an AI's Optimization Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Optimization-Settings
 [Damaging an AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#damaging-an-ai
 [Using Emerald AI Unity Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI-Unity-Events
+[Adjusting an AI Hit's Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Adjusting-an-AI-Hit's-Transform
+[Using the Combat Text System]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-the-Combat-Text-System
