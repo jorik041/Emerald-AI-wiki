@@ -17,6 +17,8 @@ The Animation Type allows users to control the type of animation the combat text
 | Outwards v2  | ![](https://i.imgur.com/6JV2xLz.gif)  |
 | Stationary  | ![](https://i.imgur.com/WFxX3vx.gif)  |
 
+&emsp;
+
 ## Combat Text Color Settings
 The Combat Text Color Settings allow you to control all color related settings for the Combat Text System. Player damage text needs to be called programmatically to work for custom character controllers. This is explained in the code section below.
 
@@ -30,6 +32,7 @@ The Combat Text Color Settings allow you to control all color related settings f
 | AI's Critical Hit Text Color  |  Controls the text color of all melee and ranged damage critical hits. |
 | Healing Text Color  | Controls the text color of an AI's healing amount done when using Healing abilities.  |
 
+&emsp;
 
 ## Accessing the Combat Text System
 The Combat Text System is created on Start during runtime. It can be accessed to allow custom character controllers to display their damage dealt to Emerald AI agents.
