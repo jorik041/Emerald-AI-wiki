@@ -20,6 +20,8 @@ The Animation Type allows users to control the type of animation the combat text
 ## Combat Text Color Settings
 The Combat Text Color Settings allow you to control all color related settings for the Combat Text System. Player damage text needs to be called programmatically to work for custom character controllers. This is explained in the code section below.
 
+<img src="https://i.imgur.com/Bo59Rm7.png" width="70%">
+
 | Setting  | Description |
 | ------------- | ------------- |
 | Player's Damage Text Color  | Controls the text color of player dealt damage. Note: In order for custom players to use the Combat Text System, they have to call an instanced function. This is explained below.  |
