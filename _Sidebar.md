@@ -21,6 +21,7 @@
 * [Wander Types and Movement]
 * [Using Factions and Faction Manager]
 * [Detection Type and Target Picking]
+* [Adjusting an AI Hit's Transform]
 
 ### Ability System
 * [Creating an AI Ability Object] 
@@ -87,3 +88,4 @@
 [Setting up an AI's Optimization Settings]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Optimization-Settings
 [Damaging an AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Emerald-AI-API#damaging-an-ai
 [Using Emerald AI Unity Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI-Unity-Events
+[Adjusting an AI Hit's Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Adjusting-an-AI-Hit's-Transform
