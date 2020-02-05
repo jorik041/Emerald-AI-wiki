@@ -8,11 +8,11 @@ The Animation Type allows users to control the type of animation the combat text
 
 | Animation Type  | Example |
 | ------------- | ------------- |
-| Bounce  | ![](https://i.imgur.com/nBeuNbe.gif) |
-| Upwards  | ![](https://i.imgur.com/nBeuNbe.gif)  |
+| Bounce  | ![](https://i.imgur.com/I3k5J2w.gif) |
+| Upwards  | ![](https://i.imgur.com/1Q5LPBe.gif)  |
 | Outwards v1  | ![](https://i.imgur.com/nBeuNbe.gif)  |
-| Outwards v2  | ![](https://i.imgur.com/nBeuNbe.gif)  |
-| Stationary  | ![](https://i.imgur.com/nBeuNbe.gif)  |
+| Outwards v2  | ![](https://i.imgur.com/6JV2xLz.gif)  |
+| Stationary  | ![](https://i.imgur.com/WFxX3vx.gif)  |
 
 ## Combat Text Color Settings
 
