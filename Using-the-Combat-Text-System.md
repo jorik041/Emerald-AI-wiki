@@ -1,5 +1,5 @@
 # Using the Combat Text System
-Emerald AI has a built-in combat text system that's controllable through the Combat Text Manager. This can be accessed by pressing ctrl+shift+C or by going to Window>Emerald AI>Combat Text Manager in Unity. The Combat Text System works globally for all AI and can even be called for player damage (discussed below) and is handled through the Combat Text Manager. The combat text system is optional and can be disabled through the Combat Text Manager.
+Emerald AI has a built-in combat text system that's controllable through the Combat Text Manager. This can be accessed by pressing ctrl+shift+C or by going to Window>Emerald AI>Combat Text Manager in Unity. The Combat Text System works globally for all AI and can even be called for player damage (discussed below). The combat text system is optional and can be disabled through the Combat Text Manager.
 
 ## Combat Text Settings
 The Combat Text Settings allow you to control all of the combat text's settings such as whether the combat text system is enabled, text sizes, text animations, custom the font used by the combat text, and more.
