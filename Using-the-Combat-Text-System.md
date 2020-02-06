@@ -7,7 +7,7 @@ The Combat Text Settings allow you to control all of the combat text's settings 
 <img src="https://i.imgur.com/fIIJ2u9.png" width="70%">
 
 ### Animation Type
-The Animation Type allows users to control the type of animation the combat text uses. There are a total of 5 preset options.
+The Animation Type allows users to control the type of animation the combat text uses. There are a total of 5 preset options. The position of each text is randomized to minimize the chance of text overlapping each other.
 
 | Animation Type  | Example |
 | ------------- | ------------- |
