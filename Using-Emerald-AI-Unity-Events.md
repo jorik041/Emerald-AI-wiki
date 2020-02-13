@@ -55,7 +55,7 @@ The DamageEvent is invoked each time an AI is damaged.
 
 Example:
 ```c#
-EmeraldComponent.DeathEvent.AddListener(() => { YourCustomFunction(); });
+EmeraldComponent.DamageEvent.AddListener(() => { YourCustomFunction(); });
 ```
 
 ***
