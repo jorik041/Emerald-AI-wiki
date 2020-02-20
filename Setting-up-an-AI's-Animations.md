@@ -1,5 +1,7 @@
 # Setting up an AI's Animations
-If you have already generated an AI's Animator Controller, please see the **Updating an AI's Animation** section. Emerald AI features nearly 100 usable animations. However, not all of these have to be used. It is important that all needed animations are setup before testing to avoid errors.
+Emerald AI features nearly 100 usable animations. However, not all of these have to be used. It is important that all needed animations are setup before testing to avoid errors.
+
+**Note:** If you have already generated an AI's Animator Controller, Emerald AI will automatically update an AI's Animator Controller each time a new animation is added so there's no need to manually recreate the Animator Controller.
 
 ## Step 1
 When you first create an AI, you will notice this message at the top of the Emerald AI editor. An AI need to have an Emerald AI generated Animator Controller as it requires specific states and parameters to work well with Emerald AI. For this guide, we will be adding the animations first and then generating the Animator Controller.
