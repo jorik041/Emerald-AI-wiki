@@ -1,6 +1,8 @@
 # Creating an AI through the Setup Manager
 The Setup Manager allows users to quickly create AI by automating the process of applying all needed settings and components to the selected object. These settings include Emerald AI settings that are applied directly to the created AI. Once an AI has been created, you can adjust the settings as needed.
 
+**Note:** With 2019+, a prefab object is required to be in your scene in order to be used with the Setup Manager. Not doing so will result in an error. This issue will be resolved with the upcoming 2.4 version of Emerald AI.
+
 ## Part 1
 To open the Setup Manager, press Ctrl+Shift+E or go to Window>Emerald AI>Setup Manager within Unity.
 
