@@ -23,6 +23,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
    * [Setting up an AI's Layers and Tags]
    * [Using the Combat Text System]
    * [Setting up an AI's Optimization Settings]
+   * [Setting up an AI with Ragdoll Deaths]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -98,3 +99,4 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Using Emerald AI Unity Events]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI-Unity-Events
 [Adjusting an AI Hit's Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Adjusting-an-AI-Hit's-Transform
 [Using the Combat Text System]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-the-Combat-Text-System
+[Setting up an AI with Ragdoll Deaths]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI-with-Ragdoll-Deaths
