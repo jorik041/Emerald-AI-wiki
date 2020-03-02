@@ -4,6 +4,10 @@ Ragdolls can be a great way to add dynamic deaths to your AI. Ragdoll deaths all
 ## Step 1
 To create a ragdoll on your AI, you will first need to use Unity's Built-in Ragdoll Wizard to create a ragdoll on your AI object. If you haven't already setup your AI through the Emerald AI Setup Manager, it is recommended that you do this first. A guide on this can be found here: [https://docs.unity3d.com/Manual/wizard-RagdollWizard.html](https://docs.unity3d.com/Manual/wizard-RagdollWizard.html)
 
+The Ragdoll Wizard can be opened by going to GameObject>3D Object>Ragdoll... within Unity.
+
+![](https://i.imgur.com/BMOFAkm.png)
+
 ## Step 2
 After your AI has been through Unity's Ragdoll Wizard, it should look something like the below. 
 ![](https://i.imgur.com/p2hQfSv.png)
