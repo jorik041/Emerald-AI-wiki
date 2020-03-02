@@ -1,6 +1,6 @@
 # Setting up an AI with Ragdoll Deaths
 Ragdolls can be a great way to add dynamic deaths to your AI. Ragdoll deaths allow Unity's physics to drive your AI's deaths so their bodies collapse and react to their surrounding environment similar to games like Skyrim, Oblivion, Halo, etc. When an Emerald AI agent dies, their current animation will automatically blend with the AI's ragdoll physics.
-[Imgur](https://i.imgur.com/DzkwhrF.gifv)
+![](https://i.imgur.com/DzkwhrF.gif)
 
 ## Step 1
 To create a ragdoll on your AI, you will first need to use Unity's Built-in Ragdoll Wizard to create a ragdoll on your AI object. If you haven't already setup your AI through the Emerald AI Setup Manager, it is recommended that you do this first. A guide on this can be found here: [https://docs.unity3d.com/Manual/wizard-RagdollWizard.html](https://docs.unity3d.com/Manual/wizard-RagdollWizard.html)
