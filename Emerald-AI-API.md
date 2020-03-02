@@ -13,6 +13,7 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [ChangeWanderType](#ChangeWanderType)
    * [SetCombatTarget](#SetCombatTarget)
    * [SetFollowerTarget](#SetFollowerTarget)
+   * [ClearTarget](#ClearTarget)
    * [TameAI](#TameAI)
 * [Movement  Destination API](#Movement--Destination-API)
    * [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)
