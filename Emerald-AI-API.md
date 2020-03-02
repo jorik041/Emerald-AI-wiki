@@ -223,6 +223,22 @@ EventsManager.SetFollowerTarget(Transform Target)
 
 ***
 
+### ClearTarget
+Clears the AI's target. This is important if you are going to be destroying a target such as a player. An optional bool parameter can also be passed to clear an AI's follower target, if the AI is using the Companion or Pet Behavior Types.
+```c#
+EventsManager.ClearTarget(bool? ClearFollower = false)
+```
+Example:
+```c#
+//Clears the AI's target.
+EventsManager.ClearTarget();
+
+//Clears the AI's target and its current follower.
+EventsManager.ClearTarget(true);
+```
+
+***
+
 ### TameAI
 Tames the AI to become the Target object’s companion. Note: The tameable AI must have a Cautious Behavior Type and a Brave or Foolhardy Confidence Type. The AI must be tamed before the AI turns Aggressive to be successful.
 ```c#
