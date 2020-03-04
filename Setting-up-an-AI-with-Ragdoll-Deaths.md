@@ -13,7 +13,7 @@ The Ragdoll Wizard can be opened by going to GameObject>3D Object>Ragdoll... wit
 ![](https://i.imgur.com/BMOFAkm.png)
 
 ## Step 2
-After your AI has been through Unity's Ragdoll Wizard, it should look something like the below with colliders and hinge joint components attached to various portions of your AI's bone transforms. There is no need to disable these components as Emerald AI will automatically do this during runtime initialization process.
+After your AI has been through Unity's Ragdoll Wizard, it should look something like the below with colliders and hinge joint components attached to various portions of your AI's bone transforms. There is no need to disable these components as Emerald AI will automatically do this during the runtime initialization process.
 ![](https://i.imgur.com/p2hQfSv.png)
 
 ## Step 3
