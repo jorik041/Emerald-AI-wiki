@@ -18,3 +18,8 @@ Go to the AI's Settings>Combat>Combat Actions tab and enable Use Weapon Object:
 ## Step 4
 Once you have enabled Use Weapon Object, you will have an option to add a Weapon Object. This object should be a weapon gameobject attached to your AI's hand transform. Ensure that it is disabled after you have finished positioning it and applying it as the AI's Weapon Object.
 ![](https://i.imgur.com/jB7He0m.png)
+
+It should be attached to your AI's hand bone transform so that the weapon object follows an AI's animation. This is the object that the AI will use its combat weapon. Note: Every model is different so it is important that the weapon object is placed on the hand bone transform or it will not properly follow an AI's animations.
+![](https://i.imgur.com/E6VxSnb.png) 
+
+## Step 5
