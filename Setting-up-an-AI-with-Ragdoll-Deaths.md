@@ -8,7 +8,7 @@ To create a ragdoll on your AI, you will first need to use Unity's Built-in Ragd
 
 If you are unfamiliar with Unity's Ragdoll Wizard, a guide on this can be found here: [https://docs.unity3d.com/Manual/wizard-RagdollWizard.html](https://docs.unity3d.com/Manual/wizard-RagdollWizard.html)
 
-The Ragdoll Wizard can be opened by going to GameObject>3D Object>Ragdoll... within Unity.
+The Ragdoll Wizard can be opened by going to GameObject>3D Object>Ragdoll... within Unity. Assign all needed bone transforms and press Create when you're finished.
 
 ![](https://i.imgur.com/BMOFAkm.png)
 
