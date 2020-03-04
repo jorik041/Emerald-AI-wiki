@@ -5,10 +5,11 @@ Emerald AI features a built-in system that allows an AI to have sheath-able weap
 
 ## Step 1
 First, you will need to go to the Animation>Combat tab and enable Use Equip Animations.
-![](https://i.imgur.com/L9Rv6q6.png)
+![](https://i.imgur.com/EnN9NHp.png)
 
 ## Step 2
 Once you have enabled the Use Equip Animation, two additional animation slots will become available. Apply your Equip animation (Pulling the out) to the Equip animation slot and the Unequip animation (Putting the weapon away) to the Unequip animation slot.
+![](https://i.imgur.com/L9Rv6q6.png)
 
 ## Step 3
 Go to the AI's Settings>Combat>Combat Actions tab and enable Use Weapon Object:
