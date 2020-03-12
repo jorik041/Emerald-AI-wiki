@@ -50,8 +50,8 @@ EmeraldComponent.DeathEvent.AddListener(() => { YourCustomFunction(); });
 
 ***
 
-### DamageEvent
-The DamageEvent is invoked each time an AI is damaged.
+### OnTakeDamageEvent
+The OnTakeDamageEvent is invoked each time an AI is damaged.
 
 Example:
 ```c#
@@ -60,8 +60,18 @@ EmeraldComponent.DamageEvent.AddListener(() => { YourCustomFunction(); });
 
 ***
 
-### ReachedDestinationEvent
-The ReachedDestinationEvent is invoked when an AI reaches their destination location (must be using the Destination Wander Type).
+### OnDoDamageEvent
+The OnDoDamageEvent is invoked each time an AI deals damage for both Melee and Ranged weapon types.
+
+Example:
+```c#
+EmeraldComponent.OnDoDamageEvent.AddListener(() => { YourCustomFunction(); });
+```
+
+***
+
+### OnReachedDestinationEvent
+The OnReachedDestinationEvent is invoked when an AI reaches their destination location (must be using the Destination Wander Type).
 
 Example:
 ```c#
