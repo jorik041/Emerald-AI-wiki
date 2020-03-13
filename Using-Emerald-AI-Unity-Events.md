@@ -1,5 +1,5 @@
 # Using Emerald AI **Unity** Events
-Emerald AI has 10 built-in Unity Events that are called during various Emerald AI actions. You can use these events to trigger custom function calls and other mechanics to expand functionality with AI.
+Emerald AI has 11 built-in Unity Events that are called during various Emerald AI actions. You can use these events to trigger custom function calls and other mechanics to expand functionality with AI.
 
 ## Creating Emerald AI Unity Event through the Editor
 The Emerald AI Unity Events can be found on the AI's Settings>Events tab. Here. you will see 2 tabs; one for General Events and one for Combat Events. Each Event has + and - button that allows you to add or remove an event. When the + button is pressed, it will create a new blank element event for that Event List. This will allow you to apply the AI gameobject as the reference object, to call any custom function or Emerald AI's API functions that are available on your AI.
