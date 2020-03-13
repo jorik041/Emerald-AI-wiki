@@ -4,20 +4,23 @@ Emerald AI has 10 built-in Unity Events that are called during various Emerald A
 ## Creating Emerald AI Unity Event through the Editor
 The Emerald AI Unity Events can be found on the AI's Settings>Events tab. Here. you will see 2 tabs; one for General Events and one for Combat Events. Each Event has + and - button that allows you to add or remove an event. When the + button is pressed, it will create a new blank element event for that Event List. This will allow you to apply the AI gameobject as the reference object, to call any custom function or Emerald AI's API functions that are available on your AI.
 
+![](https://i.imgur.com/mZu6IOY.png)
+
+## Step 1
 An empty Emerald AI Unity Event:
 ![](https://i.imgur.com/ODl6O2D.png)
 
+## Step 2
 Creating a new, unassigned, Emerald AI Unity Event after pressing the + button:
 ![](https://i.imgur.com/cyOyoGo.png)
 
+## Step 3
 Assigning your AI object as the object reference on the Emerald AI Unity Event:
 ![](https://i.imgur.com/FI5K7mN.png)
 
-All available scripts, functions, and API on reference object for the Emerald AI Unity Event. These are called when the specified event is invoked:
+## Step 4
+All available scripts, functions, components, and API on reference object for the Emerald AI Unity Event. These are called when the specified event is invoked. In this Event's case, it's each time the AI is damaged.
 ![](https://i.imgur.com/drISY3c.png)
-
-
-![](https://i.imgur.com/mZu6IOY.png)
 
 
 ## Creating Emerald AI Unity Event through Code
