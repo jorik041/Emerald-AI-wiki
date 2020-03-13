@@ -6,19 +6,15 @@ The Emerald AI Unity Events can be found on the AI's Settings>Events tab. Here. 
 
 ![](https://i.imgur.com/mZu6IOY.png)
 
-## Step 1
 An empty Emerald AI Unity Event:
 ![](https://i.imgur.com/ODl6O2D.png)
 
-## Step 2
 Creating a new, unassigned, Emerald AI Unity Event after pressing the + button:
 ![](https://i.imgur.com/cyOyoGo.png)
 
-## Step 3
 Assigning your AI object as the object reference on the Emerald AI Unity Event:
 ![](https://i.imgur.com/FI5K7mN.png)
 
-## Step 4
 All available scripts, functions, components, and API on reference object for the Emerald AI Unity Event. These are called when the specified event is invoked. In this Event's case, it's each time the AI is damaged.
 ![](https://i.imgur.com/drISY3c.png)
 
