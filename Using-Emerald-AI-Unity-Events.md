@@ -7,7 +7,7 @@ The Emerald AI Unity Events can be found on the AI's Settings>Events tab. Here. 
 An empty Emerald AI Unity Event:
 ![](https://i.imgur.com/ODl6O2D.png)
 
-Creating a new, unassigned, Emerald AI Unity Event:
+Creating a new, unassigned, Emerald AI Unity Event after pressing the + button:
 ![](https://i.imgur.com/cyOyoGo.png)
 
 Assigning your AI object as the object reference on the Emerald AI Unity Event:
