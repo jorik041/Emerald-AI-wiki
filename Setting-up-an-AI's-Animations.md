@@ -5,6 +5,7 @@ Emerald AI features nearly 100 usable animations. However, not all of these have
 
 ## Step 1
 When you first create an AI, you will notice this message at the top of the Emerald AI editor. An AI need to have an Emerald AI generated Animator Controller as it requires specific states and parameters to work well with Emerald AI. For this guide, we will be adding the animations first and then generating the Animator Controller.
+
 ![](https://i.imgur.com/oUnr3dz.png)
 
 ## Step 2
