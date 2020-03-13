@@ -15,7 +15,7 @@ Creating a new, unassigned, Emerald AI Unity Event after pressing the + button:
 Assigning your AI object as the object reference on the Emerald AI Unity Event:
 ![](https://i.imgur.com/FI5K7mN.png)
 
-All available scripts, functions, components, and API on reference object for the Emerald AI Unity Event. These are called when the specified event is invoked. In this Event's case, it's each time the AI is damaged.
+All available scripts, functions, components, and API on reference object for the Emerald AI Unity Event. An Emerald AI Unity Event is called when the specified event is invoked. In this Event's case, it's each time the AI is damaged.
 
 ![](https://i.imgur.com/drISY3c.png)
 
