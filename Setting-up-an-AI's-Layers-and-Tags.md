@@ -15,4 +15,4 @@ You can setup your AI's detection Unity Tags and Layers through the Detection & 
 | Setting  | Description |
 | ------------- | ------------- |
 | Emerald Unity Tag  | The Unity Tag used to define other Emerald AI objects. This is the tag that was created using Unity's Tag pulldown at the top of the gameobject.  |
-| Detection Layers  | The Detection Layers controls what layers this AI can detect as possible targets, if the AI has the appropriate Emerald Unity Tag.  |
+| Detection Layers  | The Detection Layers controls what layers this AI can detect as possible targets, if the AI has the appropriate Emerald Unity Tag. You will also need to specify your player's Layer through the Detection Layers, given that your player has a different layer than your AI.  |
