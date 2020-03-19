@@ -1,5 +1,5 @@
 # Setting up an AI's Layers and Tags
-An AI's needs to be assigned Unity Tags and Layers as well as which Unity Tags and Layers will be used in the detection process. 
+An AI needs to be assigned Unity Tags and Layers as well as which Unity Tags and Layers will be used in the detection process. 
 
 **Note:** The Unity Tag and Layers are different than Emerald AI's Factions System. The player's layer will also need to be defined within the AI's Detection Layers. The player's tag is defined within the Faction Options tab.
 
