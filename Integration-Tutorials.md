@@ -4,7 +4,6 @@ Emerald AI supports some of the top selling character controllers on the Asset S
 If you need any help, feel free to send a message on the Emerald AI Support Discord server.
 
 <p align="center">
-  <b>Emerald AI on Discord</b><br>
 <a href="https://discordapp.com/invite/XpWYzjp">Emerald AI on Discord</a>
 <a href="https://discordapp.com/invite/XpWYzjp"<rel="Emerald AI on Discord"></a>
   <br><br>
