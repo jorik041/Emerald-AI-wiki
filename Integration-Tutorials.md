@@ -6,3 +6,13 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 https://discordapp.com/invite/XpWYzjp
 
 ## Table of Contents
+* [Invector Integration]
+* [Game Kit Controller Integration]
+* [UFPS Integration Tutorial]
+* [RFPS Integration]
+
+[Invector Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Invector-Integration-Tutorial
+[Integration Tutorials]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Integration-Tutorials
+[RFPS Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/RFPS-Integration-Tutorial
+[UFPS Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/UFPS-Integration-Tutorial
+[Game Kit Controller Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Game-Kit-Controller-Integration
