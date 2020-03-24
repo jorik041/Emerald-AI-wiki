@@ -16,3 +16,14 @@ Adjusting the Hit Transform slider will adjust the position of the red gizmo on 
 This is used for a variety of functionality so it is important that this stays within your AI's area and its Box Collider.
 
 ![](https://i.imgur.com/QKqIcXY.gif)
+
+Adjust the Hit Transform so that other AI have a height that feels natural. This is especially helpful for larger AI.
+
+Low Hit Transform Height
+![](https://i.imgur.com/uxeO9gG.png)
+
+Middle Hit Transform Height
+![](https://i.imgur.com/lAcavvn.png)
+
+High Hit Transform Height
+![](https://i.imgur.com/laguMRr.png)
