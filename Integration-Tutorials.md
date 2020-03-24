@@ -5,7 +5,7 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 
 <p align="center">
   <b>Emerald AI on Discord</b><br>
-  [Emerald AI on Discord](https://discordapp.com/invite/XpWYzjp)
+  [Emerald AI on Discord]
   <br><br>
 <img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 </p>
@@ -21,3 +21,4 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 [RFPS Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/RFPS-Integration-Tutorial
 [UFPS Integration Tutorial]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/UFPS-Integration-Tutorial
 [Game Kit Controller Integration]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Game-Kit-Controller-Integration
+[Emerald AI on Discord]: (https://discordapp.com/invite/XpWYzjp)
