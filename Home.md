@@ -31,6 +31,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 * [Using Factions and Faction Manager]
 * [Detection Type and Target Picking]
 * [Adjusting an AI Hit's Transform]
+* [Enabling an AI's Debugging Tools]
 
 ### Ability System
 * [Creating an AI Ability Object] 
@@ -100,3 +101,4 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Adjusting an AI Hit's Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Adjusting-an-AI-Hit's-Transform
 [Using the Combat Text System]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-the-Combat-Text-System
 [Setting up an AI with Ragdoll Deaths]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI-with-Ragdoll-Deaths
+[Enabling an AI's Debugging Tools]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Enabling-an-AI's-Debug-Tools
