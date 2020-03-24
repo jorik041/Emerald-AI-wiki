@@ -5,7 +5,7 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 
 <p align="center">
   <b>Emerald AI on Discord</b><br>
-<a href="https://discordapp.com/invite/XpWYzjp" rel="Emerald AI on Discord">![Foo](https://i.imgur.com/LAj9OLw.png)</a>
+<a href="https://discordapp.com/invite/XpWYzjp" rel="Emerald AI on Discord"></a>
   <br><br>
 <img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 </p>
