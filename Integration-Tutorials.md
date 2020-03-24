@@ -3,7 +3,7 @@ Emerald AI supports some of the top selling character controllers on the Asset S
 
 If you need any help, feel free to send a message on the Emerald AI Support Discord server.
 https://discordapp.com/invite/XpWYzjp
-<img src="https://i.imgur.com/LAj9OLw.png" width="80%">
+<img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 
 ## Table of Contents
 * [Invector Integration]
