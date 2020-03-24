@@ -5,8 +5,7 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 
 <p align="center">
   <b>Emerald AI on Discord</b><br>
-  https://discordapp.com/invite/XpWYzjp
-<a href="http://google.com.au/" rel="some text">![Foo](http://www.google.com.au/images/nav_logo7.png)</a>
+<a href="https://discordapp.com/invite/XpWYzjp" rel="Emerald AI on Discord">![Foo](https://i.imgur.com/LAj9OLw.png)</a>
   <br><br>
 <img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 </p>
