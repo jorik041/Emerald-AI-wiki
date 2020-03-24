@@ -8,9 +8,8 @@ https://discordapp.com/invite/XpWYzjp
 
 <p align="center">
   <b>Emerald AI on Discord</b><br>
-  <a href="#">Link 1</a> |
+  <a href="#">Link 1</a>
   <br><br>
-  <img src="http://s.4cdn.org/image/title/105.gif">
 <img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 </p>
 
