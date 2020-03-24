@@ -5,15 +5,13 @@ If you need any help, feel free to send a message on the Emerald AI Support Disc
 
 https://discordapp.com/invite/XpWYzjp
 
-<img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 
 <p align="center">
-  <b>Some Links:</b><br>
+  <b>Emerald AI on Discord</b><br>
   <a href="#">Link 1</a> |
-  <a href="#">Link 2</a> |
-  <a href="#">Link 3</a>
   <br><br>
   <img src="http://s.4cdn.org/image/title/105.gif">
+<img src="https://i.imgur.com/LAj9OLw.png" width="30%">
 </p>
 
 ## Table of Contents
