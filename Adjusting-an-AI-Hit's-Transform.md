@@ -17,7 +17,7 @@ This is used for a variety of functionality so it is important that this stays w
 
 ![](https://i.imgur.com/QKqIcXY.gif)
 
-Adjust the Hit Transform so that other AI have a height that feels natural. This is especially helpful for larger AI.
+3 different height examples and how other AI use the Hit Transform for the look at feature. Adjust the Hit Transform so that other AI have a height that feels natural. This is especially helpful for larger AI.
 
 Low Hit Transform Height
 ![](https://i.imgur.com/uxeO9gG.png)
