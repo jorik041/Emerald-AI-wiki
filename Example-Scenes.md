@@ -4,6 +4,7 @@ One of the best ways to get started with Emerald AI is to test the examples scen
 | Example Scene  | Description |
 | ------------- | ------------- |
 | AI vs AI  | An example of two AI of opposing factions fighting each other. The AI will only attack the player if the player attacks them first.  |
+| AI vs Non-AI  | An example of an AI attacking a non-AI target.  |
 | Companion Example  | An example of a Companion AI that follows the player around. It will attack any opposing AI that tries to attack the player.  |
 | Destination Example  | An example of two Destination based AI attempting to reach their destination. If any opposing AI gets in their way, they will fight said AI then resume traveling to their destination once the opponent has been defeated.  |
 | Move to Mouse Position  | An example of having controllable AI. The player can Left Click on an AI to select it then click again somewhere on the terrain for the AI to move to that location. If an AI get near the enemy AI, they will automatically attack it then continue to their destination after it has been killed.  |
