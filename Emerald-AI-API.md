@@ -217,15 +217,15 @@ Example:
 EventsManager.SetFactionLevel("Beast", "Friendly");
 ```
 
-### SetFactionLevel
-Adds the Faction parameter to the Global Faction Manger List. Note: It is recommended that all factions are added within the faction manager, if possible. If you add a faction during runtime in a built project, you will need to have a custom save system that will save and load your data to the Faction Data ScriptableObject. This is located in the Resources folder.  
+### AddFactionRelation
+Adds the Faction and Faction Relation to the AI's Faction Relations List. Note: The faction must exist within the Faction Manager's Current Faction List. 
 ```c#
 AddFactionRelation(string Faction, string FactionLevel)
 ```
 Example:
 ```c#
-//Sets the Beast faction relation to Friendly
-EventsManager.AddFactionRelation("Beast", "Friendly");
+//Adds the Orc faction and relation as Enemy to an AI's Faction Relation list.
+EventsManager.AddFactionRelation("Orc", "Enemy");
 ```
 
 ***
