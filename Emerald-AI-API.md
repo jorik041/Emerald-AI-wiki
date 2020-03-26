@@ -239,10 +239,17 @@ EventsManager.AddFactionRelation("Orc", "Enemy");
 ***
 
 ### GetAIRelation
-Returns the relation of the EmeraldTarget with this AI.
+Returns the relation of the EmeraldTarget with this AI. The EmeraldTarget sent must be another AI's EmeraldAISystem component.
 ```c#
 GetAIRelation(EmeraldAISystem EmeraldTarget)
 ```
+Example:
+```c#
+//Debug logs the AI's relation to the AI's current target, given that it is another AI.
+Debug.Log(EventsManager.GetAIRelation(EmeraldComponent.TargetEmerald));
+```
+
+***
 
 ### GetPlayerRelation
 Returns the relation of the EmeraldTarget with this AI.
