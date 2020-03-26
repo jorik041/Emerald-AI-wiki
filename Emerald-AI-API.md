@@ -17,6 +17,8 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [TameAI](#TameAI)
    * [SetFactionLevel](#SetFactionLevel)
    * [AddFactionRelation](#AddFactionRelation)
+   * [GetAIRelation](#GetAIRelation)
+   * [GetPlayerRelation](#GetPlayerRelation)
 * [Movement  Destination API](#Movement--Destination-API)
    * [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)
    * [SetDynamicWanderPosition](#SetDynamicWanderPosition)
@@ -232,6 +234,25 @@ Example:
 ```c#
 //Adds the Orc faction and relation as Enemy to an AI's Faction Relation list.
 EventsManager.AddFactionRelation("Orc", "Enemy");
+```
+
+***
+
+### GetAIRelation
+Returns the relation of the EmeraldTarget with this AI.
+```c#
+GetAIRelation(EmeraldAISystem EmeraldTarget)
+```
+
+### GetPlayerRelation
+Returns the relation of the EmeraldTarget with this AI.
+```c#
+GetPlayerRelation()
+```
+Example:
+```c#
+//Debug logs the AI's relation to the player to the Unity Console.
+Debug.Log(EventsManager.GetPlayerRelation());
 ```
 
 ***
