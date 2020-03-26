@@ -215,7 +215,7 @@ EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary);
 ### SetFactionLevel
 Changes the relation of the given faction. Note: The faction must be available in the AI's faction list.
 ```c#
-SetFactionLevel(string Faction, string FactionLevel)
+EventsManager.SetFactionLevel(string Faction, string FactionLevel)
 ```
 Example:
 ```c#
@@ -228,7 +228,7 @@ EventsManager.SetFactionLevel("Beast", "Friendly");
 ### AddFactionRelation
 Adds the Faction and Faction Relation to the AI's Faction Relations List. Note: The faction must exist within the Faction Manager's Current Faction List. 
 ```c#
-AddFactionRelation(string Faction, string FactionLevel)
+EventsManager.AddFactionRelation(string Faction, string FactionLevel)
 ```
 Example:
 ```c#
@@ -241,7 +241,7 @@ EventsManager.AddFactionRelation("Orc", "Enemy");
 ### GetAIRelation
 Returns the relation of the EmeraldTarget with this AI. The EmeraldTarget sent must be another AI's EmeraldAISystem component.
 ```c#
-GetAIRelation(EmeraldAISystem EmeraldTarget)
+EventsManager.GetAIRelation(EmeraldAISystem EmeraldTarget)
 ```
 Example:
 ```c#
@@ -254,7 +254,7 @@ Debug.Log(EventsManager.GetAIRelation(EmeraldComponent.TargetEmerald));
 ### GetPlayerRelation
 Returns the relation of the EmeraldTarget with this AI.
 ```c#
-GetPlayerRelation()
+EventsManager.GetPlayerRelation()
 ```
 Example:
 ```c#
