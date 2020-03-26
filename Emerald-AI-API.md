@@ -15,6 +15,8 @@ Emerald AI has tons of API that can be accessed to allow for added functionality
    * [SetFollowerTarget](#SetFollowerTarget)
    * [ClearTarget](#ClearTarget)
    * [TameAI](#TameAI)
+   * [SetFactionLevel](#SetFactionLevel)
+   * [AddFactionRelation](#AddFactionRelation)
 * [Movement  Destination API](#Movement--Destination-API)
    * [UpdateDynamicWanderPosition](#UpdateDynamicWanderPosition)
    * [SetDynamicWanderPosition](#SetDynamicWanderPosition)
@@ -206,6 +208,8 @@ Example:
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary);
 ```
 
+***
+
 ### SetFactionLevel
 Changes the relation of the given faction. Note: The faction must be available in the AI's faction list.
 ```c#
@@ -216,6 +220,8 @@ Example:
 //Sets the Beast faction relation to Friendly
 EventsManager.SetFactionLevel("Beast", "Friendly");
 ```
+
+***
 
 ### AddFactionRelation
 Adds the Faction and Faction Relation to the AI's Faction Relations List. Note: The faction must exist within the Faction Manager's Current Faction List. 
