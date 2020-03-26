@@ -245,7 +245,7 @@ GetAIRelation(EmeraldAISystem EmeraldTarget)
 ```
 Example:
 ```c#
-//Debug logs the AI's relation to the AI's current target, given that it is another AI.
+//Debug logs the AI's relation to the AI's current target, given that it is another AI, to the Unity Console.
 Debug.Log(EventsManager.GetAIRelation(EmeraldComponent.TargetEmerald));
 ```
 
