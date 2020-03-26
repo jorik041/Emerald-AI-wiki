@@ -189,7 +189,7 @@ EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType NewConfidence)
 ```
 Example:
 ```c#
-//Change the AI's current confidence to Passive
+//Change the AI's current confidence to Brave
 EventsManager.ChangeConfidence(EmeraldAISystem.ConfidenceType.Brave);
 ```
 
@@ -204,6 +204,28 @@ Example:
 ```c#
 //Change the AI's current Wander Type to Stationary
 EventsManager.ChangeWanderType(EmeraldAISystem.WanderType.Stationary);
+```
+
+### SetFactionLevel
+Changes the relation of the given faction. Note: The faction must be available in the AI's faction list.
+```c#
+SetFactionLevel(string Faction, string FactionLevel)
+```
+Example:
+```c#
+//Sets the Beast faction relation to Friendly
+EventsManager.SetFactionLevel("Beast", "Friendly");
+```
+
+### SetFactionLevel
+Adds the Faction parameter to the Global Faction Manger List. Note: It is recommended that all factions are added within the faction manager, if possible. If you add a faction during runtime in a built project, you will need to have a custom save system that will save and load your data to the Faction Data ScriptableObject. This is located in the Resources folder.  
+```c#
+AddFactionRelation(string Faction, string FactionLevel)
+```
+Example:
+```c#
+//Sets the Beast faction relation to Friendly
+EventsManager.AddFactionRelation("Beast", "Friendly");
 ```
 
 ***
