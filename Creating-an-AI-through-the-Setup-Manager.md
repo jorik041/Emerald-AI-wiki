@@ -20,7 +20,7 @@ Next, assign the Unity Tags and Layers this AI's game object will use for detect
 ![](https://i.imgur.com/mklSVUI.png)
 
 ## Part 4
-The rest of the settings up until the Weapon Type can be setup as needed. The Weapon Type, Death Type, and Movement Type are important because they control that kind of animations your AI will use.
+The rest of the settings up until the Weapon Type can be setup as needed. The Weapon Type, Death Type, and Movement Type are important because they control the kind of animations your AI will use.
 
 ![](https://i.imgur.com/RILBPKN.png)
 
