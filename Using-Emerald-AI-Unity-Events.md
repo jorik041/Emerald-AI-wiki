@@ -33,7 +33,7 @@ You can add Emerald AI Unity Events programmatically using the following code fo
 EmeraldComponent.TheEmeraldAIUnityEvent.AddListener(() => { YourFunctionToCall(); });
 ```
 
-For example, lets say you want to track each AI death and add it to a static variable so the player can track their kills. For this example, lets say the kill count script name is KillCounterSystem and the static variable is an int called AmountOfKills.
+For example, lets say you want to track each AI death and add it to a static variable so the player can track their kills. For this example, the kill count script name is KillCounterSystem and the static variable is an int called AmountOfKills.
 ```c#
 ...
 void Start ()
