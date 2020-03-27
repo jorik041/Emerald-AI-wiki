@@ -22,4 +22,7 @@ Find the exact frame you want the AI to cause damage with its attack animation, 
 ![](https://i.imgur.com/JfjwzXR.gif)
 
 ## Step 5
-This should be all the you need to do to get AI to damage other AI or the player. Double check that the function name was entered correctly and that the attack animation is being used by the AI. AI will receive errors if an attack animation event is missing or was entered incorrectly.
+Double check that the function name was entered correctly and that the attack animation is being used by the AI. AI will receive errors if an attack animation event is missing or was entered incorrectly. If you haven't already done so, you will need to setup your AI's Tags and Layers as well as its Faction Relations list. These steps are what allow your AI to properly detect other AI and player objects.
+
+[Setting up an AI's Tags and Layers](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AIs-Layers-and-Tags)
+[Setting up an AI's Faction Relations](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Factions-and-Faction-Manager)
