@@ -31,5 +31,5 @@ The rest of the settings up until the Weapon Type can be setup as needed. The We
 | Movement Type  | The Movement Type Controls whether the AI will use NavMesh or Root Motion driven movement. This is dependent on your AI's animations so ensure you are using the right settings with the right animations. |
 
 ## Part 5
-The last setup is to press the press the "Setup AI" button at the bottom of the Setup Manager when you are finished setting up your object to be an AI. This will apply the settings you've set and apply all needed components. After this, you will still need to setup your AI's animations and apply a few more settings within the Emerald AI Editor.
+The last setup is to press the press the "Setup AI" button at the bottom of the Setup Manager when you are finished setting up your object to be an AI. This will apply the settings you've set and apply all needed components. After this, you will still need to setup your AI's animations and apply a few more settings within the Emerald AI Editor. The Emerald AI editor will tell you what needs to be done next.
 ![](https://i.imgur.com/s5zFOQJ.png)
