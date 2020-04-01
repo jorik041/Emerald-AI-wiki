@@ -45,6 +45,6 @@ Lastly, go to the Ability Effects & Sounds tab. Here, you can customize the visu
 ## Step 6
 Now, you will need to apply your newly created bullet (Ability Object) to your AI. To do this, go to the Emerald AI editor, go to the AI's Settings>Combat>Damage Settings tab, and go to the Abilities section. In the Offensive Abilities list, press the + button to create a new ability for the AI to use. This will allow you to customize the animation that will be used as well as the Ability Object that will be fired. The animations are based off of your AI's Ranged Attack Animation list. You will want to set the bullet we created earlier as the Ability Object.
 
-Note: If you haven't already done so, you will need to create an EmeraldAttackEvent Animation Event for each of your attack animations to properly trigger an attack. A guide for this can be found here: [Creating Attack Animation Events](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events)
+**Note:** If you haven't already done so, you will need to create an EmeraldAttackEvent Animation Event for each of your attack animations to properly trigger an attack. A guide for this can be found here: [Creating Attack Animation Events](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events)
 
 ![](https://i.imgur.com/N0WBd3V.png)
