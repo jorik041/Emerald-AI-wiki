@@ -110,6 +110,10 @@ Aim Incorrect (Aiming too high over the target's head)
 Aim corrected by setting the Y Axis Offset to -10.
 ![](https://i.imgur.com/3Kj77t4.png)
 
+
+# Conclusion
+This concludes the Emerald AI Shooter AI tutorial. If you need help or have any suggestions, contact me on Discord: [Black Horizon Studios Discord](https://discordapp.com/invite/XpWYzjp)
+
 [Prerequisites]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#prerequisites
 [Creating the Bullet/Projectile]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile
 [Setting up an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-ranged-attack-transform
