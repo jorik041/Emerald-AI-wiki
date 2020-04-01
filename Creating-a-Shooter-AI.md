@@ -112,7 +112,7 @@ Aim corrected by setting the Y Axis Offset to -10.
 
 
 # Conclusion
-This concludes the Emerald AI Shooter AI tutorial. If you need help or have any suggestions, contact me on Discord: [Black Horizon Studios Discord](https://discordapp.com/invite/XpWYzjp)
+This concludes the Emerald AI Shooter AI tutorial. If you need help or have any suggestions, send a message on the Emerald AI Discord server: [Black Horizon Studios Discord](https://discordapp.com/invite/XpWYzjp)
 
 [Prerequisites]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#prerequisites
 [Creating the Bullet/Projectile]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile
