@@ -8,6 +8,8 @@ Emerald AI features tons of customizable options to create nearly any AI imagina
 * [Setting up an AI's Ranged Attack Transform]
 * [Setting up the Aiming Mechanics]
 
+# Prerequisites
+
 If you haven't already done so, you will need to have an AI setup through Emerald AI's Setup Manager with all needed animations applied. This tutorial covers setting up specific shooter AI features, not setting up an AI as this is covered with the guides below.
 
 **Note:** Your AI will need to be set to the Ranged Weapon Type so ensure this is done now and not later. Ranged and Melee AI have different animations.
