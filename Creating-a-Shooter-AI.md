@@ -48,3 +48,22 @@ Now, you will need to apply your newly created bullet (Ability Object) to your A
 **Note:** If you haven't already done so, you will need to create an EmeraldAttackEvent Animation Event for each of your attack animations to properly trigger an attack. A guide for this can be found here: [Creating Attack Animation Events](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-Attack-Animation-Events)
 
 ![](https://i.imgur.com/N0WBd3V.png)
+
+
+# Setting up an AI's Ranged Attack Transform
+This portion of the tutorial will cover creating, setting up, and positioning the AI's Ranged Attack Transform. This transform is used to position the bullets and their spawn point.
+
+## Step 1
+First, go to your AI's Emerald AI editor and go to the AI's Settings>Combat>Damage Settings tab. Under the Ranged Settings section you will find the Ranged Attack Transform. This transform's position is used to spawn your AI's bullets. If you don't care for visual accuracy, you can just use the AI's weapon for the Ranged Attack Transform. However, if you want a clear and more visual accuracy, then continue this section of the tutorial.
+
+![](https://i.imgur.com/Tk0s0bK.png)
+
+## Step 2
+In order for our AI to have accurately positioned bullets/projectiles, you will need to create your own weapon point that will be used as the Ranged Attack Transform. One of the best ways to do this is to create a Sphere by going to GameObject>3D Object>Sphere. **It is very important that you remove the collider on the newly create sphere to avoid any unwanted collisions with the AI's bullet.** A size of 0.1 on all axes usually works well.
+
+![](https://i.imgur.com/vFM6tdC.png)
+
+## Step 3
+Next, you will need to attach your sphere to your AI's weapon by dragging it and attaching it as a child to your AI's weapon.
+
+![](https://i.imgur.com/2WpL8an.png)
