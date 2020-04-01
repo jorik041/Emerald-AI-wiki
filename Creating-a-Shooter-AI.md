@@ -79,6 +79,6 @@ So the mesh isn't visible during runtime, you will need to disable the Mesh Rend
 ![](https://i.imgur.com/AUBGJ4P.png)
 
 ## Step 6
-Lastly, you need to position the Firing Point we created as the AI's Ranged Attack Transform.
+Lastly, you need to assign the Firing Point we created as the AI's Ranged Attack Transform. Ensure that it is attached to your AI's weapon as a child and that the Mesh Renderer has been disabled.
 
-![](https://i.imgur.com/3joNIx0.png)
+![](https://i.imgur.com/UcUSyyM.png)
