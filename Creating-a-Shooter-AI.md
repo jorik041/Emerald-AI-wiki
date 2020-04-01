@@ -1,12 +1,13 @@
 # Creating a Shooter AI
 Emerald AI features tons of customizable options to create nearly any AI imaginable. With this Emerald AI tutorial, you will be able to create your own shooter AI that can shoot bullets from their gun and aim their weapon at targets all without having to write a single line of code. This tutorial will require users to have their own shooter animated model and effects, but the setup process should universally apply to whatever you are using.
 
-![](https://i.imgur.com/nbi1IEP.png)
-
 ## Table of Contents 
+* [Prerequisites]
 * [Creating the Bullet/Projectile]
 * [Setting up an AI's Ranged Attack Transform]
-* [Setting up the Aiming Mechanics]
+* [Setting up an AI's Aiming Mechanics]
+
+![](https://i.imgur.com/nbi1IEP.png)
 
 # Prerequisites
 
@@ -111,4 +112,4 @@ Aim corrected by setting the Y Axis Offset to -10.
 
 [Creating the Bullet/Projectile]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile
 [Setting up an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-ranged-attack-transform
-[Setting up the Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-the-aiming-mechanics
+[Setting up an AI's Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-the-aiming-mechanics
