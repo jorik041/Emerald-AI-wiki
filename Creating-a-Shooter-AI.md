@@ -91,7 +91,7 @@ Lastly, you need to assign the Firing Point we created as the AI's Ranged Attack
 
 ![](https://i.imgur.com/UcUSyyM.png)
 
-# Setting up the Aiming Mechanics
+# Setting up an AI's Aiming Mechanics
 Emerald AI's built-in look at feature allows AI to aim their weapons and look at other AI and targets. This requires that an AI's model and animations use the Humanoid Animation Type. For more information on setting up your model to use the Humanoid Animation Type, see Unity's tutorial here: [https://docs.unity3d.com/Manual/FBXImporter-Rig.html](https://docs.unity3d.com/Manual/FBXImporter-Rig.html)
 
 ![](https://i.imgur.com/zOrY27N.gif)
@@ -110,6 +110,7 @@ Aim Incorrect (Aiming too high over the target's head)
 Aim corrected by setting the Y Axis Offset to -10.
 ![](https://i.imgur.com/3Kj77t4.png)
 
+[Prerequisites]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Prerequisites
 [Creating the Bullet/Projectile]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile
 [Setting up an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-ranged-attack-transform
-[Setting up an AI's Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-the-aiming-mechanics
+[Setting up an AI's Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-an-AI's-aiming-mechanics
