@@ -113,4 +113,4 @@ Aim corrected by setting the Y Axis Offset to -10.
 [Prerequisites]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#prerequisites
 [Creating the Bullet/Projectile]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile
 [Setting up an AI's Ranged Attack Transform]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-ranged-attack-transform
-[Setting up an AI's Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-an-AI's-aiming-mechanics
+[Setting up an AI's Aiming Mechanics]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-aiming-mechanics
