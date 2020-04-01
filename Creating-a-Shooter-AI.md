@@ -1,5 +1,5 @@
 # Creating a Shooter AI
-Emerald AI features tons of customizable options to create nearly any AI imaginable. With this Emerald AI tutorial, you will be able to create your own shooter AI that can shoot bullets from their gun and aim their weapon at targets all without having to write a single line of code. This tutorial will require users to have their own shooter animated model and effects, but the setup process should universally apply to whatever you are using.
+Emerald AI features tons of customizable options to create nearly any AI imaginable. With this Emerald AI tutorial, you will be able to create your own shooter AI that can shoot bullets from their gun and aim their weapon at targets all without having to write a single line of code. The purpose of this tutorial is to guide users with the needed mechanics on how to create shooter AI. This tutorial will require users to have their own shooter animated model and effects, but the setup process should universally apply to whatever you are using.
 
 ## Table of Contents 
 * [Prerequisites]
