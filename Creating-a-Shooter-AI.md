@@ -92,3 +92,12 @@ Emerald AI's built-in look at feature allows AI to aim their weapons and look at
 After you have ensured your AI is using the Humanoid Animation Type, go to your AI's Emerald AI editor and go to the Detection & Tags>Head Look Options tab. Here you will need to set Use Head Look to Yes in order to have the feature enabled.
 
 ![](https://i.imgur.com/WV7gL59.png)
+
+## Step 2
+Adjust these settings as desired. They are largely dependent on personal preference. Each setting has a brief explanation of what it does. If you notice your AI's aim is off (when looking at a target), you can adjust the Y Axis Offset setting.
+
+Aim Incorrect
+![](https://i.imgur.com/mL66Biw.png)
+
+Aim Corrected by setting the Y Axis Offset to -10.
+![](https://i.imgur.com/3Kj77t4.png)
