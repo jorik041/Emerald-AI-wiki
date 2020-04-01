@@ -64,6 +64,21 @@ In order for our AI to have accurately positioned bullets/projectiles, you will 
 ![](https://i.imgur.com/vFM6tdC.png)
 
 ## Step 3
-Next, you will need to attach your sphere to your AI's weapon by dragging it and attaching it as a child to your AI's weapon.
+Next, you will need to attach your sphere to your AI's weapon by dragging it and attaching it as a child to your AI's weapon. For this tutorial, the name was changed from Sphere to Firing Point.
 
 ![](https://i.imgur.com/2WpL8an.png)
+
+## Step 4
+Now you need to position the Firing Point so that it is on or near the barrel of your AI's weapon. The mesh from the sphere is nice to help assist you with the positioning process. If you notice later on that the positioning isn't quite right, you can always readjust it as needed.
+
+![](https://i.imgur.com/rybLtsh.png)
+
+## Step 5
+So the mesh isn't visible during runtime, you will need to disable the Mesh Renderer on the Firing Point. You can re-enable this if readjustments need to be made. 
+
+![](https://i.imgur.com/AUBGJ4P.png)
+
+## Step 6
+Lastly, you need to position the Firing Point we created as the AI's Ranged Attack Transform.
+
+![](https://i.imgur.com/3joNIx0.png)
