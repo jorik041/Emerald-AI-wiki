@@ -11,6 +11,8 @@ If you haven't already done so, you will need to have an AI setup through Emeral
 * [Setting up an AI's Animations](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI's-Animations)
 
 # Creating the Bullet/Projectile
+This portion of the tutorial will cover creating a bullet/projectile using an Emerald AI Ability Object.
+
 ## Step 1
 First, you will need to make sure there are no warning messages at the top of your AI's Emerald AI editor. If there are, you will need to resolve these before you continue. These can all be resolved by seeing the [Creating a New AI](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-New-AI) section. 
 
