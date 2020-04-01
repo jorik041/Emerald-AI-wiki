@@ -3,9 +3,12 @@ Emerald AI features tons of customizable options to create nearly any AI imagina
 
 ![](https://i.imgur.com/nbi1IEP.png)
 
-Table of Contents 
+## Table of Contents 
 * [Creating the Bullet/Projectile](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#creating-the-bulletprojectile)
+
 [Setting up an AI's Ranged Attack Transform](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-an-ais-ranged-attack-transform)
+
+[Setting up the Aiming Mechanics](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI#setting-up-the-aiming-mechanics)
 
 If you haven't already done so, you will need to have an AI setup through Emerald AI's Setup Manager with all needed animations applied. This tutorial covers setting up specific shooter AI features, not setting up an AI as this is covered with the guides below.
 
