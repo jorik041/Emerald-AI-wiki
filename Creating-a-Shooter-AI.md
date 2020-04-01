@@ -82,3 +82,13 @@ So the mesh isn't visible during runtime, you will need to disable the Mesh Rend
 Lastly, you need to assign the Firing Point we created as the AI's Ranged Attack Transform. Ensure that it is attached to your AI's weapon as a child and that the Mesh Renderer has been disabled.
 
 ![](https://i.imgur.com/UcUSyyM.png)
+
+# Setting up the Aiming Mechanics
+Emerald AI's built-in look at feature allows AI to aim their weapons and look at other AI and targets. This requires that an AI's model and animations use the Humanoid Animation Type. For more information on setting up your model to use the Humanoid Animation Type, see Unity's tutorial here: [https://docs.unity3d.com/Manual/FBXImporter-Rig.html](https://docs.unity3d.com/Manual/FBXImporter-Rig.html)
+
+![](https://i.imgur.com/zOrY27N.gif)
+
+## Step 1
+After you have ensured your AI is using the Humanoid Animation Type, go to your AI's Emerald AI editor and go to the Detection & Tags>Head Look Options tab. Here you will need to set Use Head Look to Yes in order to have the feature enabled.
+
+![](https://i.imgur.com/WV7gL59.png)
