@@ -17,12 +17,14 @@ This portion of the tutorial will cover creating a bullet/projectile using an Em
 First, you will need to make sure there are no warning messages at the top of your AI's Emerald AI editor. If there are, you will need to resolve these before you continue. These can all be resolved by seeing the [Creating a New AI](https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-New-AI) section. 
 
 **Note:** The Setting up an AI's Ranged Attack Transform and Setting up an AI's Ability Object warnings can be ignored as these will be covered below.
+
 ![](https://i.imgur.com/sHdKbbV.png)
 
 ## Step 2
 Now that your AI is mostly setup, we can focus on the settings that will allow your AI to shoot and aim their weapon.
 
 Start off by creating and naming an Emerald AI Ability Object. This can be done by right clicking in the Project tab and going to Create>Emerald AI>Create>Ability Object. It is recommended that you create this in a custom folder for better organization some AI might have different types of bullets.
+
 ![](https://i.imgur.com/QpXMVEG.png)
 
 ## Step 3
