@@ -54,7 +54,7 @@ Now, you will need to apply your newly created bullet (Ability Object) to your A
 This portion of the tutorial will cover creating, setting up, and positioning the AI's Ranged Attack Transform. This transform is used to position the bullets and their spawn point.
 
 ## Step 1
-First, go to your AI's Emerald AI editor and go to the AI's Settings>Combat>Damage Settings tab. Under the Ranged Settings section you will find the Ranged Attack Transform. This transform's position is used to spawn your AI's bullets. If you don't care for visual accuracy, you can just use the AI's weapon for the Ranged Attack Transform. However, if you want a clear and more visual accuracy, then continue this section of the tutorial.
+First, go to your AI's Emerald AI editor and go to the AI's Settings>Combat>Damage Settings tab. Under the Ranged Settings section you will find the Ranged Attack Transform. This transform's position is used to spawn your AI's bullets. If you don't care for visual accuracy, you can just use the AI's weapon for the Ranged Attack Transform. However, if you want a more visual accuracy where the bullet appears to fire from the weapon's barrel, then continue this section of the tutorial.
 
 ![](https://i.imgur.com/Tk0s0bK.png)
 
