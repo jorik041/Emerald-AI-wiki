@@ -24,6 +24,7 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
    * [Using the Combat Text System]
    * [Setting up an AI's Optimization Settings]
    * [Setting up an AI with Ragdoll Deaths]
+   * [Creating a Shooter AI]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -102,3 +103,4 @@ Emerald AI can be found on the Asset Store: [Get Emerald AI](https://assetstore.
 [Using the Combat Text System]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-the-Combat-Text-System
 [Setting up an AI with Ragdoll Deaths]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI-with-Ragdoll-Deaths
 [Enabling an AI's Debugging Tools]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Enabling-an-AI's-Debug-Tools
+[Creating a Shooter AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI
