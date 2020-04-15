@@ -72,12 +72,12 @@ Once you’ve navigated to the Abilities section, add your Support Ability Objec
 
 The Support Animation is based off of your AI’s Ranged Attack Animation list. This allows you to choose which animation is used for each category of abilities. If you get an error stating there are no ranged attack animations, you will need to create an Animator Controller for your AI and/or apply the AI’s Ranged Attack Animations. If your AI only has one ranged attack animation, that’s okay. You can just use the same animation for each of the 3 categories. Lastly, only one category is required so all 3 do not have to be used.
 
-(Image Needed)
+![](https://i.imgur.com/IUS0RDf.gif)
 
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
 
-(Image Needed)
+![](https://i.imgur.com/oNaIqje.gif)
 
 &nbsp;
 
@@ -110,9 +110,9 @@ Once you’ve navigated to the Abilities section, add your Summon Ability Object
 
 The Summon Animation is based off of your AI’s Ranged Attack Animation list. This allows you to choose which animation is used for each category of abilities. If you get an error stating there are no ranged attack animations, you will need to create an Animator Controller for your AI and/or apply the AI’s Ranged Attack Animations. If your AI only has one ranged attack animation, that’s okay. You can just use the same animation for each of the 3 categories. Lastly, only one category is required so all 3 do not have to be used.
 
-(Image Needed)
+![](https://i.imgur.com/IUS0RDf.gif)
 
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
 
-(Image Needed)
+![](https://i.imgur.com/ahXxVaL.gif)
