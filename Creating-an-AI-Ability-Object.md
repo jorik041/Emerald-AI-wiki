@@ -40,6 +40,8 @@ The Offensive Animation is based off of your AI’s Ranged Attack Animation list
 ### Part 5 
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
 
+**Note:** An AI's ability list has been updated to allow which animation is used for each applied ability.
+
 ![](https://i.imgur.com/ygPk0B0.gif)
 
 &nbsp;
@@ -76,6 +78,8 @@ The Support Animation is based off of your AI’s Ranged Attack Animation list. 
 
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
+
+**Note:** An AI's ability list has been updated to allow which animation is used for each applied ability.
 
 ![](https://i.imgur.com/oNaIqje.gif)
 
@@ -114,5 +118,7 @@ The Summon Animation is based off of your AI’s Ranged Attack Animation list. T
 
 ### Part 5
 Abilities are automatically calculated to maximize an AI’s chance at survival. An AI will first attempt to heal, given that it has a Support Ability. Then an AI will attempt to use a Summon Ability, given that it has a Summon Ability. Lastly, it will attack with its Offensive Abilities. There are no limits to the amount of Ability Objects an AI can use.
+
+**Note:** An AI's ability list has been updated to allow which animation is used for each applied ability.
 
 ![](https://i.imgur.com/ahXxVaL.gif)
