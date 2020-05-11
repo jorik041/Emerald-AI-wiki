@@ -18,6 +18,7 @@
    * [Setting up an AI's Optimization Settings]
    * [Setting up an AI with Ragdoll Deaths]
    * [Creating a Shooter AI]
+   * [Using Emerald AI's Built in Object Pool]
 
 ### Emerald AI Editor
 * [Behaviors and Confidence Levels]
@@ -97,3 +98,4 @@
 [Setting up an AI with Ragdoll Deaths]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Setting-up-an-AI-with-Ragdoll-Deaths
 [Enabling an AI's Debugging Tools]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Enabling-an-AI's-Debug-Tools
 [Creating a Shooter AI]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Creating-a-Shooter-AI
+[Using Emerald AI's Built in Object Pool]: https://github.com/Black-Horizon-Studios/Emerald-AI/wiki/Using-Emerald-AI's-Built-in-Object-Pool
