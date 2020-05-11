@@ -1,5 +1,7 @@
 # Emerald AI Built-in Object Pool
-Emerald AI has built-in object pooling allowing Emerald AI projectiles and effects to automatically be recycled so they don't have to be instantiated every time they're used. Users can also utilize the object pooling system to spawn custom objects to help improve performance by not always instantiating the object. Objects created with Emerald AI's object pooling need to be despawned and cannot be destroyed using Unity's Destroy(gameObject); code.
+Emerald AI has built-in object pooling allowing Emerald AI projectiles and effects to automatically be recycled so they don't have to be instantiated every time they're used. Users can also utilize the object pooling system to spawn custom objects to help improve performance by not always instantiating the object. Objects created with Emerald AI's object pooling need to be despawned and cannot be destroyed using Unity's Destroy(gameObject); code. 
+
+**Note:** the ```c#using EmeraldAI.Utility;``` namespace needs to be added at the top of your script in order for the EmeraldAIObjectPool scrip to be visible.
 
 ## Spawning an Object
 To spawn an object with Emerald AI's object pooling system, you will need to use the following code. If you want the object to be added back to the pool, you will need to call Despawn. This is covered below.
